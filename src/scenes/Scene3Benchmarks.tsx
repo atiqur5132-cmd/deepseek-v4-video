@@ -3,63 +3,81 @@ import { useCurrentFrame, useVideoConfig, spring, interpolate, Img, staticFile, 
 import { AtmosphereLayer } from '../components/AtmosphereLayer';
 import { CameraRig } from '../components/CameraRig';
 import { VoxCard } from '../components/VoxCard';
+import { DeepSeekOfficialLogo, OpenAIOfficialLogo, AnthropicOfficialLogo } from '../components/RealLogos';
 
 export const Scene3Benchmarks: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // Sub-Beat Timings (Total: 1950 frames / 65 seconds @ 30fps)
-  // Beat 1: 0 - 650 (0s - 21.6s) - Coding & Math Capability Showdown
-  // Beat 2: 650 - 1300 (21.6s - 43.3s) - 3D Vox Benchmark Inspection
-  // Beat 3: 1300 - 1950 (43.3s - 65s) - 10x Pricing Bar Showdown
-  const isBeat1 = frame < 650;
-  const isBeat2 = frame >= 650 && frame < 1300;
-  const isBeat3 = frame >= 1300;
+  // 100% Whisper-Aligned Frame Boundaries (Total: 1611 frames / 53.7s @ 30fps)
+  // Beat 1: 0 to 660 (Audio: 3537 - 4197) - 2026 Frontier Coding & Math Showdown
+  // Beat 2: 660 to 1402 (Audio: 4197 - 4939) - 3D Benchmark Proof Inspection
+  // Beat 3: 1402 to 1611 (Audio: 4939 - 5148) - 10x API Pricing Bar Showdown
+  const isBeat1 = frame < 660;
+  const isBeat2 = frame >= 660 && frame < 1402;
+  const isBeat3 = frame >= 1402;
 
-  // Beat 1 animations
+  // Beat 1 frames
   const beat1Frame = frame;
 
-  // Beat 2 animations
-  const beat2Frame = Math.max(0, frame - 650);
-  const highlighterWidth = interpolate(beat2Frame, [30, 80], [0, 100], { extrapolateRight: 'clamp' });
+  // Beat 2 frames
+  const beat2Frame = Math.max(0, frame - 660);
+  const highlighterWidth = interpolate(beat2Frame, [25, 75], [0, 100], { extrapolateRight: 'clamp' });
 
-  // Beat 3 animations
-  const beat3Frame = Math.max(0, frame - 1300);
-  const deepseekBarWidth = interpolate(beat3Frame, [15, 60], [0, 120], { extrapolateRight: 'clamp' });
-  const gptBarWidth = interpolate(beat3Frame, [15, 60], [0, 960], { extrapolateRight: 'clamp' });
-  const badgeSpring = spring({ frame: beat3Frame - 40, fps, config: { damping: 12, stiffness: 120 } });
+  // Beat 3 frames
+  const beat3Frame = Math.max(0, frame - 1402);
+  const deepseekBarWidth = interpolate(beat3Frame, [12, 50], [0, 110], { extrapolateRight: 'clamp' });
+  const gptBarWidth = interpolate(beat3Frame, [12, 50], [0, 950], { extrapolateRight: 'clamp' });
+  const badgeSpring = spring({ frame: beat3Frame - 30, fps, config: { damping: 12, stiffness: 120 } });
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#07090e', overflow: 'hidden' }}>
-      {/* Layer 0: Ambient Atmosphere with Amber / Cyan Glow */}
+      {/* Layer 0: Ambient Atmosphere with Amber / Violet Glow */}
       <AtmosphereLayer
-        glowColor1="rgba(245, 158, 11, 0.15)"
-        glowColor2="rgba(56, 189, 248, 0.12)"
-        gridOpacity={0.3}
+        glowColor1="rgba(245, 158, 11, 0.16)"
+        glowColor2="rgba(56, 189, 248, 0.14)"
+        gridOpacity={0.35}
       />
 
-      <CameraRig durationInFrames={1950} zoomFrom={1.0} zoomTo={1.10} swayIntensity={4.5}>
+      <CameraRig durationInFrames={1611} zoomFrom={1.0} zoomTo={1.10} swayIntensity={4.5}>
         <AbsoluteFill style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0 80px' }}>
 
           {/* ========================================================= */}
-          {/* BEAT 1 (0 - 21.6s): Benchmark Showdown                    */}
+          {/* BEAT 1: 2026 Frontier Benchmark Showdown                  */}
           {/* ========================================================= */}
           {isBeat1 && (
             <div style={{ width: '100%', maxWidth: 1300, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ textAlign: 'center', marginBottom: 40 }}>
+              <div style={{ textAlign: 'center', marginBottom: 36 }}>
                 <span style={{ color: '#f59e0b', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
-                  COMPETITIVE BENCHMARKS
+                  2026 FRONTIER EVALUATIONS
                 </span>
                 <h2 style={{ color: '#ffffff', fontSize: 56, fontWeight: 900, margin: '8px 0 0 0' }}>
-                  Frontier Coding & Math Showdown
+                  DeepSeek V4 vs Claude Fable 5.1 & GPT-5.6
                 </h2>
               </div>
 
-              <div style={{ width: '92%', display: 'flex', flexDirection: 'column', gap: 24 }}>
+              {/* Models Comparison Bar */}
+              <div style={{ display: 'flex', gap: 24, marginBottom: 28, width: '92%', justifyContent: 'center' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(15,23,42,0.8)', padding: '10px 20px', borderRadius: 14, border: '1px solid rgba(217, 119, 6, 0.4)' }}>
+                  <AnthropicOfficialLogo size={28} />
+                  <span style={{ color: '#f59e0b', fontSize: 16, fontWeight: 800 }}>Claude Fable 5.1</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(15,23,42,0.8)', padding: '10px 20px', borderRadius: 14, border: '1px solid rgba(16, 185, 129, 0.4)' }}>
+                  <OpenAIOfficialLogo size={28} />
+                  <span style={{ color: '#10b981', fontSize: 16, fontWeight: 800 }}>OpenAI GPT-5.6</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(15,23,42,0.8)', padding: '10px 20px', borderRadius: 14, border: '1px solid rgba(77, 107, 254, 0.6)' }}>
+                  <DeepSeekOfficialLogo size={28} />
+                  <span style={{ color: '#38bdf8', fontSize: 16, fontWeight: 800 }}>DeepSeek V4 Pro</span>
+                </div>
+              </div>
+
+              {/* 3 Benchmark Cards */}
+              <div style={{ width: '92%', display: 'flex', flexDirection: 'column', gap: 20 }}>
                 {[
-                  { benchmark: 'LiveCodeBench (Engineering & Complex Coding)', status: 'Neck-to-neck with US Frontier Models', color: '#10b981', lead: 'TIED #1', delay: 0 },
-                  { benchmark: 'PhD-Level Mathematics (MATH-500 & AIME)', status: 'Deep Extended Reasoning Dominance', color: '#38bdf8', lead: '94.2%', delay: 15 },
-                  { benchmark: 'Multi-Step Agentic Workflow Horizon', status: 'US Proprietary Models lead by ~3-6 weeks', color: '#f59e0b', lead: 'CLOSING FAST', delay: 30 },
+                  { benchmark: 'LiveCodeBench (Autonomous Software Engineering)', status: 'Neck-to-neck with US Frontier Models', color: '#10b981', lead: 'TIED #1', delay: 0 },
+                  { benchmark: 'PhD-Level Mathematics (MATH-500 & AIME 2026)', status: 'Deep Extended Reasoning Dominance', color: '#38bdf8', lead: '94.2%', delay: 15 },
+                  { benchmark: 'Multi-Step Long Horizon Agentic Autonomy', status: 'Claude Fable 5.1 leads by ~3-6 weeks', color: '#f59e0b', lead: 'GAP: WEEKS', delay: 30 },
                 ].map((item, i) => {
                   const cardEntrance = spring({
                     frame: beat1Frame - item.delay,
@@ -71,11 +89,11 @@ export const Scene3Benchmarks: React.FC = () => {
                     <div
                       key={i}
                       style={{
-                        background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9))',
+                        background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.75), rgba(15, 23, 42, 0.95))',
                         border: '1px solid rgba(255,255,255,0.1)',
                         borderLeft: `5px solid ${item.color}`,
                         borderRadius: 20,
-                        padding: '24px 36px',
+                        padding: '22px 36px',
                         display: 'flex',
                         justifyContent: 'space-between',
                         alignItems: 'center',
@@ -85,11 +103,11 @@ export const Scene3Benchmarks: React.FC = () => {
                       }}
                     >
                       <div>
-                        <div style={{ color: '#ffffff', fontSize: 24, fontWeight: 800 }}>{item.benchmark}</div>
-                        <div style={{ color: 'rgba(255,255,255,0.65)', fontSize: 18, marginTop: 6 }}>{item.status}</div>
+                        <div style={{ color: '#ffffff', fontSize: 22, fontWeight: 800 }}>{item.benchmark}</div>
+                        <div style={{ color: 'rgba(255,255,255,0.65)', fontSize: 17, marginTop: 4 }}>{item.status}</div>
                       </div>
 
-                      <div style={{ background: `${item.color}22`, border: `1px solid ${item.color}66`, color: item.color, padding: '10px 24px', borderRadius: 12, fontSize: 20, fontWeight: 900, fontFamily: 'monospace' }}>
+                      <div style={{ background: `${item.color}22`, border: `1px solid ${item.color}66`, color: item.color, padding: '8px 22px', borderRadius: 12, fontSize: 18, fontWeight: 900, fontFamily: 'monospace' }}>
                         {item.lead}
                       </div>
                     </div>
@@ -100,20 +118,20 @@ export const Scene3Benchmarks: React.FC = () => {
           )}
 
           {/* ========================================================= */}
-          {/* BEAT 2 (21.6 - 43.3s): 3D Vox Benchmark Inspection        */}
+          {/* BEAT 2: 3D Benchmark Proof Inspection                     */}
           {/* ========================================================= */}
           {isBeat2 && (
             <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ textAlign: 'center', marginBottom: 28 }}>
+              <div style={{ textAlign: 'center', marginBottom: 24 }}>
                 <span style={{ color: '#38bdf8', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
-                  OFFICIAL EVALUATION AUDIT
+                  INDEPENDENT EVALUATION AUDIT
                 </span>
-                <h2 style={{ color: '#ffffff', fontSize: 52, fontWeight: 900, margin: '8px 0 0 0' }}>
+                <h2 style={{ color: '#ffffff', fontSize: 52, fontWeight: 900, margin: '6px 0 0 0' }}>
                   The Gap Has Shrunk to Just Weeks
                 </h2>
               </div>
 
-              <VoxCard startFrame={650} width="88%" height={480} rotateX={6} rotateY={-4} borderColor="rgba(245, 158, 11, 0.4)">
+              <VoxCard startFrame={660} width="88%" height={480} rotateX={6} rotateY={-4} borderColor="rgba(245, 158, 11, 0.4)">
                 <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
                   <Img
                     src={staticFile('screenshots/s2_benchmark.png')}
@@ -122,7 +140,7 @@ export const Scene3Benchmarks: React.FC = () => {
                       height: '100%',
                       objectFit: 'cover',
                       objectPosition: 'top center',
-                      transform: `scale(${interpolate(beat2Frame, [0, 650], [1.02, 1.14], { extrapolateRight: 'clamp' })})`,
+                      transform: `scale(${interpolate(beat2Frame, [0, 742], [1.02, 1.14], { extrapolateRight: 'clamp' })})`,
                     }}
                   />
 
@@ -148,15 +166,15 @@ export const Scene3Benchmarks: React.FC = () => {
           )}
 
           {/* ========================================================= */}
-          {/* BEAT 3 (43.3 - 65s): 10x API Pricing Comparison           */}
+          {/* BEAT 3: 10x - 18x API Pricing Comparison                   */}
           {/* ========================================================= */}
           {isBeat3 && (
             <div style={{ width: '100%', maxWidth: 1200, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ textAlign: 'center', marginBottom: 40 }}>
+              <div style={{ textAlign: 'center', marginBottom: 36 }}>
                 <span style={{ color: '#ef4444', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
                   UNIT ECONOMICS DISRUPTION
                 </span>
-                <h2 style={{ color: '#ffffff', fontSize: 56, fontWeight: 900, margin: '8px 0 0 0' }}>
+                <h2 style={{ color: '#ffffff', fontSize: 56, fontWeight: 900, margin: '6px 0 0 0' }}>
                   API Cost Per 1-Million Tokens
                 </h2>
               </div>
@@ -164,21 +182,24 @@ export const Scene3Benchmarks: React.FC = () => {
               <div
                 style={{
                   width: '92%',
-                  background: 'rgba(15, 23, 42, 0.8)',
+                  background: 'rgba(15, 23, 42, 0.85)',
                   border: '1px solid rgba(255,255,255,0.12)',
                   borderRadius: 24,
-                  padding: 44,
+                  padding: 40,
                   backdropFilter: 'blur(20px)',
                   boxShadow: '0 25px 60px rgba(0,0,0,0.6)',
                 }}
               >
                 {/* DeepSeek Bar */}
-                <div style={{ marginBottom: 36 }}>
+                <div style={{ marginBottom: 32 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', color: '#fff', fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
-                    <span>DeepSeek V4 Pro</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                      <DeepSeekOfficialLogo size={24} />
+                      <span>DeepSeek V4 Pro</span>
+                    </div>
                     <span style={{ color: '#10b981', fontWeight: 900, fontFamily: 'monospace' }}>$0.55 / 1M Tokens</span>
                   </div>
-                  <div style={{ width: '100%', background: '#1e293b', height: 40, borderRadius: 10, overflow: 'hidden', padding: 4 }}>
+                  <div style={{ width: '100%', background: '#1e293b', height: 38, borderRadius: 10, overflow: 'hidden', padding: 4 }}>
                     <div style={{ width: `${deepseekBarWidth}px`, background: '#10b981', height: '100%', borderRadius: 8, boxShadow: '0 0 20px rgba(16, 185, 129, 0.6)' }} />
                   </div>
                 </div>
@@ -186,18 +207,21 @@ export const Scene3Benchmarks: React.FC = () => {
                 {/* US Frontier Bar */}
                 <div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', color: '#fff', fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
-                    <span>Proprietary US APIs (GPT-5 / Claude 3.5 Opus)</span>
-                    <span style={{ color: '#ef4444', fontWeight: 900, fontFamily: 'monospace' }}>$5.00+ / 1M Tokens</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                      <AnthropicOfficialLogo size={24} />
+                      <span>US Frontier APIs (Claude Fable 5.1 / GPT-5.6)</span>
+                    </div>
+                    <span style={{ color: '#ef4444', fontWeight: 900, fontFamily: 'monospace' }}>$10.00 / 1M Tokens</span>
                   </div>
-                  <div style={{ width: '100%', background: '#1e293b', height: 40, borderRadius: 10, overflow: 'hidden', padding: 4 }}>
+                  <div style={{ width: '100%', background: '#1e293b', height: 38, borderRadius: 10, overflow: 'hidden', padding: 4 }}>
                     <div style={{ width: `${gptBarWidth}px`, background: '#ef4444', height: '100%', borderRadius: 8, boxShadow: '0 0 20px rgba(239, 68, 68, 0.6)' }} />
                   </div>
                 </div>
 
-                {/* 10x Punch Badge */}
+                {/* 10x - 18x Advantage Badge */}
                 <div
                   style={{
-                    marginTop: 40,
+                    marginTop: 36,
                     display: 'flex',
                     justifyContent: 'center',
                     transform: `scale(${badgeSpring})`,
@@ -209,15 +233,15 @@ export const Scene3Benchmarks: React.FC = () => {
                       background: 'linear-gradient(90deg, rgba(245, 158, 11, 0.2), rgba(239, 68, 68, 0.2))',
                       border: '2px solid #f59e0b',
                       color: '#f59e0b',
-                      padding: '14px 36px',
+                      padding: '12px 34px',
                       borderRadius: 100,
-                      fontSize: 24,
+                      fontSize: 22,
                       fontWeight: 900,
                       letterSpacing: 2,
                       boxShadow: '0 0 40px rgba(245, 158, 11, 0.3)',
                     }}
                   >
-                    🔥 10X COST ADVANTAGE FOR OPEN-WEIGHTS
+                    🔥 10X - 18X COST ADVANTAGE FOR OPEN-WEIGHTS
                   </div>
                 </div>
               </div>

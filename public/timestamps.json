@@ -1,0 +1,7418 @@
+{
+  "duration": 212.693,
+  "totalFrames": 6381,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 6.96,
+      "frameStart": 0,
+      "frameEnd": 209,
+      "text": "Just when Silicon Valley thought proprietary frontier models like GPT, 5.6 and Fable 5 were",
+      "words": [
+        {
+          "word": "Just",
+          "start": 0.0,
+          "end": 0.26,
+          "frameStart": 0,
+          "frameEnd": 8
+        },
+        {
+          "word": "when",
+          "start": 0.26,
+          "end": 0.44,
+          "frameStart": 8,
+          "frameEnd": 13
+        },
+        {
+          "word": "Silicon",
+          "start": 0.44,
+          "end": 0.8,
+          "frameStart": 13,
+          "frameEnd": 24
+        },
+        {
+          "word": "Valley",
+          "start": 0.8,
+          "end": 1.2,
+          "frameStart": 24,
+          "frameEnd": 36
+        },
+        {
+          "word": "thought",
+          "start": 1.2,
+          "end": 1.62,
+          "frameStart": 36,
+          "frameEnd": 49
+        },
+        {
+          "word": "proprietary",
+          "start": 1.62,
+          "end": 2.3,
+          "frameStart": 49,
+          "frameEnd": 69
+        },
+        {
+          "word": "frontier",
+          "start": 2.3,
+          "end": 2.78,
+          "frameStart": 69,
+          "frameEnd": 83
+        },
+        {
+          "word": "models",
+          "start": 2.78,
+          "end": 3.26,
+          "frameStart": 83,
+          "frameEnd": 98
+        },
+        {
+          "word": "like",
+          "start": 3.26,
+          "end": 3.54,
+          "frameStart": 98,
+          "frameEnd": 106
+        },
+        {
+          "word": "GPT,",
+          "start": 3.54,
+          "end": 4.42,
+          "frameStart": 106,
+          "frameEnd": 133
+        },
+        {
+          "word": "5",
+          "start": 4.96,
+          "end": 5.18,
+          "frameStart": 149,
+          "frameEnd": 155
+        },
+        {
+          "word": ".6",
+          "start": 5.18,
+          "end": 5.7,
+          "frameStart": 155,
+          "frameEnd": 171
+        },
+        {
+          "word": "and",
+          "start": 5.7,
+          "end": 6.12,
+          "frameStart": 171,
+          "frameEnd": 184
+        },
+        {
+          "word": "Fable",
+          "start": 6.12,
+          "end": 6.44,
+          "frameStart": 184,
+          "frameEnd": 193
+        },
+        {
+          "word": "5",
+          "start": 6.44,
+          "end": 6.74,
+          "frameStart": 193,
+          "frameEnd": 202
+        },
+        {
+          "word": "were",
+          "start": 6.74,
+          "end": 6.96,
+          "frameStart": 202,
+          "frameEnd": 209
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.96,
+      "end": 12.54,
+      "frameStart": 209,
+      "frameEnd": 376,
+      "text": "running away with the AI race. China's open weights juggernaut just dropped a nuclear bombshell.",
+      "words": [
+        {
+          "word": "running",
+          "start": 6.96,
+          "end": 7.2,
+          "frameStart": 209,
+          "frameEnd": 216
+        },
+        {
+          "word": "away",
+          "start": 7.2,
+          "end": 7.5,
+          "frameStart": 216,
+          "frameEnd": 225
+        },
+        {
+          "word": "with",
+          "start": 7.5,
+          "end": 7.72,
+          "frameStart": 225,
+          "frameEnd": 232
+        },
+        {
+          "word": "the",
+          "start": 7.72,
+          "end": 7.84,
+          "frameStart": 232,
+          "frameEnd": 235
+        },
+        {
+          "word": "AI",
+          "start": 7.84,
+          "end": 8.14,
+          "frameStart": 235,
+          "frameEnd": 244
+        },
+        {
+          "word": "race.",
+          "start": 8.14,
+          "end": 8.66,
+          "frameStart": 244,
+          "frameEnd": 260
+        },
+        {
+          "word": "China's",
+          "start": 9.22,
+          "end": 9.58,
+          "frameStart": 277,
+          "frameEnd": 287
+        },
+        {
+          "word": "open",
+          "start": 9.58,
+          "end": 9.82,
+          "frameStart": 287,
+          "frameEnd": 295
+        },
+        {
+          "word": "weights",
+          "start": 9.82,
+          "end": 10.08,
+          "frameStart": 295,
+          "frameEnd": 302
+        },
+        {
+          "word": "juggernaut",
+          "start": 10.08,
+          "end": 10.78,
+          "frameStart": 302,
+          "frameEnd": 323
+        },
+        {
+          "word": "just",
+          "start": 10.78,
+          "end": 10.94,
+          "frameStart": 323,
+          "frameEnd": 328
+        },
+        {
+          "word": "dropped",
+          "start": 10.94,
+          "end": 11.32,
+          "frameStart": 328,
+          "frameEnd": 340
+        },
+        {
+          "word": "a",
+          "start": 11.32,
+          "end": 11.6,
+          "frameStart": 340,
+          "frameEnd": 348
+        },
+        {
+          "word": "nuclear",
+          "start": 11.6,
+          "end": 11.94,
+          "frameStart": 348,
+          "frameEnd": 358
+        },
+        {
+          "word": "bombshell.",
+          "start": 11.94,
+          "end": 12.54,
+          "frameStart": 358,
+          "frameEnd": 376
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13.22,
+      "end": 19.16,
+      "frameStart": 397,
+      "frameEnd": 575,
+      "text": "Deepseek V4. And this isn't just another incremental update. With 1.6 trillion parameters,",
+      "words": [
+        {
+          "word": "Deepseek",
+          "start": 13.22,
+          "end": 13.74,
+          "frameStart": 397,
+          "frameEnd": 412
+        },
+        {
+          "word": "V4.",
+          "start": 13.74,
+          "end": 14.14,
+          "frameStart": 412,
+          "frameEnd": 424
+        },
+        {
+          "word": "And",
+          "start": 14.72,
+          "end": 14.8,
+          "frameStart": 442,
+          "frameEnd": 444
+        },
+        {
+          "word": "this",
+          "start": 14.8,
+          "end": 14.94,
+          "frameStart": 444,
+          "frameEnd": 448
+        },
+        {
+          "word": "isn't",
+          "start": 14.94,
+          "end": 15.2,
+          "frameStart": 448,
+          "frameEnd": 456
+        },
+        {
+          "word": "just",
+          "start": 15.2,
+          "end": 15.38,
+          "frameStart": 456,
+          "frameEnd": 461
+        },
+        {
+          "word": "another",
+          "start": 15.38,
+          "end": 15.8,
+          "frameStart": 461,
+          "frameEnd": 474
+        },
+        {
+          "word": "incremental",
+          "start": 15.8,
+          "end": 16.22,
+          "frameStart": 474,
+          "frameEnd": 487
+        },
+        {
+          "word": "update.",
+          "start": 16.22,
+          "end": 16.74,
+          "frameStart": 487,
+          "frameEnd": 502
+        },
+        {
+          "word": "With",
+          "start": 17.14,
+          "end": 17.34,
+          "frameStart": 514,
+          "frameEnd": 520
+        },
+        {
+          "word": "1",
+          "start": 17.34,
+          "end": 17.64,
+          "frameStart": 520,
+          "frameEnd": 529
+        },
+        {
+          "word": ".6",
+          "start": 17.64,
+          "end": 18.18,
+          "frameStart": 529,
+          "frameEnd": 545
+        },
+        {
+          "word": "trillion",
+          "start": 18.18,
+          "end": 18.6,
+          "frameStart": 545,
+          "frameEnd": 558
+        },
+        {
+          "word": "parameters,",
+          "start": 18.6,
+          "end": 19.16,
+          "frameStart": 558,
+          "frameEnd": 575
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 19.7,
+      "end": 25.84,
+      "frameStart": 591,
+      "frameEnd": 775,
+      "text": "a radically new architecture, and MIT licensed open weights. Deepseek V4 is delivering",
+      "words": [
+        {
+          "word": "a",
+          "start": 19.7,
+          "end": 19.84,
+          "frameStart": 591,
+          "frameEnd": 595
+        },
+        {
+          "word": "radically",
+          "start": 19.84,
+          "end": 20.16,
+          "frameStart": 595,
+          "frameEnd": 605
+        },
+        {
+          "word": "new",
+          "start": 20.16,
+          "end": 20.54,
+          "frameStart": 605,
+          "frameEnd": 616
+        },
+        {
+          "word": "architecture,",
+          "start": 20.54,
+          "end": 21.2,
+          "frameStart": 616,
+          "frameEnd": 636
+        },
+        {
+          "word": "and",
+          "start": 21.58,
+          "end": 21.74,
+          "frameStart": 647,
+          "frameEnd": 652
+        },
+        {
+          "word": "MIT",
+          "start": 21.74,
+          "end": 22.08,
+          "frameStart": 652,
+          "frameEnd": 662
+        },
+        {
+          "word": "licensed",
+          "start": 22.08,
+          "end": 22.64,
+          "frameStart": 662,
+          "frameEnd": 679
+        },
+        {
+          "word": "open",
+          "start": 22.64,
+          "end": 22.96,
+          "frameStart": 679,
+          "frameEnd": 689
+        },
+        {
+          "word": "weights.",
+          "start": 22.96,
+          "end": 23.4,
+          "frameStart": 689,
+          "frameEnd": 702
+        },
+        {
+          "word": "Deepseek",
+          "start": 23.88,
+          "end": 24.32,
+          "frameStart": 716,
+          "frameEnd": 730
+        },
+        {
+          "word": "V4",
+          "start": 24.32,
+          "end": 24.86,
+          "frameStart": 730,
+          "frameEnd": 746
+        },
+        {
+          "word": "is",
+          "start": 24.86,
+          "end": 25.36,
+          "frameStart": 746,
+          "frameEnd": 761
+        },
+        {
+          "word": "delivering",
+          "start": 25.36,
+          "end": 25.84,
+          "frameStart": 761,
+          "frameEnd": 775
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 25.84,
+      "end": 33.74,
+      "frameStart": 775,
+      "frameEnd": 1012,
+      "text": "frontier-class reasoning at literally one-tenth the cost of US models. So, how does Deepseek V4",
+      "words": [
+        {
+          "word": "frontier",
+          "start": 25.84,
+          "end": 26.42,
+          "frameStart": 775,
+          "frameEnd": 793
+        },
+        {
+          "word": "-class",
+          "start": 26.42,
+          "end": 26.88,
+          "frameStart": 793,
+          "frameEnd": 806
+        },
+        {
+          "word": "reasoning",
+          "start": 26.88,
+          "end": 27.38,
+          "frameStart": 806,
+          "frameEnd": 821
+        },
+        {
+          "word": "at",
+          "start": 27.38,
+          "end": 27.82,
+          "frameStart": 821,
+          "frameEnd": 835
+        },
+        {
+          "word": "literally",
+          "start": 27.82,
+          "end": 28.32,
+          "frameStart": 835,
+          "frameEnd": 850
+        },
+        {
+          "word": "one",
+          "start": 28.32,
+          "end": 28.76,
+          "frameStart": 850,
+          "frameEnd": 863
+        },
+        {
+          "word": "-tenth",
+          "start": 28.76,
+          "end": 29.2,
+          "frameStart": 863,
+          "frameEnd": 876
+        },
+        {
+          "word": "the",
+          "start": 29.2,
+          "end": 29.3,
+          "frameStart": 876,
+          "frameEnd": 879
+        },
+        {
+          "word": "cost",
+          "start": 29.3,
+          "end": 29.64,
+          "frameStart": 879,
+          "frameEnd": 889
+        },
+        {
+          "word": "of",
+          "start": 29.64,
+          "end": 29.92,
+          "frameStart": 889,
+          "frameEnd": 898
+        },
+        {
+          "word": "US",
+          "start": 29.92,
+          "end": 30.16,
+          "frameStart": 898,
+          "frameEnd": 905
+        },
+        {
+          "word": "models.",
+          "start": 30.16,
+          "end": 30.58,
+          "frameStart": 905,
+          "frameEnd": 917
+        },
+        {
+          "word": "So,",
+          "start": 31.18,
+          "end": 31.46,
+          "frameStart": 935,
+          "frameEnd": 944
+        },
+        {
+          "word": "how",
+          "start": 31.98,
+          "end": 32.28,
+          "frameStart": 959,
+          "frameEnd": 968
+        },
+        {
+          "word": "does",
+          "start": 32.28,
+          "end": 32.46,
+          "frameStart": 968,
+          "frameEnd": 974
+        },
+        {
+          "word": "Deepseek",
+          "start": 32.46,
+          "end": 33.12,
+          "frameStart": 974,
+          "frameEnd": 994
+        },
+        {
+          "word": "V4",
+          "start": 33.12,
+          "end": 33.74,
+          "frameStart": 994,
+          "frameEnd": 1012
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 33.74,
+      "end": 39.3,
+      "frameStart": 1012,
+      "frameEnd": 1179,
+      "text": "actually work under the hood? And does it finally close the gap with open AI and anthropic?",
+      "words": [
+        {
+          "word": "actually",
+          "start": 33.74,
+          "end": 34.02,
+          "frameStart": 1012,
+          "frameEnd": 1021
+        },
+        {
+          "word": "work",
+          "start": 34.02,
+          "end": 34.28,
+          "frameStart": 1021,
+          "frameEnd": 1028
+        },
+        {
+          "word": "under",
+          "start": 34.28,
+          "end": 34.44,
+          "frameStart": 1028,
+          "frameEnd": 1033
+        },
+        {
+          "word": "the",
+          "start": 34.44,
+          "end": 34.58,
+          "frameStart": 1033,
+          "frameEnd": 1037
+        },
+        {
+          "word": "hood?",
+          "start": 34.58,
+          "end": 34.7,
+          "frameStart": 1037,
+          "frameEnd": 1041
+        },
+        {
+          "word": "And",
+          "start": 35.24,
+          "end": 35.34,
+          "frameStart": 1057,
+          "frameEnd": 1060
+        },
+        {
+          "word": "does",
+          "start": 35.34,
+          "end": 35.64,
+          "frameStart": 1060,
+          "frameEnd": 1069
+        },
+        {
+          "word": "it",
+          "start": 35.64,
+          "end": 35.76,
+          "frameStart": 1069,
+          "frameEnd": 1073
+        },
+        {
+          "word": "finally",
+          "start": 35.76,
+          "end": 36.16,
+          "frameStart": 1073,
+          "frameEnd": 1085
+        },
+        {
+          "word": "close",
+          "start": 36.16,
+          "end": 36.56,
+          "frameStart": 1085,
+          "frameEnd": 1097
+        },
+        {
+          "word": "the",
+          "start": 36.56,
+          "end": 36.8,
+          "frameStart": 1097,
+          "frameEnd": 1104
+        },
+        {
+          "word": "gap",
+          "start": 36.8,
+          "end": 37.02,
+          "frameStart": 1104,
+          "frameEnd": 1111
+        },
+        {
+          "word": "with",
+          "start": 37.02,
+          "end": 37.36,
+          "frameStart": 1111,
+          "frameEnd": 1121
+        },
+        {
+          "word": "open",
+          "start": 37.36,
+          "end": 37.7,
+          "frameStart": 1121,
+          "frameEnd": 1131
+        },
+        {
+          "word": "AI",
+          "start": 37.7,
+          "end": 38.04,
+          "frameStart": 1131,
+          "frameEnd": 1141
+        },
+        {
+          "word": "and",
+          "start": 38.04,
+          "end": 38.64,
+          "frameStart": 1141,
+          "frameEnd": 1159
+        },
+        {
+          "word": "anthropic?",
+          "start": 38.64,
+          "end": 39.3,
+          "frameStart": 1159,
+          "frameEnd": 1179
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 39.74,
+      "end": 44.02,
+      "frameStart": 1192,
+      "frameEnd": 1321,
+      "text": "Let's dive in. To understand why developers on X are flipping out right now,",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 39.74,
+          "end": 39.92,
+          "frameStart": 1192,
+          "frameEnd": 1198
+        },
+        {
+          "word": "dive",
+          "start": 39.92,
+          "end": 40.06,
+          "frameStart": 1198,
+          "frameEnd": 1202
+        },
+        {
+          "word": "in.",
+          "start": 40.06,
+          "end": 40.36,
+          "frameStart": 1202,
+          "frameEnd": 1211
+        },
+        {
+          "word": "To",
+          "start": 40.8,
+          "end": 40.86,
+          "frameStart": 1224,
+          "frameEnd": 1226
+        },
+        {
+          "word": "understand",
+          "start": 40.86,
+          "end": 41.28,
+          "frameStart": 1226,
+          "frameEnd": 1238
+        },
+        {
+          "word": "why",
+          "start": 41.28,
+          "end": 41.82,
+          "frameStart": 1238,
+          "frameEnd": 1255
+        },
+        {
+          "word": "developers",
+          "start": 41.82,
+          "end": 42.28,
+          "frameStart": 1255,
+          "frameEnd": 1268
+        },
+        {
+          "word": "on",
+          "start": 42.28,
+          "end": 42.54,
+          "frameStart": 1268,
+          "frameEnd": 1276
+        },
+        {
+          "word": "X",
+          "start": 42.54,
+          "end": 42.74,
+          "frameStart": 1276,
+          "frameEnd": 1282
+        },
+        {
+          "word": "are",
+          "start": 42.74,
+          "end": 43.0,
+          "frameStart": 1282,
+          "frameEnd": 1290
+        },
+        {
+          "word": "flipping",
+          "start": 43.0,
+          "end": 43.34,
+          "frameStart": 1290,
+          "frameEnd": 1300
+        },
+        {
+          "word": "out",
+          "start": 43.34,
+          "end": 43.56,
+          "frameStart": 1300,
+          "frameEnd": 1307
+        },
+        {
+          "word": "right",
+          "start": 43.56,
+          "end": 43.72,
+          "frameStart": 1307,
+          "frameEnd": 1312
+        },
+        {
+          "word": "now,",
+          "start": 43.72,
+          "end": 44.02,
+          "frameStart": 1312,
+          "frameEnd": 1321
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 44.36,
+      "end": 48.98,
+      "frameStart": 1331,
+      "frameEnd": 1469,
+      "text": "we have to look at how Deepseek solved the biggest bottleneck in large language models.",
+      "words": [
+        {
+          "word": "we",
+          "start": 44.36,
+          "end": 44.52,
+          "frameStart": 1331,
+          "frameEnd": 1336
+        },
+        {
+          "word": "have",
+          "start": 44.52,
+          "end": 44.6,
+          "frameStart": 1336,
+          "frameEnd": 1338
+        },
+        {
+          "word": "to",
+          "start": 44.6,
+          "end": 44.72,
+          "frameStart": 1338,
+          "frameEnd": 1342
+        },
+        {
+          "word": "look",
+          "start": 44.72,
+          "end": 44.84,
+          "frameStart": 1342,
+          "frameEnd": 1345
+        },
+        {
+          "word": "at",
+          "start": 44.84,
+          "end": 44.96,
+          "frameStart": 1345,
+          "frameEnd": 1349
+        },
+        {
+          "word": "how",
+          "start": 44.96,
+          "end": 45.16,
+          "frameStart": 1349,
+          "frameEnd": 1355
+        },
+        {
+          "word": "Deepseek",
+          "start": 45.16,
+          "end": 45.92,
+          "frameStart": 1355,
+          "frameEnd": 1378
+        },
+        {
+          "word": "solved",
+          "start": 45.92,
+          "end": 46.24,
+          "frameStart": 1378,
+          "frameEnd": 1387
+        },
+        {
+          "word": "the",
+          "start": 46.24,
+          "end": 46.48,
+          "frameStart": 1387,
+          "frameEnd": 1394
+        },
+        {
+          "word": "biggest",
+          "start": 46.48,
+          "end": 46.92,
+          "frameStart": 1394,
+          "frameEnd": 1408
+        },
+        {
+          "word": "bottleneck",
+          "start": 46.92,
+          "end": 47.6,
+          "frameStart": 1408,
+          "frameEnd": 1428
+        },
+        {
+          "word": "in",
+          "start": 47.6,
+          "end": 47.8,
+          "frameStart": 1428,
+          "frameEnd": 1434
+        },
+        {
+          "word": "large",
+          "start": 47.8,
+          "end": 48.22,
+          "frameStart": 1434,
+          "frameEnd": 1447
+        },
+        {
+          "word": "language",
+          "start": 48.22,
+          "end": 48.56,
+          "frameStart": 1447,
+          "frameEnd": 1457
+        },
+        {
+          "word": "models.",
+          "start": 48.56,
+          "end": 48.98,
+          "frameStart": 1457,
+          "frameEnd": 1469
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 49.6,
+      "end": 55.14,
+      "frameStart": 1488,
+      "frameEnd": 1654,
+      "text": "Context memory and active compute. First, Deepseek V4 is a mixture of experts model",
+      "words": [
+        {
+          "word": "Context",
+          "start": 49.6,
+          "end": 50.0,
+          "frameStart": 1488,
+          "frameEnd": 1500
+        },
+        {
+          "word": "memory",
+          "start": 50.0,
+          "end": 50.34,
+          "frameStart": 1500,
+          "frameEnd": 1510
+        },
+        {
+          "word": "and",
+          "start": 50.34,
+          "end": 50.54,
+          "frameStart": 1510,
+          "frameEnd": 1516
+        },
+        {
+          "word": "active",
+          "start": 50.54,
+          "end": 50.8,
+          "frameStart": 1516,
+          "frameEnd": 1524
+        },
+        {
+          "word": "compute.",
+          "start": 50.8,
+          "end": 51.18,
+          "frameStart": 1524,
+          "frameEnd": 1535
+        },
+        {
+          "word": "First,",
+          "start": 51.74,
+          "end": 51.92,
+          "frameStart": 1552,
+          "frameEnd": 1558
+        },
+        {
+          "word": "Deepseek",
+          "start": 52.44,
+          "end": 52.88,
+          "frameStart": 1573,
+          "frameEnd": 1586
+        },
+        {
+          "word": "V4",
+          "start": 52.88,
+          "end": 53.4,
+          "frameStart": 1586,
+          "frameEnd": 1602
+        },
+        {
+          "word": "is",
+          "start": 53.4,
+          "end": 53.8,
+          "frameStart": 1602,
+          "frameEnd": 1614
+        },
+        {
+          "word": "a",
+          "start": 53.8,
+          "end": 53.88,
+          "frameStart": 1614,
+          "frameEnd": 1616
+        },
+        {
+          "word": "mixture",
+          "start": 53.88,
+          "end": 54.14,
+          "frameStart": 1616,
+          "frameEnd": 1624
+        },
+        {
+          "word": "of",
+          "start": 54.14,
+          "end": 54.36,
+          "frameStart": 1624,
+          "frameEnd": 1631
+        },
+        {
+          "word": "experts",
+          "start": 54.36,
+          "end": 54.72,
+          "frameStart": 1631,
+          "frameEnd": 1642
+        },
+        {
+          "word": "model",
+          "start": 54.72,
+          "end": 55.14,
+          "frameStart": 1642,
+          "frameEnd": 1654
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 55.14,
+      "end": 62.26,
+      "frameStart": 1654,
+      "frameEnd": 1868,
+      "text": "boasting 1.6 trillion total parameters. But here is the insane part. It only activates 49",
+      "words": [
+        {
+          "word": "boasting",
+          "start": 55.14,
+          "end": 55.62,
+          "frameStart": 1654,
+          "frameEnd": 1669
+        },
+        {
+          "word": "1",
+          "start": 55.62,
+          "end": 56.16,
+          "frameStart": 1669,
+          "frameEnd": 1685
+        },
+        {
+          "word": ".6",
+          "start": 56.16,
+          "end": 56.82,
+          "frameStart": 1685,
+          "frameEnd": 1705
+        },
+        {
+          "word": "trillion",
+          "start": 56.82,
+          "end": 57.5,
+          "frameStart": 1705,
+          "frameEnd": 1725
+        },
+        {
+          "word": "total",
+          "start": 57.5,
+          "end": 57.9,
+          "frameStart": 1725,
+          "frameEnd": 1737
+        },
+        {
+          "word": "parameters.",
+          "start": 57.9,
+          "end": 58.34,
+          "frameStart": 1737,
+          "frameEnd": 1750
+        },
+        {
+          "word": "But",
+          "start": 58.82,
+          "end": 59.0,
+          "frameStart": 1765,
+          "frameEnd": 1770
+        },
+        {
+          "word": "here",
+          "start": 59.0,
+          "end": 59.16,
+          "frameStart": 1770,
+          "frameEnd": 1775
+        },
+        {
+          "word": "is",
+          "start": 59.16,
+          "end": 59.32,
+          "frameStart": 1775,
+          "frameEnd": 1780
+        },
+        {
+          "word": "the",
+          "start": 59.32,
+          "end": 59.42,
+          "frameStart": 1780,
+          "frameEnd": 1783
+        },
+        {
+          "word": "insane",
+          "start": 59.42,
+          "end": 59.82,
+          "frameStart": 1783,
+          "frameEnd": 1795
+        },
+        {
+          "word": "part.",
+          "start": 59.82,
+          "end": 60.2,
+          "frameStart": 1795,
+          "frameEnd": 1806
+        },
+        {
+          "word": "It",
+          "start": 60.78,
+          "end": 60.88,
+          "frameStart": 1823,
+          "frameEnd": 1826
+        },
+        {
+          "word": "only",
+          "start": 60.88,
+          "end": 61.12,
+          "frameStart": 1826,
+          "frameEnd": 1834
+        },
+        {
+          "word": "activates",
+          "start": 61.12,
+          "end": 61.6,
+          "frameStart": 1834,
+          "frameEnd": 1848
+        },
+        {
+          "word": "49",
+          "start": 61.6,
+          "end": 62.26,
+          "frameStart": 1848,
+          "frameEnd": 1868
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 62.26,
+      "end": 67.56,
+      "frameStart": 1868,
+      "frameEnd": 2027,
+      "text": "billion parameters per token. That means you get trillion parameter intelligence with a computational",
+      "words": [
+        {
+          "word": "billion",
+          "start": 62.26,
+          "end": 62.74,
+          "frameStart": 1868,
+          "frameEnd": 1882
+        },
+        {
+          "word": "parameters",
+          "start": 62.74,
+          "end": 63.28,
+          "frameStart": 1882,
+          "frameEnd": 1898
+        },
+        {
+          "word": "per",
+          "start": 63.28,
+          "end": 63.46,
+          "frameStart": 1898,
+          "frameEnd": 1904
+        },
+        {
+          "word": "token.",
+          "start": 63.46,
+          "end": 63.82,
+          "frameStart": 1904,
+          "frameEnd": 1915
+        },
+        {
+          "word": "That",
+          "start": 64.24,
+          "end": 64.44,
+          "frameStart": 1927,
+          "frameEnd": 1933
+        },
+        {
+          "word": "means",
+          "start": 64.44,
+          "end": 64.54,
+          "frameStart": 1933,
+          "frameEnd": 1936
+        },
+        {
+          "word": "you",
+          "start": 64.54,
+          "end": 64.72,
+          "frameStart": 1936,
+          "frameEnd": 1942
+        },
+        {
+          "word": "get",
+          "start": 64.72,
+          "end": 64.88,
+          "frameStart": 1942,
+          "frameEnd": 1946
+        },
+        {
+          "word": "trillion",
+          "start": 64.88,
+          "end": 65.26,
+          "frameStart": 1946,
+          "frameEnd": 1958
+        },
+        {
+          "word": "parameter",
+          "start": 65.26,
+          "end": 65.88,
+          "frameStart": 1958,
+          "frameEnd": 1976
+        },
+        {
+          "word": "intelligence",
+          "start": 65.88,
+          "end": 66.42,
+          "frameStart": 1976,
+          "frameEnd": 1993
+        },
+        {
+          "word": "with",
+          "start": 66.42,
+          "end": 66.78,
+          "frameStart": 1993,
+          "frameEnd": 2003
+        },
+        {
+          "word": "a",
+          "start": 66.78,
+          "end": 66.88,
+          "frameStart": 2003,
+          "frameEnd": 2006
+        },
+        {
+          "word": "computational",
+          "start": 66.88,
+          "end": 67.56,
+          "frameStart": 2006,
+          "frameEnd": 2027
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 67.56,
+      "end": 73.82,
+      "frameStart": 2027,
+      "frameEnd": 2215,
+      "text": "footprint of a medium-sized model. Second, they scrap their previous multi-head latent attention",
+      "words": [
+        {
+          "word": "footprint",
+          "start": 67.56,
+          "end": 68.04,
+          "frameStart": 2027,
+          "frameEnd": 2041
+        },
+        {
+          "word": "of",
+          "start": 68.04,
+          "end": 68.4,
+          "frameStart": 2041,
+          "frameEnd": 2052
+        },
+        {
+          "word": "a",
+          "start": 68.4,
+          "end": 68.52,
+          "frameStart": 2052,
+          "frameEnd": 2056
+        },
+        {
+          "word": "medium",
+          "start": 68.52,
+          "end": 68.9,
+          "frameStart": 2056,
+          "frameEnd": 2067
+        },
+        {
+          "word": "-sized",
+          "start": 68.9,
+          "end": 69.24,
+          "frameStart": 2067,
+          "frameEnd": 2077
+        },
+        {
+          "word": "model.",
+          "start": 69.24,
+          "end": 69.72,
+          "frameStart": 2077,
+          "frameEnd": 2092
+        },
+        {
+          "word": "Second,",
+          "start": 70.22,
+          "end": 70.6,
+          "frameStart": 2107,
+          "frameEnd": 2118
+        },
+        {
+          "word": "they",
+          "start": 71.0,
+          "end": 71.12,
+          "frameStart": 2130,
+          "frameEnd": 2134
+        },
+        {
+          "word": "scrap",
+          "start": 71.12,
+          "end": 71.44,
+          "frameStart": 2134,
+          "frameEnd": 2143
+        },
+        {
+          "word": "their",
+          "start": 71.44,
+          "end": 71.7,
+          "frameStart": 2143,
+          "frameEnd": 2151
+        },
+        {
+          "word": "previous",
+          "start": 71.7,
+          "end": 72.34,
+          "frameStart": 2151,
+          "frameEnd": 2170
+        },
+        {
+          "word": "multi",
+          "start": 72.34,
+          "end": 72.8,
+          "frameStart": 2170,
+          "frameEnd": 2184
+        },
+        {
+          "word": "-head",
+          "start": 72.8,
+          "end": 73.06,
+          "frameStart": 2184,
+          "frameEnd": 2192
+        },
+        {
+          "word": "latent",
+          "start": 73.06,
+          "end": 73.36,
+          "frameStart": 2192,
+          "frameEnd": 2201
+        },
+        {
+          "word": "attention",
+          "start": 73.36,
+          "end": 73.82,
+          "frameStart": 2201,
+          "frameEnd": 2215
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 73.82,
+      "end": 79.76,
+      "frameStart": 2215,
+      "frameEnd": 2393,
+      "text": "for a brand new hybrid attention system, combining compressed bar's attention and heavily compressed",
+      "words": [
+        {
+          "word": "for",
+          "start": 73.82,
+          "end": 74.26,
+          "frameStart": 2215,
+          "frameEnd": 2228
+        },
+        {
+          "word": "a",
+          "start": 74.26,
+          "end": 74.4,
+          "frameStart": 2228,
+          "frameEnd": 2232
+        },
+        {
+          "word": "brand",
+          "start": 74.4,
+          "end": 74.66,
+          "frameStart": 2232,
+          "frameEnd": 2240
+        },
+        {
+          "word": "new",
+          "start": 74.66,
+          "end": 75.08,
+          "frameStart": 2240,
+          "frameEnd": 2252
+        },
+        {
+          "word": "hybrid",
+          "start": 75.08,
+          "end": 75.56,
+          "frameStart": 2252,
+          "frameEnd": 2267
+        },
+        {
+          "word": "attention",
+          "start": 75.56,
+          "end": 75.86,
+          "frameStart": 2267,
+          "frameEnd": 2276
+        },
+        {
+          "word": "system,",
+          "start": 75.86,
+          "end": 76.5,
+          "frameStart": 2276,
+          "frameEnd": 2295
+        },
+        {
+          "word": "combining",
+          "start": 76.74,
+          "end": 77.16,
+          "frameStart": 2302,
+          "frameEnd": 2315
+        },
+        {
+          "word": "compressed",
+          "start": 77.16,
+          "end": 77.68,
+          "frameStart": 2315,
+          "frameEnd": 2330
+        },
+        {
+          "word": "bar's",
+          "start": 77.68,
+          "end": 78.1,
+          "frameStart": 2330,
+          "frameEnd": 2343
+        },
+        {
+          "word": "attention",
+          "start": 78.1,
+          "end": 78.44,
+          "frameStart": 2343,
+          "frameEnd": 2353
+        },
+        {
+          "word": "and",
+          "start": 78.44,
+          "end": 78.92,
+          "frameStart": 2353,
+          "frameEnd": 2368
+        },
+        {
+          "word": "heavily",
+          "start": 78.92,
+          "end": 79.42,
+          "frameStart": 2368,
+          "frameEnd": 2383
+        },
+        {
+          "word": "compressed",
+          "start": 79.42,
+          "end": 79.76,
+          "frameStart": 2383,
+          "frameEnd": 2393
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 79.76,
+      "end": 87.3,
+      "frameStart": 2393,
+      "frameEnd": 2619,
+      "text": "attention. This innovation allows Deepseek V4 to effortlessly process a massive 1 million token",
+      "words": [
+        {
+          "word": "attention.",
+          "start": 79.76,
+          "end": 80.18,
+          "frameStart": 2393,
+          "frameEnd": 2405
+        },
+        {
+          "word": "This",
+          "start": 80.7,
+          "end": 80.98,
+          "frameStart": 2421,
+          "frameEnd": 2429
+        },
+        {
+          "word": "innovation",
+          "start": 80.98,
+          "end": 81.56,
+          "frameStart": 2429,
+          "frameEnd": 2447
+        },
+        {
+          "word": "allows",
+          "start": 81.56,
+          "end": 82.04,
+          "frameStart": 2447,
+          "frameEnd": 2461
+        },
+        {
+          "word": "Deepseek",
+          "start": 82.04,
+          "end": 82.74,
+          "frameStart": 2461,
+          "frameEnd": 2482
+        },
+        {
+          "word": "V4",
+          "start": 82.74,
+          "end": 83.24,
+          "frameStart": 2482,
+          "frameEnd": 2497
+        },
+        {
+          "word": "to",
+          "start": 83.24,
+          "end": 83.74,
+          "frameStart": 2497,
+          "frameEnd": 2512
+        },
+        {
+          "word": "effortlessly",
+          "start": 83.74,
+          "end": 84.34,
+          "frameStart": 2512,
+          "frameEnd": 2530
+        },
+        {
+          "word": "process",
+          "start": 84.34,
+          "end": 84.86,
+          "frameStart": 2530,
+          "frameEnd": 2546
+        },
+        {
+          "word": "a",
+          "start": 84.86,
+          "end": 85.28,
+          "frameStart": 2546,
+          "frameEnd": 2558
+        },
+        {
+          "word": "massive",
+          "start": 85.28,
+          "end": 85.88,
+          "frameStart": 2558,
+          "frameEnd": 2576
+        },
+        {
+          "word": "1",
+          "start": 85.88,
+          "end": 86.52,
+          "frameStart": 2576,
+          "frameEnd": 2596
+        },
+        {
+          "word": "million",
+          "start": 86.52,
+          "end": 86.92,
+          "frameStart": 2596,
+          "frameEnd": 2608
+        },
+        {
+          "word": "token",
+          "start": 86.92,
+          "end": 87.3,
+          "frameStart": 2608,
+          "frameEnd": 2619
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 87.3,
+      "end": 92.52,
+      "frameStart": 2619,
+      "frameEnd": 2776,
+      "text": "context window without exploding GPU memory requirements. And if that wasn't enough,",
+      "words": [
+        {
+          "word": "context",
+          "start": 87.3,
+          "end": 87.8,
+          "frameStart": 2619,
+          "frameEnd": 2634
+        },
+        {
+          "word": "window",
+          "start": 87.8,
+          "end": 88.24,
+          "frameStart": 2634,
+          "frameEnd": 2647
+        },
+        {
+          "word": "without",
+          "start": 88.24,
+          "end": 88.8,
+          "frameStart": 2647,
+          "frameEnd": 2664
+        },
+        {
+          "word": "exploding",
+          "start": 88.8,
+          "end": 89.42,
+          "frameStart": 2664,
+          "frameEnd": 2683
+        },
+        {
+          "word": "GPU",
+          "start": 89.42,
+          "end": 89.84,
+          "frameStart": 2683,
+          "frameEnd": 2695
+        },
+        {
+          "word": "memory",
+          "start": 89.84,
+          "end": 90.24,
+          "frameStart": 2695,
+          "frameEnd": 2707
+        },
+        {
+          "word": "requirements.",
+          "start": 90.24,
+          "end": 90.8,
+          "frameStart": 2707,
+          "frameEnd": 2724
+        },
+        {
+          "word": "And",
+          "start": 91.24,
+          "end": 91.58,
+          "frameStart": 2737,
+          "frameEnd": 2747
+        },
+        {
+          "word": "if",
+          "start": 91.58,
+          "end": 91.74,
+          "frameStart": 2747,
+          "frameEnd": 2752
+        },
+        {
+          "word": "that",
+          "start": 91.74,
+          "end": 91.9,
+          "frameStart": 2752,
+          "frameEnd": 2757
+        },
+        {
+          "word": "wasn't",
+          "start": 91.9,
+          "end": 92.26,
+          "frameStart": 2757,
+          "frameEnd": 2768
+        },
+        {
+          "word": "enough,",
+          "start": 92.26,
+          "end": 92.52,
+          "frameStart": 2768,
+          "frameEnd": 2776
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 93.0,
+      "end": 98.52,
+      "frameStart": 2790,
+      "frameEnd": 2956,
+      "text": "they introduced Ingram Memory, a revolutionary conditional memory structure that's separate",
+      "words": [
+        {
+          "word": "they",
+          "start": 93.0,
+          "end": 93.06,
+          "frameStart": 2790,
+          "frameEnd": 2792
+        },
+        {
+          "word": "introduced",
+          "start": 93.06,
+          "end": 93.78,
+          "frameStart": 2792,
+          "frameEnd": 2813
+        },
+        {
+          "word": "Ingram",
+          "start": 93.78,
+          "end": 94.34,
+          "frameStart": 2813,
+          "frameEnd": 2830
+        },
+        {
+          "word": "Memory,",
+          "start": 94.34,
+          "end": 94.82,
+          "frameStart": 2830,
+          "frameEnd": 2845
+        },
+        {
+          "word": "a",
+          "start": 95.3,
+          "end": 95.46,
+          "frameStart": 2859,
+          "frameEnd": 2864
+        },
+        {
+          "word": "revolutionary",
+          "start": 95.46,
+          "end": 95.96,
+          "frameStart": 2864,
+          "frameEnd": 2879
+        },
+        {
+          "word": "conditional",
+          "start": 95.96,
+          "end": 96.86,
+          "frameStart": 2879,
+          "frameEnd": 2906
+        },
+        {
+          "word": "memory",
+          "start": 96.86,
+          "end": 97.14,
+          "frameStart": 2906,
+          "frameEnd": 2914
+        },
+        {
+          "word": "structure",
+          "start": 97.14,
+          "end": 97.7,
+          "frameStart": 2914,
+          "frameEnd": 2931
+        },
+        {
+          "word": "that's",
+          "start": 97.7,
+          "end": 98.28,
+          "frameStart": 2931,
+          "frameEnd": 2948
+        },
+        {
+          "word": "separate",
+          "start": 98.28,
+          "end": 98.52,
+          "frameStart": 2948,
+          "frameEnd": 2956
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 98.52,
+      "end": 104.8,
+      "frameStart": 2956,
+      "frameEnd": 3144,
+      "text": "static factual knowledge for dynamic reasoning. Instead of wasting compute trying to recall facts",
+      "words": [
+        {
+          "word": "static",
+          "start": 98.52,
+          "end": 99.02,
+          "frameStart": 2956,
+          "frameEnd": 2971
+        },
+        {
+          "word": "factual",
+          "start": 99.02,
+          "end": 99.54,
+          "frameStart": 2971,
+          "frameEnd": 2986
+        },
+        {
+          "word": "knowledge",
+          "start": 99.54,
+          "end": 99.96,
+          "frameStart": 2986,
+          "frameEnd": 2999
+        },
+        {
+          "word": "for",
+          "start": 99.96,
+          "end": 100.34,
+          "frameStart": 2999,
+          "frameEnd": 3010
+        },
+        {
+          "word": "dynamic",
+          "start": 100.34,
+          "end": 100.68,
+          "frameStart": 3010,
+          "frameEnd": 3020
+        },
+        {
+          "word": "reasoning.",
+          "start": 100.68,
+          "end": 101.14,
+          "frameStart": 3020,
+          "frameEnd": 3034
+        },
+        {
+          "word": "Instead",
+          "start": 101.54,
+          "end": 102.02,
+          "frameStart": 3046,
+          "frameEnd": 3061
+        },
+        {
+          "word": "of",
+          "start": 102.02,
+          "end": 102.3,
+          "frameStart": 3061,
+          "frameEnd": 3069
+        },
+        {
+          "word": "wasting",
+          "start": 102.3,
+          "end": 102.66,
+          "frameStart": 3069,
+          "frameEnd": 3080
+        },
+        {
+          "word": "compute",
+          "start": 102.66,
+          "end": 103.16,
+          "frameStart": 3080,
+          "frameEnd": 3095
+        },
+        {
+          "word": "trying",
+          "start": 103.16,
+          "end": 103.68,
+          "frameStart": 3095,
+          "frameEnd": 3110
+        },
+        {
+          "word": "to",
+          "start": 103.68,
+          "end": 103.88,
+          "frameStart": 3110,
+          "frameEnd": 3116
+        },
+        {
+          "word": "recall",
+          "start": 103.88,
+          "end": 104.14,
+          "frameStart": 3116,
+          "frameEnd": 3124
+        },
+        {
+          "word": "facts",
+          "start": 104.14,
+          "end": 104.8,
+          "frameStart": 3124,
+          "frameEnd": 3144
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 104.8,
+      "end": 111.32,
+      "frameStart": 3144,
+      "frameEnd": 3340,
+      "text": "through complex attention heads, Ingram Memory retrieves data like an ultra-fast lookup table,",
+      "words": [
+        {
+          "word": "through",
+          "start": 104.8,
+          "end": 105.0,
+          "frameStart": 3144,
+          "frameEnd": 3150
+        },
+        {
+          "word": "complex",
+          "start": 105.0,
+          "end": 105.58,
+          "frameStart": 3150,
+          "frameEnd": 3167
+        },
+        {
+          "word": "attention",
+          "start": 105.58,
+          "end": 106.0,
+          "frameStart": 3167,
+          "frameEnd": 3180
+        },
+        {
+          "word": "heads,",
+          "start": 106.0,
+          "end": 106.52,
+          "frameStart": 3180,
+          "frameEnd": 3196
+        },
+        {
+          "word": "Ingram",
+          "start": 106.92,
+          "end": 107.34,
+          "frameStart": 3208,
+          "frameEnd": 3220
+        },
+        {
+          "word": "Memory",
+          "start": 107.34,
+          "end": 107.8,
+          "frameStart": 3220,
+          "frameEnd": 3234
+        },
+        {
+          "word": "retrieves",
+          "start": 107.8,
+          "end": 108.66,
+          "frameStart": 3234,
+          "frameEnd": 3260
+        },
+        {
+          "word": "data",
+          "start": 108.66,
+          "end": 108.98,
+          "frameStart": 3260,
+          "frameEnd": 3269
+        },
+        {
+          "word": "like",
+          "start": 108.98,
+          "end": 109.48,
+          "frameStart": 3269,
+          "frameEnd": 3284
+        },
+        {
+          "word": "an",
+          "start": 109.48,
+          "end": 109.62,
+          "frameStart": 3284,
+          "frameEnd": 3289
+        },
+        {
+          "word": "ultra",
+          "start": 109.62,
+          "end": 110.02,
+          "frameStart": 3289,
+          "frameEnd": 3301
+        },
+        {
+          "word": "-fast",
+          "start": 110.02,
+          "end": 110.52,
+          "frameStart": 3301,
+          "frameEnd": 3316
+        },
+        {
+          "word": "lookup",
+          "start": 110.52,
+          "end": 110.94,
+          "frameStart": 3316,
+          "frameEnd": 3328
+        },
+        {
+          "word": "table,",
+          "start": 110.94,
+          "end": 111.32,
+          "frameStart": 3328,
+          "frameEnd": 3340
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 111.9,
+      "end": 117.9,
+      "frameStart": 3357,
+      "frameEnd": 3537,
+      "text": "slashing latency and reducing hallucinations. So how does this open weights tighten stack up",
+      "words": [
+        {
+          "word": "slashing",
+          "start": 111.9,
+          "end": 112.26,
+          "frameStart": 3357,
+          "frameEnd": 3368
+        },
+        {
+          "word": "latency",
+          "start": 112.26,
+          "end": 112.78,
+          "frameStart": 3368,
+          "frameEnd": 3383
+        },
+        {
+          "word": "and",
+          "start": 112.78,
+          "end": 113.3,
+          "frameStart": 3383,
+          "frameEnd": 3399
+        },
+        {
+          "word": "reducing",
+          "start": 113.3,
+          "end": 113.82,
+          "frameStart": 3399,
+          "frameEnd": 3415
+        },
+        {
+          "word": "hallucinations.",
+          "start": 113.82,
+          "end": 114.72,
+          "frameStart": 3415,
+          "frameEnd": 3442
+        },
+        {
+          "word": "So",
+          "start": 115.14,
+          "end": 115.48,
+          "frameStart": 3454,
+          "frameEnd": 3464
+        },
+        {
+          "word": "how",
+          "start": 115.48,
+          "end": 115.62,
+          "frameStart": 3464,
+          "frameEnd": 3469
+        },
+        {
+          "word": "does",
+          "start": 115.62,
+          "end": 115.74,
+          "frameStart": 3469,
+          "frameEnd": 3472
+        },
+        {
+          "word": "this",
+          "start": 115.74,
+          "end": 115.92,
+          "frameStart": 3472,
+          "frameEnd": 3478
+        },
+        {
+          "word": "open",
+          "start": 115.92,
+          "end": 116.28,
+          "frameStart": 3478,
+          "frameEnd": 3488
+        },
+        {
+          "word": "weights",
+          "start": 116.28,
+          "end": 116.58,
+          "frameStart": 3488,
+          "frameEnd": 3497
+        },
+        {
+          "word": "tighten",
+          "start": 116.58,
+          "end": 117.2,
+          "frameStart": 3497,
+          "frameEnd": 3516
+        },
+        {
+          "word": "stack",
+          "start": 117.2,
+          "end": 117.62,
+          "frameStart": 3516,
+          "frameEnd": 3529
+        },
+        {
+          "word": "up",
+          "start": 117.62,
+          "end": 117.9,
+          "frameStart": 3529,
+          "frameEnd": 3537
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 117.9,
+      "end": 128.12,
+      "frameStart": 3537,
+      "frameEnd": 3844,
+      "text": "against American giants like GPT, 5.5, GPT, 5.6, and Fable 5, and dual mode testing. Deepseek",
+      "words": [
+        {
+          "word": "against",
+          "start": 117.9,
+          "end": 118.28,
+          "frameStart": 3537,
+          "frameEnd": 3548
+        },
+        {
+          "word": "American",
+          "start": 118.28,
+          "end": 118.66,
+          "frameStart": 3548,
+          "frameEnd": 3560
+        },
+        {
+          "word": "giants",
+          "start": 118.66,
+          "end": 119.06,
+          "frameStart": 3560,
+          "frameEnd": 3572
+        },
+        {
+          "word": "like",
+          "start": 119.06,
+          "end": 119.38,
+          "frameStart": 3572,
+          "frameEnd": 3581
+        },
+        {
+          "word": "GPT,",
+          "start": 119.38,
+          "end": 120.18,
+          "frameStart": 3581,
+          "frameEnd": 3605
+        },
+        {
+          "word": "5",
+          "start": 120.78,
+          "end": 120.96,
+          "frameStart": 3623,
+          "frameEnd": 3629
+        },
+        {
+          "word": ".5,",
+          "start": 120.96,
+          "end": 121.66,
+          "frameStart": 3629,
+          "frameEnd": 3650
+        },
+        {
+          "word": "GPT,",
+          "start": 122.14,
+          "end": 122.82,
+          "frameStart": 3664,
+          "frameEnd": 3685
+        },
+        {
+          "word": "5",
+          "start": 123.4,
+          "end": 123.52,
+          "frameStart": 3702,
+          "frameEnd": 3706
+        },
+        {
+          "word": ".6,",
+          "start": 123.52,
+          "end": 124.12,
+          "frameStart": 3706,
+          "frameEnd": 3724
+        },
+        {
+          "word": "and",
+          "start": 124.62,
+          "end": 124.72,
+          "frameStart": 3739,
+          "frameEnd": 3742
+        },
+        {
+          "word": "Fable",
+          "start": 124.72,
+          "end": 125.12,
+          "frameStart": 3742,
+          "frameEnd": 3754
+        },
+        {
+          "word": "5,",
+          "start": 125.12,
+          "end": 125.52,
+          "frameStart": 3754,
+          "frameEnd": 3766
+        },
+        {
+          "word": "and",
+          "start": 125.98,
+          "end": 126.12,
+          "frameStart": 3779,
+          "frameEnd": 3784
+        },
+        {
+          "word": "dual",
+          "start": 126.12,
+          "end": 126.46,
+          "frameStart": 3784,
+          "frameEnd": 3794
+        },
+        {
+          "word": "mode",
+          "start": 126.46,
+          "end": 126.76,
+          "frameStart": 3794,
+          "frameEnd": 3803
+        },
+        {
+          "word": "testing.",
+          "start": 126.76,
+          "end": 127.26,
+          "frameStart": 3803,
+          "frameEnd": 3818
+        },
+        {
+          "word": "Deepseek",
+          "start": 127.72,
+          "end": 128.12,
+          "frameStart": 3832,
+          "frameEnd": 3844
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 128.12,
+      "end": 134.32,
+      "frameStart": 3844,
+      "frameEnd": 4030,
+      "text": "V4 offers both a lightning fast, non-thinking mode and a rigorous chain of thought thinking mode.",
+      "words": [
+        {
+          "word": "V4",
+          "start": 128.12,
+          "end": 128.62,
+          "frameStart": 3844,
+          "frameEnd": 3859
+        },
+        {
+          "word": "offers",
+          "start": 128.62,
+          "end": 129.02,
+          "frameStart": 3859,
+          "frameEnd": 3871
+        },
+        {
+          "word": "both",
+          "start": 129.02,
+          "end": 129.3,
+          "frameStart": 3871,
+          "frameEnd": 3879
+        },
+        {
+          "word": "a",
+          "start": 129.3,
+          "end": 129.46,
+          "frameStart": 3879,
+          "frameEnd": 3884
+        },
+        {
+          "word": "lightning",
+          "start": 129.46,
+          "end": 129.88,
+          "frameStart": 3884,
+          "frameEnd": 3896
+        },
+        {
+          "word": "fast,",
+          "start": 129.88,
+          "end": 130.4,
+          "frameStart": 3896,
+          "frameEnd": 3912
+        },
+        {
+          "word": "non",
+          "start": 130.74,
+          "end": 131.04,
+          "frameStart": 3922,
+          "frameEnd": 3931
+        },
+        {
+          "word": "-thinking",
+          "start": 131.04,
+          "end": 131.34,
+          "frameStart": 3931,
+          "frameEnd": 3940
+        },
+        {
+          "word": "mode",
+          "start": 131.34,
+          "end": 131.76,
+          "frameStart": 3940,
+          "frameEnd": 3953
+        },
+        {
+          "word": "and",
+          "start": 131.76,
+          "end": 132.28,
+          "frameStart": 3953,
+          "frameEnd": 3968
+        },
+        {
+          "word": "a",
+          "start": 132.28,
+          "end": 132.42,
+          "frameStart": 3968,
+          "frameEnd": 3973
+        },
+        {
+          "word": "rigorous",
+          "start": 132.42,
+          "end": 132.74,
+          "frameStart": 3973,
+          "frameEnd": 3982
+        },
+        {
+          "word": "chain",
+          "start": 132.74,
+          "end": 133.08,
+          "frameStart": 3982,
+          "frameEnd": 3992
+        },
+        {
+          "word": "of",
+          "start": 133.08,
+          "end": 133.24,
+          "frameStart": 3992,
+          "frameEnd": 3997
+        },
+        {
+          "word": "thought",
+          "start": 133.24,
+          "end": 133.52,
+          "frameStart": 3997,
+          "frameEnd": 4006
+        },
+        {
+          "word": "thinking",
+          "start": 133.52,
+          "end": 133.88,
+          "frameStart": 4006,
+          "frameEnd": 4016
+        },
+        {
+          "word": "mode.",
+          "start": 133.88,
+          "end": 134.32,
+          "frameStart": 4016,
+          "frameEnd": 4030
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 134.32,
+      "end": 139.44,
+      "frameStart": 4030,
+      "frameEnd": 4183,
+      "text": "On competitive coding benchmarks like live code bench, complex engineering tasks,",
+      "words": [
+        {
+          "word": "On",
+          "start": 134.32,
+          "end": 134.86,
+          "frameStart": 4030,
+          "frameEnd": 4046
+        },
+        {
+          "word": "competitive",
+          "start": 134.86,
+          "end": 135.36,
+          "frameStart": 4046,
+          "frameEnd": 4061
+        },
+        {
+          "word": "coding",
+          "start": 135.36,
+          "end": 135.72,
+          "frameStart": 4061,
+          "frameEnd": 4072
+        },
+        {
+          "word": "benchmarks",
+          "start": 135.72,
+          "end": 136.24,
+          "frameStart": 4072,
+          "frameEnd": 4087
+        },
+        {
+          "word": "like",
+          "start": 136.24,
+          "end": 136.58,
+          "frameStart": 4087,
+          "frameEnd": 4097
+        },
+        {
+          "word": "live",
+          "start": 136.58,
+          "end": 136.86,
+          "frameStart": 4097,
+          "frameEnd": 4106
+        },
+        {
+          "word": "code",
+          "start": 136.86,
+          "end": 137.14,
+          "frameStart": 4106,
+          "frameEnd": 4114
+        },
+        {
+          "word": "bench,",
+          "start": 137.14,
+          "end": 137.64,
+          "frameStart": 4114,
+          "frameEnd": 4129
+        },
+        {
+          "word": "complex",
+          "start": 137.98,
+          "end": 138.3,
+          "frameStart": 4139,
+          "frameEnd": 4149
+        },
+        {
+          "word": "engineering",
+          "start": 138.3,
+          "end": 138.86,
+          "frameStart": 4149,
+          "frameEnd": 4166
+        },
+        {
+          "word": "tasks,",
+          "start": 138.86,
+          "end": 139.44,
+          "frameStart": 4166,
+          "frameEnd": 4183
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 139.9,
+      "end": 146.52,
+      "frameStart": 4197,
+      "frameEnd": 4396,
+      "text": "and advanced PhD level math, Deepseek V4 Pro goes toe-to-toe with proprietary US models,",
+      "words": [
+        {
+          "word": "and",
+          "start": 139.9,
+          "end": 140.0,
+          "frameStart": 4197,
+          "frameEnd": 4200
+        },
+        {
+          "word": "advanced",
+          "start": 140.0,
+          "end": 140.44,
+          "frameStart": 4200,
+          "frameEnd": 4213
+        },
+        {
+          "word": "PhD",
+          "start": 140.44,
+          "end": 140.74,
+          "frameStart": 4213,
+          "frameEnd": 4222
+        },
+        {
+          "word": "level",
+          "start": 140.74,
+          "end": 141.16,
+          "frameStart": 4222,
+          "frameEnd": 4235
+        },
+        {
+          "word": "math,",
+          "start": 141.16,
+          "end": 141.66,
+          "frameStart": 4235,
+          "frameEnd": 4250
+        },
+        {
+          "word": "Deepseek",
+          "start": 142.06,
+          "end": 142.52,
+          "frameStart": 4262,
+          "frameEnd": 4276
+        },
+        {
+          "word": "V4",
+          "start": 142.52,
+          "end": 143.02,
+          "frameStart": 4276,
+          "frameEnd": 4291
+        },
+        {
+          "word": "Pro",
+          "start": 143.02,
+          "end": 143.36,
+          "frameStart": 4291,
+          "frameEnd": 4301
+        },
+        {
+          "word": "goes",
+          "start": 143.36,
+          "end": 143.88,
+          "frameStart": 4301,
+          "frameEnd": 4316
+        },
+        {
+          "word": "toe",
+          "start": 143.88,
+          "end": 144.18,
+          "frameStart": 4316,
+          "frameEnd": 4325
+        },
+        {
+          "word": "-to",
+          "start": 144.18,
+          "end": 144.28,
+          "frameStart": 4325,
+          "frameEnd": 4328
+        },
+        {
+          "word": "-toe",
+          "start": 144.28,
+          "end": 144.86,
+          "frameStart": 4328,
+          "frameEnd": 4346
+        },
+        {
+          "word": "with",
+          "start": 144.86,
+          "end": 145.0,
+          "frameStart": 4346,
+          "frameEnd": 4350
+        },
+        {
+          "word": "proprietary",
+          "start": 145.0,
+          "end": 145.54,
+          "frameStart": 4350,
+          "frameEnd": 4366
+        },
+        {
+          "word": "US",
+          "start": 145.54,
+          "end": 145.96,
+          "frameStart": 4366,
+          "frameEnd": 4379
+        },
+        {
+          "word": "models,",
+          "start": 145.96,
+          "end": 146.52,
+          "frameStart": 4379,
+          "frameEnd": 4396
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 146.96,
+      "end": 152.74,
+      "frameStart": 4409,
+      "frameEnd": 4582,
+      "text": "often trading blows for the top spot, while US frontier models still maintain a slight edge",
+      "words": [
+        {
+          "word": "often",
+          "start": 146.96,
+          "end": 147.4,
+          "frameStart": 4409,
+          "frameEnd": 4422
+        },
+        {
+          "word": "trading",
+          "start": 147.4,
+          "end": 147.78,
+          "frameStart": 4422,
+          "frameEnd": 4433
+        },
+        {
+          "word": "blows",
+          "start": 147.78,
+          "end": 148.14,
+          "frameStart": 4433,
+          "frameEnd": 4444
+        },
+        {
+          "word": "for",
+          "start": 148.14,
+          "end": 148.38,
+          "frameStart": 4444,
+          "frameEnd": 4451
+        },
+        {
+          "word": "the",
+          "start": 148.38,
+          "end": 148.48,
+          "frameStart": 4451,
+          "frameEnd": 4454
+        },
+        {
+          "word": "top",
+          "start": 148.48,
+          "end": 148.64,
+          "frameStart": 4454,
+          "frameEnd": 4459
+        },
+        {
+          "word": "spot,",
+          "start": 148.64,
+          "end": 149.04,
+          "frameStart": 4459,
+          "frameEnd": 4471
+        },
+        {
+          "word": "while",
+          "start": 149.52,
+          "end": 149.66,
+          "frameStart": 4486,
+          "frameEnd": 4490
+        },
+        {
+          "word": "US",
+          "start": 149.66,
+          "end": 149.98,
+          "frameStart": 4490,
+          "frameEnd": 4499
+        },
+        {
+          "word": "frontier",
+          "start": 149.98,
+          "end": 150.34,
+          "frameStart": 4499,
+          "frameEnd": 4510
+        },
+        {
+          "word": "models",
+          "start": 150.34,
+          "end": 150.84,
+          "frameStart": 4510,
+          "frameEnd": 4525
+        },
+        {
+          "word": "still",
+          "start": 150.84,
+          "end": 151.24,
+          "frameStart": 4525,
+          "frameEnd": 4537
+        },
+        {
+          "word": "maintain",
+          "start": 151.24,
+          "end": 151.62,
+          "frameStart": 4537,
+          "frameEnd": 4549
+        },
+        {
+          "word": "a",
+          "start": 151.62,
+          "end": 151.82,
+          "frameStart": 4549,
+          "frameEnd": 4555
+        },
+        {
+          "word": "slight",
+          "start": 151.82,
+          "end": 152.18,
+          "frameStart": 4555,
+          "frameEnd": 4565
+        },
+        {
+          "word": "edge",
+          "start": 152.18,
+          "end": 152.74,
+          "frameStart": 4565,
+          "frameEnd": 4582
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 152.74,
+      "end": 158.4,
+      "frameStart": 4582,
+      "frameEnd": 4752,
+      "text": "in ultra-long horizon agentic planning and creative nuance. The gap has shrunk from years",
+      "words": [
+        {
+          "word": "in",
+          "start": 152.74,
+          "end": 153.08,
+          "frameStart": 4582,
+          "frameEnd": 4592
+        },
+        {
+          "word": "ultra",
+          "start": 153.08,
+          "end": 153.52,
+          "frameStart": 4592,
+          "frameEnd": 4606
+        },
+        {
+          "word": "-long",
+          "start": 153.52,
+          "end": 153.78,
+          "frameStart": 4606,
+          "frameEnd": 4613
+        },
+        {
+          "word": "horizon",
+          "start": 153.78,
+          "end": 154.2,
+          "frameStart": 4613,
+          "frameEnd": 4626
+        },
+        {
+          "word": "agentic",
+          "start": 154.2,
+          "end": 154.94,
+          "frameStart": 4626,
+          "frameEnd": 4648
+        },
+        {
+          "word": "planning",
+          "start": 154.94,
+          "end": 155.28,
+          "frameStart": 4648,
+          "frameEnd": 4658
+        },
+        {
+          "word": "and",
+          "start": 155.28,
+          "end": 155.7,
+          "frameStart": 4658,
+          "frameEnd": 4671
+        },
+        {
+          "word": "creative",
+          "start": 155.7,
+          "end": 156.14,
+          "frameStart": 4671,
+          "frameEnd": 4684
+        },
+        {
+          "word": "nuance.",
+          "start": 156.14,
+          "end": 156.56,
+          "frameStart": 4684,
+          "frameEnd": 4697
+        },
+        {
+          "word": "The",
+          "start": 157.18,
+          "end": 157.32,
+          "frameStart": 4715,
+          "frameEnd": 4720
+        },
+        {
+          "word": "gap",
+          "start": 157.32,
+          "end": 157.46,
+          "frameStart": 4720,
+          "frameEnd": 4724
+        },
+        {
+          "word": "has",
+          "start": 157.46,
+          "end": 157.64,
+          "frameStart": 4724,
+          "frameEnd": 4729
+        },
+        {
+          "word": "shrunk",
+          "start": 157.64,
+          "end": 157.94,
+          "frameStart": 4729,
+          "frameEnd": 4738
+        },
+        {
+          "word": "from",
+          "start": 157.94,
+          "end": 158.14,
+          "frameStart": 4738,
+          "frameEnd": 4744
+        },
+        {
+          "word": "years",
+          "start": 158.14,
+          "end": 158.4,
+          "frameStart": 4744,
+          "frameEnd": 4752
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 158.4,
+      "end": 164.62,
+      "frameStart": 4752,
+      "frameEnd": 4939,
+      "text": "down to just weeks. And when you look at the economics, it's not even a debate. Deepseek V4 costs",
+      "words": [
+        {
+          "word": "down",
+          "start": 158.4,
+          "end": 158.7,
+          "frameStart": 4752,
+          "frameEnd": 4761
+        },
+        {
+          "word": "to",
+          "start": 158.7,
+          "end": 158.94,
+          "frameStart": 4761,
+          "frameEnd": 4768
+        },
+        {
+          "word": "just",
+          "start": 158.94,
+          "end": 159.16,
+          "frameStart": 4768,
+          "frameEnd": 4775
+        },
+        {
+          "word": "weeks.",
+          "start": 159.16,
+          "end": 159.54,
+          "frameStart": 4775,
+          "frameEnd": 4786
+        },
+        {
+          "word": "And",
+          "start": 160.26,
+          "end": 160.32,
+          "frameStart": 4808,
+          "frameEnd": 4810
+        },
+        {
+          "word": "when",
+          "start": 160.32,
+          "end": 160.42,
+          "frameStart": 4810,
+          "frameEnd": 4813
+        },
+        {
+          "word": "you",
+          "start": 160.42,
+          "end": 160.48,
+          "frameStart": 4813,
+          "frameEnd": 4814
+        },
+        {
+          "word": "look",
+          "start": 160.48,
+          "end": 160.6,
+          "frameStart": 4814,
+          "frameEnd": 4818
+        },
+        {
+          "word": "at",
+          "start": 160.6,
+          "end": 160.7,
+          "frameStart": 4818,
+          "frameEnd": 4821
+        },
+        {
+          "word": "the",
+          "start": 160.7,
+          "end": 160.78,
+          "frameStart": 4821,
+          "frameEnd": 4823
+        },
+        {
+          "word": "economics,",
+          "start": 160.78,
+          "end": 161.3,
+          "frameStart": 4823,
+          "frameEnd": 4839
+        },
+        {
+          "word": "it's",
+          "start": 161.72,
+          "end": 161.92,
+          "frameStart": 4852,
+          "frameEnd": 4858
+        },
+        {
+          "word": "not",
+          "start": 161.92,
+          "end": 162.12,
+          "frameStart": 4858,
+          "frameEnd": 4864
+        },
+        {
+          "word": "even",
+          "start": 162.12,
+          "end": 162.34,
+          "frameStart": 4864,
+          "frameEnd": 4870
+        },
+        {
+          "word": "a",
+          "start": 162.34,
+          "end": 162.42,
+          "frameStart": 4870,
+          "frameEnd": 4873
+        },
+        {
+          "word": "debate.",
+          "start": 162.42,
+          "end": 162.78,
+          "frameStart": 4873,
+          "frameEnd": 4883
+        },
+        {
+          "word": "Deepseek",
+          "start": 163.38,
+          "end": 163.8,
+          "frameStart": 4901,
+          "frameEnd": 4914
+        },
+        {
+          "word": "V4",
+          "start": 163.8,
+          "end": 164.22,
+          "frameStart": 4914,
+          "frameEnd": 4927
+        },
+        {
+          "word": "costs",
+          "start": 164.22,
+          "end": 164.62,
+          "frameStart": 4927,
+          "frameEnd": 4939
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 164.62,
+      "end": 171.6,
+      "frameStart": 4939,
+      "frameEnd": 5148,
+      "text": "roughly 7 to 10 times less per million tokens than leading US enterprise APIs. We are officially",
+      "words": [
+        {
+          "word": "roughly",
+          "start": 164.62,
+          "end": 165.12,
+          "frameStart": 4939,
+          "frameEnd": 4954
+        },
+        {
+          "word": "7",
+          "start": 165.12,
+          "end": 165.56,
+          "frameStart": 4954,
+          "frameEnd": 4967
+        },
+        {
+          "word": "to",
+          "start": 165.56,
+          "end": 165.94,
+          "frameStart": 4967,
+          "frameEnd": 4978
+        },
+        {
+          "word": "10",
+          "start": 165.94,
+          "end": 166.22,
+          "frameStart": 4978,
+          "frameEnd": 4987
+        },
+        {
+          "word": "times",
+          "start": 166.22,
+          "end": 166.64,
+          "frameStart": 4987,
+          "frameEnd": 4999
+        },
+        {
+          "word": "less",
+          "start": 166.64,
+          "end": 166.88,
+          "frameStart": 4999,
+          "frameEnd": 5006
+        },
+        {
+          "word": "per",
+          "start": 166.88,
+          "end": 167.12,
+          "frameStart": 5006,
+          "frameEnd": 5014
+        },
+        {
+          "word": "million",
+          "start": 167.12,
+          "end": 167.56,
+          "frameStart": 5014,
+          "frameEnd": 5027
+        },
+        {
+          "word": "tokens",
+          "start": 167.56,
+          "end": 167.98,
+          "frameStart": 5027,
+          "frameEnd": 5039
+        },
+        {
+          "word": "than",
+          "start": 167.98,
+          "end": 168.26,
+          "frameStart": 5039,
+          "frameEnd": 5048
+        },
+        {
+          "word": "leading",
+          "start": 168.26,
+          "end": 168.56,
+          "frameStart": 5048,
+          "frameEnd": 5057
+        },
+        {
+          "word": "US",
+          "start": 168.56,
+          "end": 169.02,
+          "frameStart": 5057,
+          "frameEnd": 5071
+        },
+        {
+          "word": "enterprise",
+          "start": 169.02,
+          "end": 169.62,
+          "frameStart": 5071,
+          "frameEnd": 5089
+        },
+        {
+          "word": "APIs.",
+          "start": 169.62,
+          "end": 170.2,
+          "frameStart": 5089,
+          "frameEnd": 5106
+        },
+        {
+          "word": "We",
+          "start": 170.84,
+          "end": 171.04,
+          "frameStart": 5125,
+          "frameEnd": 5131
+        },
+        {
+          "word": "are",
+          "start": 171.04,
+          "end": 171.16,
+          "frameStart": 5131,
+          "frameEnd": 5135
+        },
+        {
+          "word": "officially",
+          "start": 171.16,
+          "end": 171.6,
+          "frameStart": 5135,
+          "frameEnd": 5148
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 171.6,
+      "end": 178.94,
+      "frameStart": 5148,
+      "frameEnd": 5368,
+      "text": "entering an era where the mode around proprietary AI models is evaporating. By releasing deepseek",
+      "words": [
+        {
+          "word": "entering",
+          "start": 171.6,
+          "end": 172.02,
+          "frameStart": 5148,
+          "frameEnd": 5161
+        },
+        {
+          "word": "an",
+          "start": 172.02,
+          "end": 172.26,
+          "frameStart": 5161,
+          "frameEnd": 5168
+        },
+        {
+          "word": "era",
+          "start": 172.26,
+          "end": 172.6,
+          "frameStart": 5168,
+          "frameEnd": 5178
+        },
+        {
+          "word": "where",
+          "start": 172.6,
+          "end": 173.02,
+          "frameStart": 5178,
+          "frameEnd": 5191
+        },
+        {
+          "word": "the",
+          "start": 173.02,
+          "end": 173.16,
+          "frameStart": 5191,
+          "frameEnd": 5195
+        },
+        {
+          "word": "mode",
+          "start": 173.16,
+          "end": 173.42,
+          "frameStart": 5195,
+          "frameEnd": 5203
+        },
+        {
+          "word": "around",
+          "start": 173.42,
+          "end": 173.86,
+          "frameStart": 5203,
+          "frameEnd": 5216
+        },
+        {
+          "word": "proprietary",
+          "start": 173.86,
+          "end": 174.54,
+          "frameStart": 5216,
+          "frameEnd": 5236
+        },
+        {
+          "word": "AI",
+          "start": 174.54,
+          "end": 175.04,
+          "frameStart": 5236,
+          "frameEnd": 5251
+        },
+        {
+          "word": "models",
+          "start": 175.04,
+          "end": 175.54,
+          "frameStart": 5251,
+          "frameEnd": 5266
+        },
+        {
+          "word": "is",
+          "start": 175.54,
+          "end": 176.14,
+          "frameStart": 5266,
+          "frameEnd": 5284
+        },
+        {
+          "word": "evaporating.",
+          "start": 176.14,
+          "end": 176.98,
+          "frameStart": 5284,
+          "frameEnd": 5309
+        },
+        {
+          "word": "By",
+          "start": 177.46,
+          "end": 177.62,
+          "frameStart": 5324,
+          "frameEnd": 5329
+        },
+        {
+          "word": "releasing",
+          "start": 177.62,
+          "end": 178.04,
+          "frameStart": 5329,
+          "frameEnd": 5341
+        },
+        {
+          "word": "deepseek",
+          "start": 178.04,
+          "end": 178.94,
+          "frameStart": 5341,
+          "frameEnd": 5368
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 178.94,
+      "end": 185.5,
+      "frameStart": 5368,
+      "frameEnd": 5565,
+      "text": "V4 under the MIT license with full open weights, companies and developers can now self-host",
+      "words": [
+        {
+          "word": "V4",
+          "start": 178.94,
+          "end": 179.62,
+          "frameStart": 5368,
+          "frameEnd": 5389
+        },
+        {
+          "word": "under",
+          "start": 179.62,
+          "end": 180.08,
+          "frameStart": 5389,
+          "frameEnd": 5402
+        },
+        {
+          "word": "the",
+          "start": 180.08,
+          "end": 180.24,
+          "frameStart": 5402,
+          "frameEnd": 5407
+        },
+        {
+          "word": "MIT",
+          "start": 180.24,
+          "end": 180.54,
+          "frameStart": 5407,
+          "frameEnd": 5416
+        },
+        {
+          "word": "license",
+          "start": 180.54,
+          "end": 181.1,
+          "frameStart": 5416,
+          "frameEnd": 5433
+        },
+        {
+          "word": "with",
+          "start": 181.1,
+          "end": 181.36,
+          "frameStart": 5433,
+          "frameEnd": 5441
+        },
+        {
+          "word": "full",
+          "start": 181.36,
+          "end": 181.74,
+          "frameStart": 5441,
+          "frameEnd": 5452
+        },
+        {
+          "word": "open",
+          "start": 181.74,
+          "end": 182.2,
+          "frameStart": 5452,
+          "frameEnd": 5466
+        },
+        {
+          "word": "weights,",
+          "start": 182.2,
+          "end": 182.58,
+          "frameStart": 5466,
+          "frameEnd": 5477
+        },
+        {
+          "word": "companies",
+          "start": 183.1,
+          "end": 183.36,
+          "frameStart": 5493,
+          "frameEnd": 5501
+        },
+        {
+          "word": "and",
+          "start": 183.36,
+          "end": 183.56,
+          "frameStart": 5501,
+          "frameEnd": 5507
+        },
+        {
+          "word": "developers",
+          "start": 183.56,
+          "end": 183.98,
+          "frameStart": 5507,
+          "frameEnd": 5519
+        },
+        {
+          "word": "can",
+          "start": 183.98,
+          "end": 184.5,
+          "frameStart": 5519,
+          "frameEnd": 5535
+        },
+        {
+          "word": "now",
+          "start": 184.5,
+          "end": 184.82,
+          "frameStart": 5535,
+          "frameEnd": 5545
+        },
+        {
+          "word": "self",
+          "start": 184.82,
+          "end": 185.2,
+          "frameStart": 5545,
+          "frameEnd": 5556
+        },
+        {
+          "word": "-host",
+          "start": 185.2,
+          "end": 185.5,
+          "frameStart": 5556,
+          "frameEnd": 5565
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 185.5,
+      "end": 190.9,
+      "frameStart": 5565,
+      "frameEnd": 5727,
+      "text": "frontier level intelligence right on their own private clusters. Whether you are building complex",
+      "words": [
+        {
+          "word": "frontier",
+          "start": 185.5,
+          "end": 185.94,
+          "frameStart": 5565,
+          "frameEnd": 5578
+        },
+        {
+          "word": "level",
+          "start": 185.94,
+          "end": 186.28,
+          "frameStart": 5578,
+          "frameEnd": 5588
+        },
+        {
+          "word": "intelligence",
+          "start": 186.28,
+          "end": 186.76,
+          "frameStart": 5588,
+          "frameEnd": 5603
+        },
+        {
+          "word": "right",
+          "start": 186.76,
+          "end": 187.44,
+          "frameStart": 5603,
+          "frameEnd": 5623
+        },
+        {
+          "word": "on",
+          "start": 187.44,
+          "end": 187.62,
+          "frameStart": 5623,
+          "frameEnd": 5629
+        },
+        {
+          "word": "their",
+          "start": 187.62,
+          "end": 187.76,
+          "frameStart": 5629,
+          "frameEnd": 5633
+        },
+        {
+          "word": "own",
+          "start": 187.76,
+          "end": 187.92,
+          "frameStart": 5633,
+          "frameEnd": 5638
+        },
+        {
+          "word": "private",
+          "start": 187.92,
+          "end": 188.24,
+          "frameStart": 5638,
+          "frameEnd": 5647
+        },
+        {
+          "word": "clusters.",
+          "start": 188.24,
+          "end": 188.66,
+          "frameStart": 5647,
+          "frameEnd": 5660
+        },
+        {
+          "word": "Whether",
+          "start": 189.22,
+          "end": 189.5,
+          "frameStart": 5677,
+          "frameEnd": 5685
+        },
+        {
+          "word": "you",
+          "start": 189.5,
+          "end": 189.62,
+          "frameStart": 5685,
+          "frameEnd": 5689
+        },
+        {
+          "word": "are",
+          "start": 189.62,
+          "end": 189.7,
+          "frameStart": 5689,
+          "frameEnd": 5691
+        },
+        {
+          "word": "building",
+          "start": 189.7,
+          "end": 190.04,
+          "frameStart": 5691,
+          "frameEnd": 5701
+        },
+        {
+          "word": "complex",
+          "start": 190.04,
+          "end": 190.9,
+          "frameStart": 5701,
+          "frameEnd": 5727
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 190.9,
+      "end": 197.34,
+      "frameStart": 5727,
+      "frameEnd": 5920,
+      "text": "agentic coding workflows or high volume data pipelines, Deepseek V4 proves that architectural",
+      "words": [
+        {
+          "word": "agentic",
+          "start": 190.9,
+          "end": 191.6,
+          "frameStart": 5727,
+          "frameEnd": 5748
+        },
+        {
+          "word": "coding",
+          "start": 191.6,
+          "end": 191.84,
+          "frameStart": 5748,
+          "frameEnd": 5755
+        },
+        {
+          "word": "workflows",
+          "start": 191.84,
+          "end": 192.34,
+          "frameStart": 5755,
+          "frameEnd": 5770
+        },
+        {
+          "word": "or",
+          "start": 192.34,
+          "end": 192.9,
+          "frameStart": 5770,
+          "frameEnd": 5787
+        },
+        {
+          "word": "high",
+          "start": 192.9,
+          "end": 193.28,
+          "frameStart": 5787,
+          "frameEnd": 5798
+        },
+        {
+          "word": "volume",
+          "start": 193.28,
+          "end": 193.62,
+          "frameStart": 5798,
+          "frameEnd": 5809
+        },
+        {
+          "word": "data",
+          "start": 193.62,
+          "end": 193.88,
+          "frameStart": 5809,
+          "frameEnd": 5816
+        },
+        {
+          "word": "pipelines,",
+          "start": 193.88,
+          "end": 194.44,
+          "frameStart": 5816,
+          "frameEnd": 5833
+        },
+        {
+          "word": "Deepseek",
+          "start": 195.12,
+          "end": 195.58,
+          "frameStart": 5854,
+          "frameEnd": 5867
+        },
+        {
+          "word": "V4",
+          "start": 195.58,
+          "end": 196.12,
+          "frameStart": 5867,
+          "frameEnd": 5884
+        },
+        {
+          "word": "proves",
+          "start": 196.12,
+          "end": 196.56,
+          "frameStart": 5884,
+          "frameEnd": 5897
+        },
+        {
+          "word": "that",
+          "start": 196.56,
+          "end": 196.72,
+          "frameStart": 5897,
+          "frameEnd": 5902
+        },
+        {
+          "word": "architectural",
+          "start": 196.72,
+          "end": 197.34,
+          "frameStart": 5902,
+          "frameEnd": 5920
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 197.34,
+      "end": 202.48,
+      "frameStart": 5920,
+      "frameEnd": 6074,
+      "text": "innovation can beat brute force compute spending. What do you think about Deepseek V4?",
+      "words": [
+        {
+          "word": "innovation",
+          "start": 197.34,
+          "end": 197.94,
+          "frameStart": 5920,
+          "frameEnd": 5938
+        },
+        {
+          "word": "can",
+          "start": 197.94,
+          "end": 198.34,
+          "frameStart": 5938,
+          "frameEnd": 5950
+        },
+        {
+          "word": "beat",
+          "start": 198.34,
+          "end": 198.72,
+          "frameStart": 5950,
+          "frameEnd": 5962
+        },
+        {
+          "word": "brute",
+          "start": 198.72,
+          "end": 199.0,
+          "frameStart": 5962,
+          "frameEnd": 5970
+        },
+        {
+          "word": "force",
+          "start": 199.0,
+          "end": 199.32,
+          "frameStart": 5970,
+          "frameEnd": 5980
+        },
+        {
+          "word": "compute",
+          "start": 199.32,
+          "end": 199.68,
+          "frameStart": 5980,
+          "frameEnd": 5990
+        },
+        {
+          "word": "spending.",
+          "start": 199.68,
+          "end": 200.14,
+          "frameStart": 5990,
+          "frameEnd": 6004
+        },
+        {
+          "word": "What",
+          "start": 200.58,
+          "end": 200.78,
+          "frameStart": 6017,
+          "frameEnd": 6023
+        },
+        {
+          "word": "do",
+          "start": 200.78,
+          "end": 200.84,
+          "frameStart": 6023,
+          "frameEnd": 6025
+        },
+        {
+          "word": "you",
+          "start": 200.84,
+          "end": 200.86,
+          "frameStart": 6025,
+          "frameEnd": 6026
+        },
+        {
+          "word": "think",
+          "start": 200.86,
+          "end": 201.02,
+          "frameStart": 6026,
+          "frameEnd": 6031
+        },
+        {
+          "word": "about",
+          "start": 201.02,
+          "end": 201.24,
+          "frameStart": 6031,
+          "frameEnd": 6037
+        },
+        {
+          "word": "Deepseek",
+          "start": 201.24,
+          "end": 202.0,
+          "frameStart": 6037,
+          "frameEnd": 6060
+        },
+        {
+          "word": "V4?",
+          "start": 202.0,
+          "end": 202.48,
+          "frameStart": 6060,
+          "frameEnd": 6074
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 202.98,
+      "end": 208.44,
+      "frameStart": 6089,
+      "frameEnd": 6253,
+      "text": "Will you switch from proprietary US models to open weights? Let me know in the comments down below,",
+      "words": [
+        {
+          "word": "Will",
+          "start": 202.98,
+          "end": 203.1,
+          "frameStart": 6089,
+          "frameEnd": 6093
+        },
+        {
+          "word": "you",
+          "start": 203.1,
+          "end": 203.2,
+          "frameStart": 6093,
+          "frameEnd": 6096
+        },
+        {
+          "word": "switch",
+          "start": 203.2,
+          "end": 203.48,
+          "frameStart": 6096,
+          "frameEnd": 6104
+        },
+        {
+          "word": "from",
+          "start": 203.48,
+          "end": 203.7,
+          "frameStart": 6104,
+          "frameEnd": 6111
+        },
+        {
+          "word": "proprietary",
+          "start": 203.7,
+          "end": 204.2,
+          "frameStart": 6111,
+          "frameEnd": 6126
+        },
+        {
+          "word": "US",
+          "start": 204.2,
+          "end": 204.72,
+          "frameStart": 6126,
+          "frameEnd": 6142
+        },
+        {
+          "word": "models",
+          "start": 204.72,
+          "end": 205.22,
+          "frameStart": 6142,
+          "frameEnd": 6157
+        },
+        {
+          "word": "to",
+          "start": 205.22,
+          "end": 205.8,
+          "frameStart": 6157,
+          "frameEnd": 6174
+        },
+        {
+          "word": "open",
+          "start": 205.8,
+          "end": 206.18,
+          "frameStart": 6174,
+          "frameEnd": 6185
+        },
+        {
+          "word": "weights?",
+          "start": 206.18,
+          "end": 206.5,
+          "frameStart": 6185,
+          "frameEnd": 6195
+        },
+        {
+          "word": "Let",
+          "start": 207.08,
+          "end": 207.26,
+          "frameStart": 6212,
+          "frameEnd": 6218
+        },
+        {
+          "word": "me",
+          "start": 207.26,
+          "end": 207.34,
+          "frameStart": 6218,
+          "frameEnd": 6220
+        },
+        {
+          "word": "know",
+          "start": 207.34,
+          "end": 207.5,
+          "frameStart": 6220,
+          "frameEnd": 6225
+        },
+        {
+          "word": "in",
+          "start": 207.5,
+          "end": 207.6,
+          "frameStart": 6225,
+          "frameEnd": 6228
+        },
+        {
+          "word": "the",
+          "start": 207.6,
+          "end": 207.66,
+          "frameStart": 6228,
+          "frameEnd": 6230
+        },
+        {
+          "word": "comments",
+          "start": 207.66,
+          "end": 207.94,
+          "frameStart": 6230,
+          "frameEnd": 6238
+        },
+        {
+          "word": "down",
+          "start": 207.94,
+          "end": 208.12,
+          "frameStart": 6238,
+          "frameEnd": 6244
+        },
+        {
+          "word": "below,",
+          "start": 208.12,
+          "end": 208.44,
+          "frameStart": 6244,
+          "frameEnd": 6253
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 208.44,
+      "end": 212.18,
+      "frameStart": 6253,
+      "frameEnd": 6365,
+      "text": "hit that subscribe button and I'll see you in the next deep dive.",
+      "words": [
+        {
+          "word": "hit",
+          "start": 208.44,
+          "end": 209.1,
+          "frameStart": 6253,
+          "frameEnd": 6273
+        },
+        {
+          "word": "that",
+          "start": 209.1,
+          "end": 209.26,
+          "frameStart": 6273,
+          "frameEnd": 6278
+        },
+        {
+          "word": "subscribe",
+          "start": 209.26,
+          "end": 209.66,
+          "frameStart": 6278,
+          "frameEnd": 6290
+        },
+        {
+          "word": "button",
+          "start": 209.66,
+          "end": 210.08,
+          "frameStart": 6290,
+          "frameEnd": 6302
+        },
+        {
+          "word": "and",
+          "start": 210.08,
+          "end": 210.62,
+          "frameStart": 6302,
+          "frameEnd": 6319
+        },
+        {
+          "word": "I'll",
+          "start": 210.62,
+          "end": 210.74,
+          "frameStart": 6319,
+          "frameEnd": 6322
+        },
+        {
+          "word": "see",
+          "start": 210.74,
+          "end": 211.02,
+          "frameStart": 6322,
+          "frameEnd": 6331
+        },
+        {
+          "word": "you",
+          "start": 211.02,
+          "end": 211.3,
+          "frameStart": 6331,
+          "frameEnd": 6339
+        },
+        {
+          "word": "in",
+          "start": 211.3,
+          "end": 211.38,
+          "frameStart": 6339,
+          "frameEnd": 6341
+        },
+        {
+          "word": "the",
+          "start": 211.38,
+          "end": 211.48,
+          "frameStart": 6341,
+          "frameEnd": 6344
+        },
+        {
+          "word": "next",
+          "start": 211.48,
+          "end": 211.72,
+          "frameStart": 6344,
+          "frameEnd": 6352
+        },
+        {
+          "word": "deep",
+          "start": 211.72,
+          "end": 211.9,
+          "frameStart": 6352,
+          "frameEnd": 6357
+        },
+        {
+          "word": "dive.",
+          "start": 211.9,
+          "end": 212.18,
+          "frameStart": 6357,
+          "frameEnd": 6365
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "Just",
+      "start": 0.0,
+      "end": 0.26,
+      "frameStart": 0,
+      "frameEnd": 8
+    },
+    {
+      "word": "when",
+      "start": 0.26,
+      "end": 0.44,
+      "frameStart": 8,
+      "frameEnd": 13
+    },
+    {
+      "word": "Silicon",
+      "start": 0.44,
+      "end": 0.8,
+      "frameStart": 13,
+      "frameEnd": 24
+    },
+    {
+      "word": "Valley",
+      "start": 0.8,
+      "end": 1.2,
+      "frameStart": 24,
+      "frameEnd": 36
+    },
+    {
+      "word": "thought",
+      "start": 1.2,
+      "end": 1.62,
+      "frameStart": 36,
+      "frameEnd": 49
+    },
+    {
+      "word": "proprietary",
+      "start": 1.62,
+      "end": 2.3,
+      "frameStart": 49,
+      "frameEnd": 69
+    },
+    {
+      "word": "frontier",
+      "start": 2.3,
+      "end": 2.78,
+      "frameStart": 69,
+      "frameEnd": 83
+    },
+    {
+      "word": "models",
+      "start": 2.78,
+      "end": 3.26,
+      "frameStart": 83,
+      "frameEnd": 98
+    },
+    {
+      "word": "like",
+      "start": 3.26,
+      "end": 3.54,
+      "frameStart": 98,
+      "frameEnd": 106
+    },
+    {
+      "word": "GPT,",
+      "start": 3.54,
+      "end": 4.42,
+      "frameStart": 106,
+      "frameEnd": 133
+    },
+    {
+      "word": "5",
+      "start": 4.96,
+      "end": 5.18,
+      "frameStart": 149,
+      "frameEnd": 155
+    },
+    {
+      "word": ".6",
+      "start": 5.18,
+      "end": 5.7,
+      "frameStart": 155,
+      "frameEnd": 171
+    },
+    {
+      "word": "and",
+      "start": 5.7,
+      "end": 6.12,
+      "frameStart": 171,
+      "frameEnd": 184
+    },
+    {
+      "word": "Fable",
+      "start": 6.12,
+      "end": 6.44,
+      "frameStart": 184,
+      "frameEnd": 193
+    },
+    {
+      "word": "5",
+      "start": 6.44,
+      "end": 6.74,
+      "frameStart": 193,
+      "frameEnd": 202
+    },
+    {
+      "word": "were",
+      "start": 6.74,
+      "end": 6.96,
+      "frameStart": 202,
+      "frameEnd": 209
+    },
+    {
+      "word": "running",
+      "start": 6.96,
+      "end": 7.2,
+      "frameStart": 209,
+      "frameEnd": 216
+    },
+    {
+      "word": "away",
+      "start": 7.2,
+      "end": 7.5,
+      "frameStart": 216,
+      "frameEnd": 225
+    },
+    {
+      "word": "with",
+      "start": 7.5,
+      "end": 7.72,
+      "frameStart": 225,
+      "frameEnd": 232
+    },
+    {
+      "word": "the",
+      "start": 7.72,
+      "end": 7.84,
+      "frameStart": 232,
+      "frameEnd": 235
+    },
+    {
+      "word": "AI",
+      "start": 7.84,
+      "end": 8.14,
+      "frameStart": 235,
+      "frameEnd": 244
+    },
+    {
+      "word": "race.",
+      "start": 8.14,
+      "end": 8.66,
+      "frameStart": 244,
+      "frameEnd": 260
+    },
+    {
+      "word": "China's",
+      "start": 9.22,
+      "end": 9.58,
+      "frameStart": 277,
+      "frameEnd": 287
+    },
+    {
+      "word": "open",
+      "start": 9.58,
+      "end": 9.82,
+      "frameStart": 287,
+      "frameEnd": 295
+    },
+    {
+      "word": "weights",
+      "start": 9.82,
+      "end": 10.08,
+      "frameStart": 295,
+      "frameEnd": 302
+    },
+    {
+      "word": "juggernaut",
+      "start": 10.08,
+      "end": 10.78,
+      "frameStart": 302,
+      "frameEnd": 323
+    },
+    {
+      "word": "just",
+      "start": 10.78,
+      "end": 10.94,
+      "frameStart": 323,
+      "frameEnd": 328
+    },
+    {
+      "word": "dropped",
+      "start": 10.94,
+      "end": 11.32,
+      "frameStart": 328,
+      "frameEnd": 340
+    },
+    {
+      "word": "a",
+      "start": 11.32,
+      "end": 11.6,
+      "frameStart": 340,
+      "frameEnd": 348
+    },
+    {
+      "word": "nuclear",
+      "start": 11.6,
+      "end": 11.94,
+      "frameStart": 348,
+      "frameEnd": 358
+    },
+    {
+      "word": "bombshell.",
+      "start": 11.94,
+      "end": 12.54,
+      "frameStart": 358,
+      "frameEnd": 376
+    },
+    {
+      "word": "Deepseek",
+      "start": 13.22,
+      "end": 13.74,
+      "frameStart": 397,
+      "frameEnd": 412
+    },
+    {
+      "word": "V4.",
+      "start": 13.74,
+      "end": 14.14,
+      "frameStart": 412,
+      "frameEnd": 424
+    },
+    {
+      "word": "And",
+      "start": 14.72,
+      "end": 14.8,
+      "frameStart": 442,
+      "frameEnd": 444
+    },
+    {
+      "word": "this",
+      "start": 14.8,
+      "end": 14.94,
+      "frameStart": 444,
+      "frameEnd": 448
+    },
+    {
+      "word": "isn't",
+      "start": 14.94,
+      "end": 15.2,
+      "frameStart": 448,
+      "frameEnd": 456
+    },
+    {
+      "word": "just",
+      "start": 15.2,
+      "end": 15.38,
+      "frameStart": 456,
+      "frameEnd": 461
+    },
+    {
+      "word": "another",
+      "start": 15.38,
+      "end": 15.8,
+      "frameStart": 461,
+      "frameEnd": 474
+    },
+    {
+      "word": "incremental",
+      "start": 15.8,
+      "end": 16.22,
+      "frameStart": 474,
+      "frameEnd": 487
+    },
+    {
+      "word": "update.",
+      "start": 16.22,
+      "end": 16.74,
+      "frameStart": 487,
+      "frameEnd": 502
+    },
+    {
+      "word": "With",
+      "start": 17.14,
+      "end": 17.34,
+      "frameStart": 514,
+      "frameEnd": 520
+    },
+    {
+      "word": "1",
+      "start": 17.34,
+      "end": 17.64,
+      "frameStart": 520,
+      "frameEnd": 529
+    },
+    {
+      "word": ".6",
+      "start": 17.64,
+      "end": 18.18,
+      "frameStart": 529,
+      "frameEnd": 545
+    },
+    {
+      "word": "trillion",
+      "start": 18.18,
+      "end": 18.6,
+      "frameStart": 545,
+      "frameEnd": 558
+    },
+    {
+      "word": "parameters,",
+      "start": 18.6,
+      "end": 19.16,
+      "frameStart": 558,
+      "frameEnd": 575
+    },
+    {
+      "word": "a",
+      "start": 19.7,
+      "end": 19.84,
+      "frameStart": 591,
+      "frameEnd": 595
+    },
+    {
+      "word": "radically",
+      "start": 19.84,
+      "end": 20.16,
+      "frameStart": 595,
+      "frameEnd": 605
+    },
+    {
+      "word": "new",
+      "start": 20.16,
+      "end": 20.54,
+      "frameStart": 605,
+      "frameEnd": 616
+    },
+    {
+      "word": "architecture,",
+      "start": 20.54,
+      "end": 21.2,
+      "frameStart": 616,
+      "frameEnd": 636
+    },
+    {
+      "word": "and",
+      "start": 21.58,
+      "end": 21.74,
+      "frameStart": 647,
+      "frameEnd": 652
+    },
+    {
+      "word": "MIT",
+      "start": 21.74,
+      "end": 22.08,
+      "frameStart": 652,
+      "frameEnd": 662
+    },
+    {
+      "word": "licensed",
+      "start": 22.08,
+      "end": 22.64,
+      "frameStart": 662,
+      "frameEnd": 679
+    },
+    {
+      "word": "open",
+      "start": 22.64,
+      "end": 22.96,
+      "frameStart": 679,
+      "frameEnd": 689
+    },
+    {
+      "word": "weights.",
+      "start": 22.96,
+      "end": 23.4,
+      "frameStart": 689,
+      "frameEnd": 702
+    },
+    {
+      "word": "Deepseek",
+      "start": 23.88,
+      "end": 24.32,
+      "frameStart": 716,
+      "frameEnd": 730
+    },
+    {
+      "word": "V4",
+      "start": 24.32,
+      "end": 24.86,
+      "frameStart": 730,
+      "frameEnd": 746
+    },
+    {
+      "word": "is",
+      "start": 24.86,
+      "end": 25.36,
+      "frameStart": 746,
+      "frameEnd": 761
+    },
+    {
+      "word": "delivering",
+      "start": 25.36,
+      "end": 25.84,
+      "frameStart": 761,
+      "frameEnd": 775
+    },
+    {
+      "word": "frontier",
+      "start": 25.84,
+      "end": 26.42,
+      "frameStart": 775,
+      "frameEnd": 793
+    },
+    {
+      "word": "-class",
+      "start": 26.42,
+      "end": 26.88,
+      "frameStart": 793,
+      "frameEnd": 806
+    },
+    {
+      "word": "reasoning",
+      "start": 26.88,
+      "end": 27.38,
+      "frameStart": 806,
+      "frameEnd": 821
+    },
+    {
+      "word": "at",
+      "start": 27.38,
+      "end": 27.82,
+      "frameStart": 821,
+      "frameEnd": 835
+    },
+    {
+      "word": "literally",
+      "start": 27.82,
+      "end": 28.32,
+      "frameStart": 835,
+      "frameEnd": 850
+    },
+    {
+      "word": "one",
+      "start": 28.32,
+      "end": 28.76,
+      "frameStart": 850,
+      "frameEnd": 863
+    },
+    {
+      "word": "-tenth",
+      "start": 28.76,
+      "end": 29.2,
+      "frameStart": 863,
+      "frameEnd": 876
+    },
+    {
+      "word": "the",
+      "start": 29.2,
+      "end": 29.3,
+      "frameStart": 876,
+      "frameEnd": 879
+    },
+    {
+      "word": "cost",
+      "start": 29.3,
+      "end": 29.64,
+      "frameStart": 879,
+      "frameEnd": 889
+    },
+    {
+      "word": "of",
+      "start": 29.64,
+      "end": 29.92,
+      "frameStart": 889,
+      "frameEnd": 898
+    },
+    {
+      "word": "US",
+      "start": 29.92,
+      "end": 30.16,
+      "frameStart": 898,
+      "frameEnd": 905
+    },
+    {
+      "word": "models.",
+      "start": 30.16,
+      "end": 30.58,
+      "frameStart": 905,
+      "frameEnd": 917
+    },
+    {
+      "word": "So,",
+      "start": 31.18,
+      "end": 31.46,
+      "frameStart": 935,
+      "frameEnd": 944
+    },
+    {
+      "word": "how",
+      "start": 31.98,
+      "end": 32.28,
+      "frameStart": 959,
+      "frameEnd": 968
+    },
+    {
+      "word": "does",
+      "start": 32.28,
+      "end": 32.46,
+      "frameStart": 968,
+      "frameEnd": 974
+    },
+    {
+      "word": "Deepseek",
+      "start": 32.46,
+      "end": 33.12,
+      "frameStart": 974,
+      "frameEnd": 994
+    },
+    {
+      "word": "V4",
+      "start": 33.12,
+      "end": 33.74,
+      "frameStart": 994,
+      "frameEnd": 1012
+    },
+    {
+      "word": "actually",
+      "start": 33.74,
+      "end": 34.02,
+      "frameStart": 1012,
+      "frameEnd": 1021
+    },
+    {
+      "word": "work",
+      "start": 34.02,
+      "end": 34.28,
+      "frameStart": 1021,
+      "frameEnd": 1028
+    },
+    {
+      "word": "under",
+      "start": 34.28,
+      "end": 34.44,
+      "frameStart": 1028,
+      "frameEnd": 1033
+    },
+    {
+      "word": "the",
+      "start": 34.44,
+      "end": 34.58,
+      "frameStart": 1033,
+      "frameEnd": 1037
+    },
+    {
+      "word": "hood?",
+      "start": 34.58,
+      "end": 34.7,
+      "frameStart": 1037,
+      "frameEnd": 1041
+    },
+    {
+      "word": "And",
+      "start": 35.24,
+      "end": 35.34,
+      "frameStart": 1057,
+      "frameEnd": 1060
+    },
+    {
+      "word": "does",
+      "start": 35.34,
+      "end": 35.64,
+      "frameStart": 1060,
+      "frameEnd": 1069
+    },
+    {
+      "word": "it",
+      "start": 35.64,
+      "end": 35.76,
+      "frameStart": 1069,
+      "frameEnd": 1073
+    },
+    {
+      "word": "finally",
+      "start": 35.76,
+      "end": 36.16,
+      "frameStart": 1073,
+      "frameEnd": 1085
+    },
+    {
+      "word": "close",
+      "start": 36.16,
+      "end": 36.56,
+      "frameStart": 1085,
+      "frameEnd": 1097
+    },
+    {
+      "word": "the",
+      "start": 36.56,
+      "end": 36.8,
+      "frameStart": 1097,
+      "frameEnd": 1104
+    },
+    {
+      "word": "gap",
+      "start": 36.8,
+      "end": 37.02,
+      "frameStart": 1104,
+      "frameEnd": 1111
+    },
+    {
+      "word": "with",
+      "start": 37.02,
+      "end": 37.36,
+      "frameStart": 1111,
+      "frameEnd": 1121
+    },
+    {
+      "word": "open",
+      "start": 37.36,
+      "end": 37.7,
+      "frameStart": 1121,
+      "frameEnd": 1131
+    },
+    {
+      "word": "AI",
+      "start": 37.7,
+      "end": 38.04,
+      "frameStart": 1131,
+      "frameEnd": 1141
+    },
+    {
+      "word": "and",
+      "start": 38.04,
+      "end": 38.64,
+      "frameStart": 1141,
+      "frameEnd": 1159
+    },
+    {
+      "word": "anthropic?",
+      "start": 38.64,
+      "end": 39.3,
+      "frameStart": 1159,
+      "frameEnd": 1179
+    },
+    {
+      "word": "Let's",
+      "start": 39.74,
+      "end": 39.92,
+      "frameStart": 1192,
+      "frameEnd": 1198
+    },
+    {
+      "word": "dive",
+      "start": 39.92,
+      "end": 40.06,
+      "frameStart": 1198,
+      "frameEnd": 1202
+    },
+    {
+      "word": "in.",
+      "start": 40.06,
+      "end": 40.36,
+      "frameStart": 1202,
+      "frameEnd": 1211
+    },
+    {
+      "word": "To",
+      "start": 40.8,
+      "end": 40.86,
+      "frameStart": 1224,
+      "frameEnd": 1226
+    },
+    {
+      "word": "understand",
+      "start": 40.86,
+      "end": 41.28,
+      "frameStart": 1226,
+      "frameEnd": 1238
+    },
+    {
+      "word": "why",
+      "start": 41.28,
+      "end": 41.82,
+      "frameStart": 1238,
+      "frameEnd": 1255
+    },
+    {
+      "word": "developers",
+      "start": 41.82,
+      "end": 42.28,
+      "frameStart": 1255,
+      "frameEnd": 1268
+    },
+    {
+      "word": "on",
+      "start": 42.28,
+      "end": 42.54,
+      "frameStart": 1268,
+      "frameEnd": 1276
+    },
+    {
+      "word": "X",
+      "start": 42.54,
+      "end": 42.74,
+      "frameStart": 1276,
+      "frameEnd": 1282
+    },
+    {
+      "word": "are",
+      "start": 42.74,
+      "end": 43.0,
+      "frameStart": 1282,
+      "frameEnd": 1290
+    },
+    {
+      "word": "flipping",
+      "start": 43.0,
+      "end": 43.34,
+      "frameStart": 1290,
+      "frameEnd": 1300
+    },
+    {
+      "word": "out",
+      "start": 43.34,
+      "end": 43.56,
+      "frameStart": 1300,
+      "frameEnd": 1307
+    },
+    {
+      "word": "right",
+      "start": 43.56,
+      "end": 43.72,
+      "frameStart": 1307,
+      "frameEnd": 1312
+    },
+    {
+      "word": "now,",
+      "start": 43.72,
+      "end": 44.02,
+      "frameStart": 1312,
+      "frameEnd": 1321
+    },
+    {
+      "word": "we",
+      "start": 44.36,
+      "end": 44.52,
+      "frameStart": 1331,
+      "frameEnd": 1336
+    },
+    {
+      "word": "have",
+      "start": 44.52,
+      "end": 44.6,
+      "frameStart": 1336,
+      "frameEnd": 1338
+    },
+    {
+      "word": "to",
+      "start": 44.6,
+      "end": 44.72,
+      "frameStart": 1338,
+      "frameEnd": 1342
+    },
+    {
+      "word": "look",
+      "start": 44.72,
+      "end": 44.84,
+      "frameStart": 1342,
+      "frameEnd": 1345
+    },
+    {
+      "word": "at",
+      "start": 44.84,
+      "end": 44.96,
+      "frameStart": 1345,
+      "frameEnd": 1349
+    },
+    {
+      "word": "how",
+      "start": 44.96,
+      "end": 45.16,
+      "frameStart": 1349,
+      "frameEnd": 1355
+    },
+    {
+      "word": "Deepseek",
+      "start": 45.16,
+      "end": 45.92,
+      "frameStart": 1355,
+      "frameEnd": 1378
+    },
+    {
+      "word": "solved",
+      "start": 45.92,
+      "end": 46.24,
+      "frameStart": 1378,
+      "frameEnd": 1387
+    },
+    {
+      "word": "the",
+      "start": 46.24,
+      "end": 46.48,
+      "frameStart": 1387,
+      "frameEnd": 1394
+    },
+    {
+      "word": "biggest",
+      "start": 46.48,
+      "end": 46.92,
+      "frameStart": 1394,
+      "frameEnd": 1408
+    },
+    {
+      "word": "bottleneck",
+      "start": 46.92,
+      "end": 47.6,
+      "frameStart": 1408,
+      "frameEnd": 1428
+    },
+    {
+      "word": "in",
+      "start": 47.6,
+      "end": 47.8,
+      "frameStart": 1428,
+      "frameEnd": 1434
+    },
+    {
+      "word": "large",
+      "start": 47.8,
+      "end": 48.22,
+      "frameStart": 1434,
+      "frameEnd": 1447
+    },
+    {
+      "word": "language",
+      "start": 48.22,
+      "end": 48.56,
+      "frameStart": 1447,
+      "frameEnd": 1457
+    },
+    {
+      "word": "models.",
+      "start": 48.56,
+      "end": 48.98,
+      "frameStart": 1457,
+      "frameEnd": 1469
+    },
+    {
+      "word": "Context",
+      "start": 49.6,
+      "end": 50.0,
+      "frameStart": 1488,
+      "frameEnd": 1500
+    },
+    {
+      "word": "memory",
+      "start": 50.0,
+      "end": 50.34,
+      "frameStart": 1500,
+      "frameEnd": 1510
+    },
+    {
+      "word": "and",
+      "start": 50.34,
+      "end": 50.54,
+      "frameStart": 1510,
+      "frameEnd": 1516
+    },
+    {
+      "word": "active",
+      "start": 50.54,
+      "end": 50.8,
+      "frameStart": 1516,
+      "frameEnd": 1524
+    },
+    {
+      "word": "compute.",
+      "start": 50.8,
+      "end": 51.18,
+      "frameStart": 1524,
+      "frameEnd": 1535
+    },
+    {
+      "word": "First,",
+      "start": 51.74,
+      "end": 51.92,
+      "frameStart": 1552,
+      "frameEnd": 1558
+    },
+    {
+      "word": "Deepseek",
+      "start": 52.44,
+      "end": 52.88,
+      "frameStart": 1573,
+      "frameEnd": 1586
+    },
+    {
+      "word": "V4",
+      "start": 52.88,
+      "end": 53.4,
+      "frameStart": 1586,
+      "frameEnd": 1602
+    },
+    {
+      "word": "is",
+      "start": 53.4,
+      "end": 53.8,
+      "frameStart": 1602,
+      "frameEnd": 1614
+    },
+    {
+      "word": "a",
+      "start": 53.8,
+      "end": 53.88,
+      "frameStart": 1614,
+      "frameEnd": 1616
+    },
+    {
+      "word": "mixture",
+      "start": 53.88,
+      "end": 54.14,
+      "frameStart": 1616,
+      "frameEnd": 1624
+    },
+    {
+      "word": "of",
+      "start": 54.14,
+      "end": 54.36,
+      "frameStart": 1624,
+      "frameEnd": 1631
+    },
+    {
+      "word": "experts",
+      "start": 54.36,
+      "end": 54.72,
+      "frameStart": 1631,
+      "frameEnd": 1642
+    },
+    {
+      "word": "model",
+      "start": 54.72,
+      "end": 55.14,
+      "frameStart": 1642,
+      "frameEnd": 1654
+    },
+    {
+      "word": "boasting",
+      "start": 55.14,
+      "end": 55.62,
+      "frameStart": 1654,
+      "frameEnd": 1669
+    },
+    {
+      "word": "1",
+      "start": 55.62,
+      "end": 56.16,
+      "frameStart": 1669,
+      "frameEnd": 1685
+    },
+    {
+      "word": ".6",
+      "start": 56.16,
+      "end": 56.82,
+      "frameStart": 1685,
+      "frameEnd": 1705
+    },
+    {
+      "word": "trillion",
+      "start": 56.82,
+      "end": 57.5,
+      "frameStart": 1705,
+      "frameEnd": 1725
+    },
+    {
+      "word": "total",
+      "start": 57.5,
+      "end": 57.9,
+      "frameStart": 1725,
+      "frameEnd": 1737
+    },
+    {
+      "word": "parameters.",
+      "start": 57.9,
+      "end": 58.34,
+      "frameStart": 1737,
+      "frameEnd": 1750
+    },
+    {
+      "word": "But",
+      "start": 58.82,
+      "end": 59.0,
+      "frameStart": 1765,
+      "frameEnd": 1770
+    },
+    {
+      "word": "here",
+      "start": 59.0,
+      "end": 59.16,
+      "frameStart": 1770,
+      "frameEnd": 1775
+    },
+    {
+      "word": "is",
+      "start": 59.16,
+      "end": 59.32,
+      "frameStart": 1775,
+      "frameEnd": 1780
+    },
+    {
+      "word": "the",
+      "start": 59.32,
+      "end": 59.42,
+      "frameStart": 1780,
+      "frameEnd": 1783
+    },
+    {
+      "word": "insane",
+      "start": 59.42,
+      "end": 59.82,
+      "frameStart": 1783,
+      "frameEnd": 1795
+    },
+    {
+      "word": "part.",
+      "start": 59.82,
+      "end": 60.2,
+      "frameStart": 1795,
+      "frameEnd": 1806
+    },
+    {
+      "word": "It",
+      "start": 60.78,
+      "end": 60.88,
+      "frameStart": 1823,
+      "frameEnd": 1826
+    },
+    {
+      "word": "only",
+      "start": 60.88,
+      "end": 61.12,
+      "frameStart": 1826,
+      "frameEnd": 1834
+    },
+    {
+      "word": "activates",
+      "start": 61.12,
+      "end": 61.6,
+      "frameStart": 1834,
+      "frameEnd": 1848
+    },
+    {
+      "word": "49",
+      "start": 61.6,
+      "end": 62.26,
+      "frameStart": 1848,
+      "frameEnd": 1868
+    },
+    {
+      "word": "billion",
+      "start": 62.26,
+      "end": 62.74,
+      "frameStart": 1868,
+      "frameEnd": 1882
+    },
+    {
+      "word": "parameters",
+      "start": 62.74,
+      "end": 63.28,
+      "frameStart": 1882,
+      "frameEnd": 1898
+    },
+    {
+      "word": "per",
+      "start": 63.28,
+      "end": 63.46,
+      "frameStart": 1898,
+      "frameEnd": 1904
+    },
+    {
+      "word": "token.",
+      "start": 63.46,
+      "end": 63.82,
+      "frameStart": 1904,
+      "frameEnd": 1915
+    },
+    {
+      "word": "That",
+      "start": 64.24,
+      "end": 64.44,
+      "frameStart": 1927,
+      "frameEnd": 1933
+    },
+    {
+      "word": "means",
+      "start": 64.44,
+      "end": 64.54,
+      "frameStart": 1933,
+      "frameEnd": 1936
+    },
+    {
+      "word": "you",
+      "start": 64.54,
+      "end": 64.72,
+      "frameStart": 1936,
+      "frameEnd": 1942
+    },
+    {
+      "word": "get",
+      "start": 64.72,
+      "end": 64.88,
+      "frameStart": 1942,
+      "frameEnd": 1946
+    },
+    {
+      "word": "trillion",
+      "start": 64.88,
+      "end": 65.26,
+      "frameStart": 1946,
+      "frameEnd": 1958
+    },
+    {
+      "word": "parameter",
+      "start": 65.26,
+      "end": 65.88,
+      "frameStart": 1958,
+      "frameEnd": 1976
+    },
+    {
+      "word": "intelligence",
+      "start": 65.88,
+      "end": 66.42,
+      "frameStart": 1976,
+      "frameEnd": 1993
+    },
+    {
+      "word": "with",
+      "start": 66.42,
+      "end": 66.78,
+      "frameStart": 1993,
+      "frameEnd": 2003
+    },
+    {
+      "word": "a",
+      "start": 66.78,
+      "end": 66.88,
+      "frameStart": 2003,
+      "frameEnd": 2006
+    },
+    {
+      "word": "computational",
+      "start": 66.88,
+      "end": 67.56,
+      "frameStart": 2006,
+      "frameEnd": 2027
+    },
+    {
+      "word": "footprint",
+      "start": 67.56,
+      "end": 68.04,
+      "frameStart": 2027,
+      "frameEnd": 2041
+    },
+    {
+      "word": "of",
+      "start": 68.04,
+      "end": 68.4,
+      "frameStart": 2041,
+      "frameEnd": 2052
+    },
+    {
+      "word": "a",
+      "start": 68.4,
+      "end": 68.52,
+      "frameStart": 2052,
+      "frameEnd": 2056
+    },
+    {
+      "word": "medium",
+      "start": 68.52,
+      "end": 68.9,
+      "frameStart": 2056,
+      "frameEnd": 2067
+    },
+    {
+      "word": "-sized",
+      "start": 68.9,
+      "end": 69.24,
+      "frameStart": 2067,
+      "frameEnd": 2077
+    },
+    {
+      "word": "model.",
+      "start": 69.24,
+      "end": 69.72,
+      "frameStart": 2077,
+      "frameEnd": 2092
+    },
+    {
+      "word": "Second,",
+      "start": 70.22,
+      "end": 70.6,
+      "frameStart": 2107,
+      "frameEnd": 2118
+    },
+    {
+      "word": "they",
+      "start": 71.0,
+      "end": 71.12,
+      "frameStart": 2130,
+      "frameEnd": 2134
+    },
+    {
+      "word": "scrap",
+      "start": 71.12,
+      "end": 71.44,
+      "frameStart": 2134,
+      "frameEnd": 2143
+    },
+    {
+      "word": "their",
+      "start": 71.44,
+      "end": 71.7,
+      "frameStart": 2143,
+      "frameEnd": 2151
+    },
+    {
+      "word": "previous",
+      "start": 71.7,
+      "end": 72.34,
+      "frameStart": 2151,
+      "frameEnd": 2170
+    },
+    {
+      "word": "multi",
+      "start": 72.34,
+      "end": 72.8,
+      "frameStart": 2170,
+      "frameEnd": 2184
+    },
+    {
+      "word": "-head",
+      "start": 72.8,
+      "end": 73.06,
+      "frameStart": 2184,
+      "frameEnd": 2192
+    },
+    {
+      "word": "latent",
+      "start": 73.06,
+      "end": 73.36,
+      "frameStart": 2192,
+      "frameEnd": 2201
+    },
+    {
+      "word": "attention",
+      "start": 73.36,
+      "end": 73.82,
+      "frameStart": 2201,
+      "frameEnd": 2215
+    },
+    {
+      "word": "for",
+      "start": 73.82,
+      "end": 74.26,
+      "frameStart": 2215,
+      "frameEnd": 2228
+    },
+    {
+      "word": "a",
+      "start": 74.26,
+      "end": 74.4,
+      "frameStart": 2228,
+      "frameEnd": 2232
+    },
+    {
+      "word": "brand",
+      "start": 74.4,
+      "end": 74.66,
+      "frameStart": 2232,
+      "frameEnd": 2240
+    },
+    {
+      "word": "new",
+      "start": 74.66,
+      "end": 75.08,
+      "frameStart": 2240,
+      "frameEnd": 2252
+    },
+    {
+      "word": "hybrid",
+      "start": 75.08,
+      "end": 75.56,
+      "frameStart": 2252,
+      "frameEnd": 2267
+    },
+    {
+      "word": "attention",
+      "start": 75.56,
+      "end": 75.86,
+      "frameStart": 2267,
+      "frameEnd": 2276
+    },
+    {
+      "word": "system,",
+      "start": 75.86,
+      "end": 76.5,
+      "frameStart": 2276,
+      "frameEnd": 2295
+    },
+    {
+      "word": "combining",
+      "start": 76.74,
+      "end": 77.16,
+      "frameStart": 2302,
+      "frameEnd": 2315
+    },
+    {
+      "word": "compressed",
+      "start": 77.16,
+      "end": 77.68,
+      "frameStart": 2315,
+      "frameEnd": 2330
+    },
+    {
+      "word": "bar's",
+      "start": 77.68,
+      "end": 78.1,
+      "frameStart": 2330,
+      "frameEnd": 2343
+    },
+    {
+      "word": "attention",
+      "start": 78.1,
+      "end": 78.44,
+      "frameStart": 2343,
+      "frameEnd": 2353
+    },
+    {
+      "word": "and",
+      "start": 78.44,
+      "end": 78.92,
+      "frameStart": 2353,
+      "frameEnd": 2368
+    },
+    {
+      "word": "heavily",
+      "start": 78.92,
+      "end": 79.42,
+      "frameStart": 2368,
+      "frameEnd": 2383
+    },
+    {
+      "word": "compressed",
+      "start": 79.42,
+      "end": 79.76,
+      "frameStart": 2383,
+      "frameEnd": 2393
+    },
+    {
+      "word": "attention.",
+      "start": 79.76,
+      "end": 80.18,
+      "frameStart": 2393,
+      "frameEnd": 2405
+    },
+    {
+      "word": "This",
+      "start": 80.7,
+      "end": 80.98,
+      "frameStart": 2421,
+      "frameEnd": 2429
+    },
+    {
+      "word": "innovation",
+      "start": 80.98,
+      "end": 81.56,
+      "frameStart": 2429,
+      "frameEnd": 2447
+    },
+    {
+      "word": "allows",
+      "start": 81.56,
+      "end": 82.04,
+      "frameStart": 2447,
+      "frameEnd": 2461
+    },
+    {
+      "word": "Deepseek",
+      "start": 82.04,
+      "end": 82.74,
+      "frameStart": 2461,
+      "frameEnd": 2482
+    },
+    {
+      "word": "V4",
+      "start": 82.74,
+      "end": 83.24,
+      "frameStart": 2482,
+      "frameEnd": 2497
+    },
+    {
+      "word": "to",
+      "start": 83.24,
+      "end": 83.74,
+      "frameStart": 2497,
+      "frameEnd": 2512
+    },
+    {
+      "word": "effortlessly",
+      "start": 83.74,
+      "end": 84.34,
+      "frameStart": 2512,
+      "frameEnd": 2530
+    },
+    {
+      "word": "process",
+      "start": 84.34,
+      "end": 84.86,
+      "frameStart": 2530,
+      "frameEnd": 2546
+    },
+    {
+      "word": "a",
+      "start": 84.86,
+      "end": 85.28,
+      "frameStart": 2546,
+      "frameEnd": 2558
+    },
+    {
+      "word": "massive",
+      "start": 85.28,
+      "end": 85.88,
+      "frameStart": 2558,
+      "frameEnd": 2576
+    },
+    {
+      "word": "1",
+      "start": 85.88,
+      "end": 86.52,
+      "frameStart": 2576,
+      "frameEnd": 2596
+    },
+    {
+      "word": "million",
+      "start": 86.52,
+      "end": 86.92,
+      "frameStart": 2596,
+      "frameEnd": 2608
+    },
+    {
+      "word": "token",
+      "start": 86.92,
+      "end": 87.3,
+      "frameStart": 2608,
+      "frameEnd": 2619
+    },
+    {
+      "word": "context",
+      "start": 87.3,
+      "end": 87.8,
+      "frameStart": 2619,
+      "frameEnd": 2634
+    },
+    {
+      "word": "window",
+      "start": 87.8,
+      "end": 88.24,
+      "frameStart": 2634,
+      "frameEnd": 2647
+    },
+    {
+      "word": "without",
+      "start": 88.24,
+      "end": 88.8,
+      "frameStart": 2647,
+      "frameEnd": 2664
+    },
+    {
+      "word": "exploding",
+      "start": 88.8,
+      "end": 89.42,
+      "frameStart": 2664,
+      "frameEnd": 2683
+    },
+    {
+      "word": "GPU",
+      "start": 89.42,
+      "end": 89.84,
+      "frameStart": 2683,
+      "frameEnd": 2695
+    },
+    {
+      "word": "memory",
+      "start": 89.84,
+      "end": 90.24,
+      "frameStart": 2695,
+      "frameEnd": 2707
+    },
+    {
+      "word": "requirements.",
+      "start": 90.24,
+      "end": 90.8,
+      "frameStart": 2707,
+      "frameEnd": 2724
+    },
+    {
+      "word": "And",
+      "start": 91.24,
+      "end": 91.58,
+      "frameStart": 2737,
+      "frameEnd": 2747
+    },
+    {
+      "word": "if",
+      "start": 91.58,
+      "end": 91.74,
+      "frameStart": 2747,
+      "frameEnd": 2752
+    },
+    {
+      "word": "that",
+      "start": 91.74,
+      "end": 91.9,
+      "frameStart": 2752,
+      "frameEnd": 2757
+    },
+    {
+      "word": "wasn't",
+      "start": 91.9,
+      "end": 92.26,
+      "frameStart": 2757,
+      "frameEnd": 2768
+    },
+    {
+      "word": "enough,",
+      "start": 92.26,
+      "end": 92.52,
+      "frameStart": 2768,
+      "frameEnd": 2776
+    },
+    {
+      "word": "they",
+      "start": 93.0,
+      "end": 93.06,
+      "frameStart": 2790,
+      "frameEnd": 2792
+    },
+    {
+      "word": "introduced",
+      "start": 93.06,
+      "end": 93.78,
+      "frameStart": 2792,
+      "frameEnd": 2813
+    },
+    {
+      "word": "Ingram",
+      "start": 93.78,
+      "end": 94.34,
+      "frameStart": 2813,
+      "frameEnd": 2830
+    },
+    {
+      "word": "Memory,",
+      "start": 94.34,
+      "end": 94.82,
+      "frameStart": 2830,
+      "frameEnd": 2845
+    },
+    {
+      "word": "a",
+      "start": 95.3,
+      "end": 95.46,
+      "frameStart": 2859,
+      "frameEnd": 2864
+    },
+    {
+      "word": "revolutionary",
+      "start": 95.46,
+      "end": 95.96,
+      "frameStart": 2864,
+      "frameEnd": 2879
+    },
+    {
+      "word": "conditional",
+      "start": 95.96,
+      "end": 96.86,
+      "frameStart": 2879,
+      "frameEnd": 2906
+    },
+    {
+      "word": "memory",
+      "start": 96.86,
+      "end": 97.14,
+      "frameStart": 2906,
+      "frameEnd": 2914
+    },
+    {
+      "word": "structure",
+      "start": 97.14,
+      "end": 97.7,
+      "frameStart": 2914,
+      "frameEnd": 2931
+    },
+    {
+      "word": "that's",
+      "start": 97.7,
+      "end": 98.28,
+      "frameStart": 2931,
+      "frameEnd": 2948
+    },
+    {
+      "word": "separate",
+      "start": 98.28,
+      "end": 98.52,
+      "frameStart": 2948,
+      "frameEnd": 2956
+    },
+    {
+      "word": "static",
+      "start": 98.52,
+      "end": 99.02,
+      "frameStart": 2956,
+      "frameEnd": 2971
+    },
+    {
+      "word": "factual",
+      "start": 99.02,
+      "end": 99.54,
+      "frameStart": 2971,
+      "frameEnd": 2986
+    },
+    {
+      "word": "knowledge",
+      "start": 99.54,
+      "end": 99.96,
+      "frameStart": 2986,
+      "frameEnd": 2999
+    },
+    {
+      "word": "for",
+      "start": 99.96,
+      "end": 100.34,
+      "frameStart": 2999,
+      "frameEnd": 3010
+    },
+    {
+      "word": "dynamic",
+      "start": 100.34,
+      "end": 100.68,
+      "frameStart": 3010,
+      "frameEnd": 3020
+    },
+    {
+      "word": "reasoning.",
+      "start": 100.68,
+      "end": 101.14,
+      "frameStart": 3020,
+      "frameEnd": 3034
+    },
+    {
+      "word": "Instead",
+      "start": 101.54,
+      "end": 102.02,
+      "frameStart": 3046,
+      "frameEnd": 3061
+    },
+    {
+      "word": "of",
+      "start": 102.02,
+      "end": 102.3,
+      "frameStart": 3061,
+      "frameEnd": 3069
+    },
+    {
+      "word": "wasting",
+      "start": 102.3,
+      "end": 102.66,
+      "frameStart": 3069,
+      "frameEnd": 3080
+    },
+    {
+      "word": "compute",
+      "start": 102.66,
+      "end": 103.16,
+      "frameStart": 3080,
+      "frameEnd": 3095
+    },
+    {
+      "word": "trying",
+      "start": 103.16,
+      "end": 103.68,
+      "frameStart": 3095,
+      "frameEnd": 3110
+    },
+    {
+      "word": "to",
+      "start": 103.68,
+      "end": 103.88,
+      "frameStart": 3110,
+      "frameEnd": 3116
+    },
+    {
+      "word": "recall",
+      "start": 103.88,
+      "end": 104.14,
+      "frameStart": 3116,
+      "frameEnd": 3124
+    },
+    {
+      "word": "facts",
+      "start": 104.14,
+      "end": 104.8,
+      "frameStart": 3124,
+      "frameEnd": 3144
+    },
+    {
+      "word": "through",
+      "start": 104.8,
+      "end": 105.0,
+      "frameStart": 3144,
+      "frameEnd": 3150
+    },
+    {
+      "word": "complex",
+      "start": 105.0,
+      "end": 105.58,
+      "frameStart": 3150,
+      "frameEnd": 3167
+    },
+    {
+      "word": "attention",
+      "start": 105.58,
+      "end": 106.0,
+      "frameStart": 3167,
+      "frameEnd": 3180
+    },
+    {
+      "word": "heads,",
+      "start": 106.0,
+      "end": 106.52,
+      "frameStart": 3180,
+      "frameEnd": 3196
+    },
+    {
+      "word": "Ingram",
+      "start": 106.92,
+      "end": 107.34,
+      "frameStart": 3208,
+      "frameEnd": 3220
+    },
+    {
+      "word": "Memory",
+      "start": 107.34,
+      "end": 107.8,
+      "frameStart": 3220,
+      "frameEnd": 3234
+    },
+    {
+      "word": "retrieves",
+      "start": 107.8,
+      "end": 108.66,
+      "frameStart": 3234,
+      "frameEnd": 3260
+    },
+    {
+      "word": "data",
+      "start": 108.66,
+      "end": 108.98,
+      "frameStart": 3260,
+      "frameEnd": 3269
+    },
+    {
+      "word": "like",
+      "start": 108.98,
+      "end": 109.48,
+      "frameStart": 3269,
+      "frameEnd": 3284
+    },
+    {
+      "word": "an",
+      "start": 109.48,
+      "end": 109.62,
+      "frameStart": 3284,
+      "frameEnd": 3289
+    },
+    {
+      "word": "ultra",
+      "start": 109.62,
+      "end": 110.02,
+      "frameStart": 3289,
+      "frameEnd": 3301
+    },
+    {
+      "word": "-fast",
+      "start": 110.02,
+      "end": 110.52,
+      "frameStart": 3301,
+      "frameEnd": 3316
+    },
+    {
+      "word": "lookup",
+      "start": 110.52,
+      "end": 110.94,
+      "frameStart": 3316,
+      "frameEnd": 3328
+    },
+    {
+      "word": "table,",
+      "start": 110.94,
+      "end": 111.32,
+      "frameStart": 3328,
+      "frameEnd": 3340
+    },
+    {
+      "word": "slashing",
+      "start": 111.9,
+      "end": 112.26,
+      "frameStart": 3357,
+      "frameEnd": 3368
+    },
+    {
+      "word": "latency",
+      "start": 112.26,
+      "end": 112.78,
+      "frameStart": 3368,
+      "frameEnd": 3383
+    },
+    {
+      "word": "and",
+      "start": 112.78,
+      "end": 113.3,
+      "frameStart": 3383,
+      "frameEnd": 3399
+    },
+    {
+      "word": "reducing",
+      "start": 113.3,
+      "end": 113.82,
+      "frameStart": 3399,
+      "frameEnd": 3415
+    },
+    {
+      "word": "hallucinations.",
+      "start": 113.82,
+      "end": 114.72,
+      "frameStart": 3415,
+      "frameEnd": 3442
+    },
+    {
+      "word": "So",
+      "start": 115.14,
+      "end": 115.48,
+      "frameStart": 3454,
+      "frameEnd": 3464
+    },
+    {
+      "word": "how",
+      "start": 115.48,
+      "end": 115.62,
+      "frameStart": 3464,
+      "frameEnd": 3469
+    },
+    {
+      "word": "does",
+      "start": 115.62,
+      "end": 115.74,
+      "frameStart": 3469,
+      "frameEnd": 3472
+    },
+    {
+      "word": "this",
+      "start": 115.74,
+      "end": 115.92,
+      "frameStart": 3472,
+      "frameEnd": 3478
+    },
+    {
+      "word": "open",
+      "start": 115.92,
+      "end": 116.28,
+      "frameStart": 3478,
+      "frameEnd": 3488
+    },
+    {
+      "word": "weights",
+      "start": 116.28,
+      "end": 116.58,
+      "frameStart": 3488,
+      "frameEnd": 3497
+    },
+    {
+      "word": "tighten",
+      "start": 116.58,
+      "end": 117.2,
+      "frameStart": 3497,
+      "frameEnd": 3516
+    },
+    {
+      "word": "stack",
+      "start": 117.2,
+      "end": 117.62,
+      "frameStart": 3516,
+      "frameEnd": 3529
+    },
+    {
+      "word": "up",
+      "start": 117.62,
+      "end": 117.9,
+      "frameStart": 3529,
+      "frameEnd": 3537
+    },
+    {
+      "word": "against",
+      "start": 117.9,
+      "end": 118.28,
+      "frameStart": 3537,
+      "frameEnd": 3548
+    },
+    {
+      "word": "American",
+      "start": 118.28,
+      "end": 118.66,
+      "frameStart": 3548,
+      "frameEnd": 3560
+    },
+    {
+      "word": "giants",
+      "start": 118.66,
+      "end": 119.06,
+      "frameStart": 3560,
+      "frameEnd": 3572
+    },
+    {
+      "word": "like",
+      "start": 119.06,
+      "end": 119.38,
+      "frameStart": 3572,
+      "frameEnd": 3581
+    },
+    {
+      "word": "GPT,",
+      "start": 119.38,
+      "end": 120.18,
+      "frameStart": 3581,
+      "frameEnd": 3605
+    },
+    {
+      "word": "5",
+      "start": 120.78,
+      "end": 120.96,
+      "frameStart": 3623,
+      "frameEnd": 3629
+    },
+    {
+      "word": ".5,",
+      "start": 120.96,
+      "end": 121.66,
+      "frameStart": 3629,
+      "frameEnd": 3650
+    },
+    {
+      "word": "GPT,",
+      "start": 122.14,
+      "end": 122.82,
+      "frameStart": 3664,
+      "frameEnd": 3685
+    },
+    {
+      "word": "5",
+      "start": 123.4,
+      "end": 123.52,
+      "frameStart": 3702,
+      "frameEnd": 3706
+    },
+    {
+      "word": ".6,",
+      "start": 123.52,
+      "end": 124.12,
+      "frameStart": 3706,
+      "frameEnd": 3724
+    },
+    {
+      "word": "and",
+      "start": 124.62,
+      "end": 124.72,
+      "frameStart": 3739,
+      "frameEnd": 3742
+    },
+    {
+      "word": "Fable",
+      "start": 124.72,
+      "end": 125.12,
+      "frameStart": 3742,
+      "frameEnd": 3754
+    },
+    {
+      "word": "5,",
+      "start": 125.12,
+      "end": 125.52,
+      "frameStart": 3754,
+      "frameEnd": 3766
+    },
+    {
+      "word": "and",
+      "start": 125.98,
+      "end": 126.12,
+      "frameStart": 3779,
+      "frameEnd": 3784
+    },
+    {
+      "word": "dual",
+      "start": 126.12,
+      "end": 126.46,
+      "frameStart": 3784,
+      "frameEnd": 3794
+    },
+    {
+      "word": "mode",
+      "start": 126.46,
+      "end": 126.76,
+      "frameStart": 3794,
+      "frameEnd": 3803
+    },
+    {
+      "word": "testing.",
+      "start": 126.76,
+      "end": 127.26,
+      "frameStart": 3803,
+      "frameEnd": 3818
+    },
+    {
+      "word": "Deepseek",
+      "start": 127.72,
+      "end": 128.12,
+      "frameStart": 3832,
+      "frameEnd": 3844
+    },
+    {
+      "word": "V4",
+      "start": 128.12,
+      "end": 128.62,
+      "frameStart": 3844,
+      "frameEnd": 3859
+    },
+    {
+      "word": "offers",
+      "start": 128.62,
+      "end": 129.02,
+      "frameStart": 3859,
+      "frameEnd": 3871
+    },
+    {
+      "word": "both",
+      "start": 129.02,
+      "end": 129.3,
+      "frameStart": 3871,
+      "frameEnd": 3879
+    },
+    {
+      "word": "a",
+      "start": 129.3,
+      "end": 129.46,
+      "frameStart": 3879,
+      "frameEnd": 3884
+    },
+    {
+      "word": "lightning",
+      "start": 129.46,
+      "end": 129.88,
+      "frameStart": 3884,
+      "frameEnd": 3896
+    },
+    {
+      "word": "fast,",
+      "start": 129.88,
+      "end": 130.4,
+      "frameStart": 3896,
+      "frameEnd": 3912
+    },
+    {
+      "word": "non",
+      "start": 130.74,
+      "end": 131.04,
+      "frameStart": 3922,
+      "frameEnd": 3931
+    },
+    {
+      "word": "-thinking",
+      "start": 131.04,
+      "end": 131.34,
+      "frameStart": 3931,
+      "frameEnd": 3940
+    },
+    {
+      "word": "mode",
+      "start": 131.34,
+      "end": 131.76,
+      "frameStart": 3940,
+      "frameEnd": 3953
+    },
+    {
+      "word": "and",
+      "start": 131.76,
+      "end": 132.28,
+      "frameStart": 3953,
+      "frameEnd": 3968
+    },
+    {
+      "word": "a",
+      "start": 132.28,
+      "end": 132.42,
+      "frameStart": 3968,
+      "frameEnd": 3973
+    },
+    {
+      "word": "rigorous",
+      "start": 132.42,
+      "end": 132.74,
+      "frameStart": 3973,
+      "frameEnd": 3982
+    },
+    {
+      "word": "chain",
+      "start": 132.74,
+      "end": 133.08,
+      "frameStart": 3982,
+      "frameEnd": 3992
+    },
+    {
+      "word": "of",
+      "start": 133.08,
+      "end": 133.24,
+      "frameStart": 3992,
+      "frameEnd": 3997
+    },
+    {
+      "word": "thought",
+      "start": 133.24,
+      "end": 133.52,
+      "frameStart": 3997,
+      "frameEnd": 4006
+    },
+    {
+      "word": "thinking",
+      "start": 133.52,
+      "end": 133.88,
+      "frameStart": 4006,
+      "frameEnd": 4016
+    },
+    {
+      "word": "mode.",
+      "start": 133.88,
+      "end": 134.32,
+      "frameStart": 4016,
+      "frameEnd": 4030
+    },
+    {
+      "word": "On",
+      "start": 134.32,
+      "end": 134.86,
+      "frameStart": 4030,
+      "frameEnd": 4046
+    },
+    {
+      "word": "competitive",
+      "start": 134.86,
+      "end": 135.36,
+      "frameStart": 4046,
+      "frameEnd": 4061
+    },
+    {
+      "word": "coding",
+      "start": 135.36,
+      "end": 135.72,
+      "frameStart": 4061,
+      "frameEnd": 4072
+    },
+    {
+      "word": "benchmarks",
+      "start": 135.72,
+      "end": 136.24,
+      "frameStart": 4072,
+      "frameEnd": 4087
+    },
+    {
+      "word": "like",
+      "start": 136.24,
+      "end": 136.58,
+      "frameStart": 4087,
+      "frameEnd": 4097
+    },
+    {
+      "word": "live",
+      "start": 136.58,
+      "end": 136.86,
+      "frameStart": 4097,
+      "frameEnd": 4106
+    },
+    {
+      "word": "code",
+      "start": 136.86,
+      "end": 137.14,
+      "frameStart": 4106,
+      "frameEnd": 4114
+    },
+    {
+      "word": "bench,",
+      "start": 137.14,
+      "end": 137.64,
+      "frameStart": 4114,
+      "frameEnd": 4129
+    },
+    {
+      "word": "complex",
+      "start": 137.98,
+      "end": 138.3,
+      "frameStart": 4139,
+      "frameEnd": 4149
+    },
+    {
+      "word": "engineering",
+      "start": 138.3,
+      "end": 138.86,
+      "frameStart": 4149,
+      "frameEnd": 4166
+    },
+    {
+      "word": "tasks,",
+      "start": 138.86,
+      "end": 139.44,
+      "frameStart": 4166,
+      "frameEnd": 4183
+    },
+    {
+      "word": "and",
+      "start": 139.9,
+      "end": 140.0,
+      "frameStart": 4197,
+      "frameEnd": 4200
+    },
+    {
+      "word": "advanced",
+      "start": 140.0,
+      "end": 140.44,
+      "frameStart": 4200,
+      "frameEnd": 4213
+    },
+    {
+      "word": "PhD",
+      "start": 140.44,
+      "end": 140.74,
+      "frameStart": 4213,
+      "frameEnd": 4222
+    },
+    {
+      "word": "level",
+      "start": 140.74,
+      "end": 141.16,
+      "frameStart": 4222,
+      "frameEnd": 4235
+    },
+    {
+      "word": "math,",
+      "start": 141.16,
+      "end": 141.66,
+      "frameStart": 4235,
+      "frameEnd": 4250
+    },
+    {
+      "word": "Deepseek",
+      "start": 142.06,
+      "end": 142.52,
+      "frameStart": 4262,
+      "frameEnd": 4276
+    },
+    {
+      "word": "V4",
+      "start": 142.52,
+      "end": 143.02,
+      "frameStart": 4276,
+      "frameEnd": 4291
+    },
+    {
+      "word": "Pro",
+      "start": 143.02,
+      "end": 143.36,
+      "frameStart": 4291,
+      "frameEnd": 4301
+    },
+    {
+      "word": "goes",
+      "start": 143.36,
+      "end": 143.88,
+      "frameStart": 4301,
+      "frameEnd": 4316
+    },
+    {
+      "word": "toe",
+      "start": 143.88,
+      "end": 144.18,
+      "frameStart": 4316,
+      "frameEnd": 4325
+    },
+    {
+      "word": "-to",
+      "start": 144.18,
+      "end": 144.28,
+      "frameStart": 4325,
+      "frameEnd": 4328
+    },
+    {
+      "word": "-toe",
+      "start": 144.28,
+      "end": 144.86,
+      "frameStart": 4328,
+      "frameEnd": 4346
+    },
+    {
+      "word": "with",
+      "start": 144.86,
+      "end": 145.0,
+      "frameStart": 4346,
+      "frameEnd": 4350
+    },
+    {
+      "word": "proprietary",
+      "start": 145.0,
+      "end": 145.54,
+      "frameStart": 4350,
+      "frameEnd": 4366
+    },
+    {
+      "word": "US",
+      "start": 145.54,
+      "end": 145.96,
+      "frameStart": 4366,
+      "frameEnd": 4379
+    },
+    {
+      "word": "models,",
+      "start": 145.96,
+      "end": 146.52,
+      "frameStart": 4379,
+      "frameEnd": 4396
+    },
+    {
+      "word": "often",
+      "start": 146.96,
+      "end": 147.4,
+      "frameStart": 4409,
+      "frameEnd": 4422
+    },
+    {
+      "word": "trading",
+      "start": 147.4,
+      "end": 147.78,
+      "frameStart": 4422,
+      "frameEnd": 4433
+    },
+    {
+      "word": "blows",
+      "start": 147.78,
+      "end": 148.14,
+      "frameStart": 4433,
+      "frameEnd": 4444
+    },
+    {
+      "word": "for",
+      "start": 148.14,
+      "end": 148.38,
+      "frameStart": 4444,
+      "frameEnd": 4451
+    },
+    {
+      "word": "the",
+      "start": 148.38,
+      "end": 148.48,
+      "frameStart": 4451,
+      "frameEnd": 4454
+    },
+    {
+      "word": "top",
+      "start": 148.48,
+      "end": 148.64,
+      "frameStart": 4454,
+      "frameEnd": 4459
+    },
+    {
+      "word": "spot,",
+      "start": 148.64,
+      "end": 149.04,
+      "frameStart": 4459,
+      "frameEnd": 4471
+    },
+    {
+      "word": "while",
+      "start": 149.52,
+      "end": 149.66,
+      "frameStart": 4486,
+      "frameEnd": 4490
+    },
+    {
+      "word": "US",
+      "start": 149.66,
+      "end": 149.98,
+      "frameStart": 4490,
+      "frameEnd": 4499
+    },
+    {
+      "word": "frontier",
+      "start": 149.98,
+      "end": 150.34,
+      "frameStart": 4499,
+      "frameEnd": 4510
+    },
+    {
+      "word": "models",
+      "start": 150.34,
+      "end": 150.84,
+      "frameStart": 4510,
+      "frameEnd": 4525
+    },
+    {
+      "word": "still",
+      "start": 150.84,
+      "end": 151.24,
+      "frameStart": 4525,
+      "frameEnd": 4537
+    },
+    {
+      "word": "maintain",
+      "start": 151.24,
+      "end": 151.62,
+      "frameStart": 4537,
+      "frameEnd": 4549
+    },
+    {
+      "word": "a",
+      "start": 151.62,
+      "end": 151.82,
+      "frameStart": 4549,
+      "frameEnd": 4555
+    },
+    {
+      "word": "slight",
+      "start": 151.82,
+      "end": 152.18,
+      "frameStart": 4555,
+      "frameEnd": 4565
+    },
+    {
+      "word": "edge",
+      "start": 152.18,
+      "end": 152.74,
+      "frameStart": 4565,
+      "frameEnd": 4582
+    },
+    {
+      "word": "in",
+      "start": 152.74,
+      "end": 153.08,
+      "frameStart": 4582,
+      "frameEnd": 4592
+    },
+    {
+      "word": "ultra",
+      "start": 153.08,
+      "end": 153.52,
+      "frameStart": 4592,
+      "frameEnd": 4606
+    },
+    {
+      "word": "-long",
+      "start": 153.52,
+      "end": 153.78,
+      "frameStart": 4606,
+      "frameEnd": 4613
+    },
+    {
+      "word": "horizon",
+      "start": 153.78,
+      "end": 154.2,
+      "frameStart": 4613,
+      "frameEnd": 4626
+    },
+    {
+      "word": "agentic",
+      "start": 154.2,
+      "end": 154.94,
+      "frameStart": 4626,
+      "frameEnd": 4648
+    },
+    {
+      "word": "planning",
+      "start": 154.94,
+      "end": 155.28,
+      "frameStart": 4648,
+      "frameEnd": 4658
+    },
+    {
+      "word": "and",
+      "start": 155.28,
+      "end": 155.7,
+      "frameStart": 4658,
+      "frameEnd": 4671
+    },
+    {
+      "word": "creative",
+      "start": 155.7,
+      "end": 156.14,
+      "frameStart": 4671,
+      "frameEnd": 4684
+    },
+    {
+      "word": "nuance.",
+      "start": 156.14,
+      "end": 156.56,
+      "frameStart": 4684,
+      "frameEnd": 4697
+    },
+    {
+      "word": "The",
+      "start": 157.18,
+      "end": 157.32,
+      "frameStart": 4715,
+      "frameEnd": 4720
+    },
+    {
+      "word": "gap",
+      "start": 157.32,
+      "end": 157.46,
+      "frameStart": 4720,
+      "frameEnd": 4724
+    },
+    {
+      "word": "has",
+      "start": 157.46,
+      "end": 157.64,
+      "frameStart": 4724,
+      "frameEnd": 4729
+    },
+    {
+      "word": "shrunk",
+      "start": 157.64,
+      "end": 157.94,
+      "frameStart": 4729,
+      "frameEnd": 4738
+    },
+    {
+      "word": "from",
+      "start": 157.94,
+      "end": 158.14,
+      "frameStart": 4738,
+      "frameEnd": 4744
+    },
+    {
+      "word": "years",
+      "start": 158.14,
+      "end": 158.4,
+      "frameStart": 4744,
+      "frameEnd": 4752
+    },
+    {
+      "word": "down",
+      "start": 158.4,
+      "end": 158.7,
+      "frameStart": 4752,
+      "frameEnd": 4761
+    },
+    {
+      "word": "to",
+      "start": 158.7,
+      "end": 158.94,
+      "frameStart": 4761,
+      "frameEnd": 4768
+    },
+    {
+      "word": "just",
+      "start": 158.94,
+      "end": 159.16,
+      "frameStart": 4768,
+      "frameEnd": 4775
+    },
+    {
+      "word": "weeks.",
+      "start": 159.16,
+      "end": 159.54,
+      "frameStart": 4775,
+      "frameEnd": 4786
+    },
+    {
+      "word": "And",
+      "start": 160.26,
+      "end": 160.32,
+      "frameStart": 4808,
+      "frameEnd": 4810
+    },
+    {
+      "word": "when",
+      "start": 160.32,
+      "end": 160.42,
+      "frameStart": 4810,
+      "frameEnd": 4813
+    },
+    {
+      "word": "you",
+      "start": 160.42,
+      "end": 160.48,
+      "frameStart": 4813,
+      "frameEnd": 4814
+    },
+    {
+      "word": "look",
+      "start": 160.48,
+      "end": 160.6,
+      "frameStart": 4814,
+      "frameEnd": 4818
+    },
+    {
+      "word": "at",
+      "start": 160.6,
+      "end": 160.7,
+      "frameStart": 4818,
+      "frameEnd": 4821
+    },
+    {
+      "word": "the",
+      "start": 160.7,
+      "end": 160.78,
+      "frameStart": 4821,
+      "frameEnd": 4823
+    },
+    {
+      "word": "economics,",
+      "start": 160.78,
+      "end": 161.3,
+      "frameStart": 4823,
+      "frameEnd": 4839
+    },
+    {
+      "word": "it's",
+      "start": 161.72,
+      "end": 161.92,
+      "frameStart": 4852,
+      "frameEnd": 4858
+    },
+    {
+      "word": "not",
+      "start": 161.92,
+      "end": 162.12,
+      "frameStart": 4858,
+      "frameEnd": 4864
+    },
+    {
+      "word": "even",
+      "start": 162.12,
+      "end": 162.34,
+      "frameStart": 4864,
+      "frameEnd": 4870
+    },
+    {
+      "word": "a",
+      "start": 162.34,
+      "end": 162.42,
+      "frameStart": 4870,
+      "frameEnd": 4873
+    },
+    {
+      "word": "debate.",
+      "start": 162.42,
+      "end": 162.78,
+      "frameStart": 4873,
+      "frameEnd": 4883
+    },
+    {
+      "word": "Deepseek",
+      "start": 163.38,
+      "end": 163.8,
+      "frameStart": 4901,
+      "frameEnd": 4914
+    },
+    {
+      "word": "V4",
+      "start": 163.8,
+      "end": 164.22,
+      "frameStart": 4914,
+      "frameEnd": 4927
+    },
+    {
+      "word": "costs",
+      "start": 164.22,
+      "end": 164.62,
+      "frameStart": 4927,
+      "frameEnd": 4939
+    },
+    {
+      "word": "roughly",
+      "start": 164.62,
+      "end": 165.12,
+      "frameStart": 4939,
+      "frameEnd": 4954
+    },
+    {
+      "word": "7",
+      "start": 165.12,
+      "end": 165.56,
+      "frameStart": 4954,
+      "frameEnd": 4967
+    },
+    {
+      "word": "to",
+      "start": 165.56,
+      "end": 165.94,
+      "frameStart": 4967,
+      "frameEnd": 4978
+    },
+    {
+      "word": "10",
+      "start": 165.94,
+      "end": 166.22,
+      "frameStart": 4978,
+      "frameEnd": 4987
+    },
+    {
+      "word": "times",
+      "start": 166.22,
+      "end": 166.64,
+      "frameStart": 4987,
+      "frameEnd": 4999
+    },
+    {
+      "word": "less",
+      "start": 166.64,
+      "end": 166.88,
+      "frameStart": 4999,
+      "frameEnd": 5006
+    },
+    {
+      "word": "per",
+      "start": 166.88,
+      "end": 167.12,
+      "frameStart": 5006,
+      "frameEnd": 5014
+    },
+    {
+      "word": "million",
+      "start": 167.12,
+      "end": 167.56,
+      "frameStart": 5014,
+      "frameEnd": 5027
+    },
+    {
+      "word": "tokens",
+      "start": 167.56,
+      "end": 167.98,
+      "frameStart": 5027,
+      "frameEnd": 5039
+    },
+    {
+      "word": "than",
+      "start": 167.98,
+      "end": 168.26,
+      "frameStart": 5039,
+      "frameEnd": 5048
+    },
+    {
+      "word": "leading",
+      "start": 168.26,
+      "end": 168.56,
+      "frameStart": 5048,
+      "frameEnd": 5057
+    },
+    {
+      "word": "US",
+      "start": 168.56,
+      "end": 169.02,
+      "frameStart": 5057,
+      "frameEnd": 5071
+    },
+    {
+      "word": "enterprise",
+      "start": 169.02,
+      "end": 169.62,
+      "frameStart": 5071,
+      "frameEnd": 5089
+    },
+    {
+      "word": "APIs.",
+      "start": 169.62,
+      "end": 170.2,
+      "frameStart": 5089,
+      "frameEnd": 5106
+    },
+    {
+      "word": "We",
+      "start": 170.84,
+      "end": 171.04,
+      "frameStart": 5125,
+      "frameEnd": 5131
+    },
+    {
+      "word": "are",
+      "start": 171.04,
+      "end": 171.16,
+      "frameStart": 5131,
+      "frameEnd": 5135
+    },
+    {
+      "word": "officially",
+      "start": 171.16,
+      "end": 171.6,
+      "frameStart": 5135,
+      "frameEnd": 5148
+    },
+    {
+      "word": "entering",
+      "start": 171.6,
+      "end": 172.02,
+      "frameStart": 5148,
+      "frameEnd": 5161
+    },
+    {
+      "word": "an",
+      "start": 172.02,
+      "end": 172.26,
+      "frameStart": 5161,
+      "frameEnd": 5168
+    },
+    {
+      "word": "era",
+      "start": 172.26,
+      "end": 172.6,
+      "frameStart": 5168,
+      "frameEnd": 5178
+    },
+    {
+      "word": "where",
+      "start": 172.6,
+      "end": 173.02,
+      "frameStart": 5178,
+      "frameEnd": 5191
+    },
+    {
+      "word": "the",
+      "start": 173.02,
+      "end": 173.16,
+      "frameStart": 5191,
+      "frameEnd": 5195
+    },
+    {
+      "word": "mode",
+      "start": 173.16,
+      "end": 173.42,
+      "frameStart": 5195,
+      "frameEnd": 5203
+    },
+    {
+      "word": "around",
+      "start": 173.42,
+      "end": 173.86,
+      "frameStart": 5203,
+      "frameEnd": 5216
+    },
+    {
+      "word": "proprietary",
+      "start": 173.86,
+      "end": 174.54,
+      "frameStart": 5216,
+      "frameEnd": 5236
+    },
+    {
+      "word": "AI",
+      "start": 174.54,
+      "end": 175.04,
+      "frameStart": 5236,
+      "frameEnd": 5251
+    },
+    {
+      "word": "models",
+      "start": 175.04,
+      "end": 175.54,
+      "frameStart": 5251,
+      "frameEnd": 5266
+    },
+    {
+      "word": "is",
+      "start": 175.54,
+      "end": 176.14,
+      "frameStart": 5266,
+      "frameEnd": 5284
+    },
+    {
+      "word": "evaporating.",
+      "start": 176.14,
+      "end": 176.98,
+      "frameStart": 5284,
+      "frameEnd": 5309
+    },
+    {
+      "word": "By",
+      "start": 177.46,
+      "end": 177.62,
+      "frameStart": 5324,
+      "frameEnd": 5329
+    },
+    {
+      "word": "releasing",
+      "start": 177.62,
+      "end": 178.04,
+      "frameStart": 5329,
+      "frameEnd": 5341
+    },
+    {
+      "word": "deepseek",
+      "start": 178.04,
+      "end": 178.94,
+      "frameStart": 5341,
+      "frameEnd": 5368
+    },
+    {
+      "word": "V4",
+      "start": 178.94,
+      "end": 179.62,
+      "frameStart": 5368,
+      "frameEnd": 5389
+    },
+    {
+      "word": "under",
+      "start": 179.62,
+      "end": 180.08,
+      "frameStart": 5389,
+      "frameEnd": 5402
+    },
+    {
+      "word": "the",
+      "start": 180.08,
+      "end": 180.24,
+      "frameStart": 5402,
+      "frameEnd": 5407
+    },
+    {
+      "word": "MIT",
+      "start": 180.24,
+      "end": 180.54,
+      "frameStart": 5407,
+      "frameEnd": 5416
+    },
+    {
+      "word": "license",
+      "start": 180.54,
+      "end": 181.1,
+      "frameStart": 5416,
+      "frameEnd": 5433
+    },
+    {
+      "word": "with",
+      "start": 181.1,
+      "end": 181.36,
+      "frameStart": 5433,
+      "frameEnd": 5441
+    },
+    {
+      "word": "full",
+      "start": 181.36,
+      "end": 181.74,
+      "frameStart": 5441,
+      "frameEnd": 5452
+    },
+    {
+      "word": "open",
+      "start": 181.74,
+      "end": 182.2,
+      "frameStart": 5452,
+      "frameEnd": 5466
+    },
+    {
+      "word": "weights,",
+      "start": 182.2,
+      "end": 182.58,
+      "frameStart": 5466,
+      "frameEnd": 5477
+    },
+    {
+      "word": "companies",
+      "start": 183.1,
+      "end": 183.36,
+      "frameStart": 5493,
+      "frameEnd": 5501
+    },
+    {
+      "word": "and",
+      "start": 183.36,
+      "end": 183.56,
+      "frameStart": 5501,
+      "frameEnd": 5507
+    },
+    {
+      "word": "developers",
+      "start": 183.56,
+      "end": 183.98,
+      "frameStart": 5507,
+      "frameEnd": 5519
+    },
+    {
+      "word": "can",
+      "start": 183.98,
+      "end": 184.5,
+      "frameStart": 5519,
+      "frameEnd": 5535
+    },
+    {
+      "word": "now",
+      "start": 184.5,
+      "end": 184.82,
+      "frameStart": 5535,
+      "frameEnd": 5545
+    },
+    {
+      "word": "self",
+      "start": 184.82,
+      "end": 185.2,
+      "frameStart": 5545,
+      "frameEnd": 5556
+    },
+    {
+      "word": "-host",
+      "start": 185.2,
+      "end": 185.5,
+      "frameStart": 5556,
+      "frameEnd": 5565
+    },
+    {
+      "word": "frontier",
+      "start": 185.5,
+      "end": 185.94,
+      "frameStart": 5565,
+      "frameEnd": 5578
+    },
+    {
+      "word": "level",
+      "start": 185.94,
+      "end": 186.28,
+      "frameStart": 5578,
+      "frameEnd": 5588
+    },
+    {
+      "word": "intelligence",
+      "start": 186.28,
+      "end": 186.76,
+      "frameStart": 5588,
+      "frameEnd": 5603
+    },
+    {
+      "word": "right",
+      "start": 186.76,
+      "end": 187.44,
+      "frameStart": 5603,
+      "frameEnd": 5623
+    },
+    {
+      "word": "on",
+      "start": 187.44,
+      "end": 187.62,
+      "frameStart": 5623,
+      "frameEnd": 5629
+    },
+    {
+      "word": "their",
+      "start": 187.62,
+      "end": 187.76,
+      "frameStart": 5629,
+      "frameEnd": 5633
+    },
+    {
+      "word": "own",
+      "start": 187.76,
+      "end": 187.92,
+      "frameStart": 5633,
+      "frameEnd": 5638
+    },
+    {
+      "word": "private",
+      "start": 187.92,
+      "end": 188.24,
+      "frameStart": 5638,
+      "frameEnd": 5647
+    },
+    {
+      "word": "clusters.",
+      "start": 188.24,
+      "end": 188.66,
+      "frameStart": 5647,
+      "frameEnd": 5660
+    },
+    {
+      "word": "Whether",
+      "start": 189.22,
+      "end": 189.5,
+      "frameStart": 5677,
+      "frameEnd": 5685
+    },
+    {
+      "word": "you",
+      "start": 189.5,
+      "end": 189.62,
+      "frameStart": 5685,
+      "frameEnd": 5689
+    },
+    {
+      "word": "are",
+      "start": 189.62,
+      "end": 189.7,
+      "frameStart": 5689,
+      "frameEnd": 5691
+    },
+    {
+      "word": "building",
+      "start": 189.7,
+      "end": 190.04,
+      "frameStart": 5691,
+      "frameEnd": 5701
+    },
+    {
+      "word": "complex",
+      "start": 190.04,
+      "end": 190.9,
+      "frameStart": 5701,
+      "frameEnd": 5727
+    },
+    {
+      "word": "agentic",
+      "start": 190.9,
+      "end": 191.6,
+      "frameStart": 5727,
+      "frameEnd": 5748
+    },
+    {
+      "word": "coding",
+      "start": 191.6,
+      "end": 191.84,
+      "frameStart": 5748,
+      "frameEnd": 5755
+    },
+    {
+      "word": "workflows",
+      "start": 191.84,
+      "end": 192.34,
+      "frameStart": 5755,
+      "frameEnd": 5770
+    },
+    {
+      "word": "or",
+      "start": 192.34,
+      "end": 192.9,
+      "frameStart": 5770,
+      "frameEnd": 5787
+    },
+    {
+      "word": "high",
+      "start": 192.9,
+      "end": 193.28,
+      "frameStart": 5787,
+      "frameEnd": 5798
+    },
+    {
+      "word": "volume",
+      "start": 193.28,
+      "end": 193.62,
+      "frameStart": 5798,
+      "frameEnd": 5809
+    },
+    {
+      "word": "data",
+      "start": 193.62,
+      "end": 193.88,
+      "frameStart": 5809,
+      "frameEnd": 5816
+    },
+    {
+      "word": "pipelines,",
+      "start": 193.88,
+      "end": 194.44,
+      "frameStart": 5816,
+      "frameEnd": 5833
+    },
+    {
+      "word": "Deepseek",
+      "start": 195.12,
+      "end": 195.58,
+      "frameStart": 5854,
+      "frameEnd": 5867
+    },
+    {
+      "word": "V4",
+      "start": 195.58,
+      "end": 196.12,
+      "frameStart": 5867,
+      "frameEnd": 5884
+    },
+    {
+      "word": "proves",
+      "start": 196.12,
+      "end": 196.56,
+      "frameStart": 5884,
+      "frameEnd": 5897
+    },
+    {
+      "word": "that",
+      "start": 196.56,
+      "end": 196.72,
+      "frameStart": 5897,
+      "frameEnd": 5902
+    },
+    {
+      "word": "architectural",
+      "start": 196.72,
+      "end": 197.34,
+      "frameStart": 5902,
+      "frameEnd": 5920
+    },
+    {
+      "word": "innovation",
+      "start": 197.34,
+      "end": 197.94,
+      "frameStart": 5920,
+      "frameEnd": 5938
+    },
+    {
+      "word": "can",
+      "start": 197.94,
+      "end": 198.34,
+      "frameStart": 5938,
+      "frameEnd": 5950
+    },
+    {
+      "word": "beat",
+      "start": 198.34,
+      "end": 198.72,
+      "frameStart": 5950,
+      "frameEnd": 5962
+    },
+    {
+      "word": "brute",
+      "start": 198.72,
+      "end": 199.0,
+      "frameStart": 5962,
+      "frameEnd": 5970
+    },
+    {
+      "word": "force",
+      "start": 199.0,
+      "end": 199.32,
+      "frameStart": 5970,
+      "frameEnd": 5980
+    },
+    {
+      "word": "compute",
+      "start": 199.32,
+      "end": 199.68,
+      "frameStart": 5980,
+      "frameEnd": 5990
+    },
+    {
+      "word": "spending.",
+      "start": 199.68,
+      "end": 200.14,
+      "frameStart": 5990,
+      "frameEnd": 6004
+    },
+    {
+      "word": "What",
+      "start": 200.58,
+      "end": 200.78,
+      "frameStart": 6017,
+      "frameEnd": 6023
+    },
+    {
+      "word": "do",
+      "start": 200.78,
+      "end": 200.84,
+      "frameStart": 6023,
+      "frameEnd": 6025
+    },
+    {
+      "word": "you",
+      "start": 200.84,
+      "end": 200.86,
+      "frameStart": 6025,
+      "frameEnd": 6026
+    },
+    {
+      "word": "think",
+      "start": 200.86,
+      "end": 201.02,
+      "frameStart": 6026,
+      "frameEnd": 6031
+    },
+    {
+      "word": "about",
+      "start": 201.02,
+      "end": 201.24,
+      "frameStart": 6031,
+      "frameEnd": 6037
+    },
+    {
+      "word": "Deepseek",
+      "start": 201.24,
+      "end": 202.0,
+      "frameStart": 6037,
+      "frameEnd": 6060
+    },
+    {
+      "word": "V4?",
+      "start": 202.0,
+      "end": 202.48,
+      "frameStart": 6060,
+      "frameEnd": 6074
+    },
+    {
+      "word": "Will",
+      "start": 202.98,
+      "end": 203.1,
+      "frameStart": 6089,
+      "frameEnd": 6093
+    },
+    {
+      "word": "you",
+      "start": 203.1,
+      "end": 203.2,
+      "frameStart": 6093,
+      "frameEnd": 6096
+    },
+    {
+      "word": "switch",
+      "start": 203.2,
+      "end": 203.48,
+      "frameStart": 6096,
+      "frameEnd": 6104
+    },
+    {
+      "word": "from",
+      "start": 203.48,
+      "end": 203.7,
+      "frameStart": 6104,
+      "frameEnd": 6111
+    },
+    {
+      "word": "proprietary",
+      "start": 203.7,
+      "end": 204.2,
+      "frameStart": 6111,
+      "frameEnd": 6126
+    },
+    {
+      "word": "US",
+      "start": 204.2,
+      "end": 204.72,
+      "frameStart": 6126,
+      "frameEnd": 6142
+    },
+    {
+      "word": "models",
+      "start": 204.72,
+      "end": 205.22,
+      "frameStart": 6142,
+      "frameEnd": 6157
+    },
+    {
+      "word": "to",
+      "start": 205.22,
+      "end": 205.8,
+      "frameStart": 6157,
+      "frameEnd": 6174
+    },
+    {
+      "word": "open",
+      "start": 205.8,
+      "end": 206.18,
+      "frameStart": 6174,
+      "frameEnd": 6185
+    },
+    {
+      "word": "weights?",
+      "start": 206.18,
+      "end": 206.5,
+      "frameStart": 6185,
+      "frameEnd": 6195
+    },
+    {
+      "word": "Let",
+      "start": 207.08,
+      "end": 207.26,
+      "frameStart": 6212,
+      "frameEnd": 6218
+    },
+    {
+      "word": "me",
+      "start": 207.26,
+      "end": 207.34,
+      "frameStart": 6218,
+      "frameEnd": 6220
+    },
+    {
+      "word": "know",
+      "start": 207.34,
+      "end": 207.5,
+      "frameStart": 6220,
+      "frameEnd": 6225
+    },
+    {
+      "word": "in",
+      "start": 207.5,
+      "end": 207.6,
+      "frameStart": 6225,
+      "frameEnd": 6228
+    },
+    {
+      "word": "the",
+      "start": 207.6,
+      "end": 207.66,
+      "frameStart": 6228,
+      "frameEnd": 6230
+    },
+    {
+      "word": "comments",
+      "start": 207.66,
+      "end": 207.94,
+      "frameStart": 6230,
+      "frameEnd": 6238
+    },
+    {
+      "word": "down",
+      "start": 207.94,
+      "end": 208.12,
+      "frameStart": 6238,
+      "frameEnd": 6244
+    },
+    {
+      "word": "below,",
+      "start": 208.12,
+      "end": 208.44,
+      "frameStart": 6244,
+      "frameEnd": 6253
+    },
+    {
+      "word": "hit",
+      "start": 208.44,
+      "end": 209.1,
+      "frameStart": 6253,
+      "frameEnd": 6273
+    },
+    {
+      "word": "that",
+      "start": 209.1,
+      "end": 209.26,
+      "frameStart": 6273,
+      "frameEnd": 6278
+    },
+    {
+      "word": "subscribe",
+      "start": 209.26,
+      "end": 209.66,
+      "frameStart": 6278,
+      "frameEnd": 6290
+    },
+    {
+      "word": "button",
+      "start": 209.66,
+      "end": 210.08,
+      "frameStart": 6290,
+      "frameEnd": 6302
+    },
+    {
+      "word": "and",
+      "start": 210.08,
+      "end": 210.62,
+      "frameStart": 6302,
+      "frameEnd": 6319
+    },
+    {
+      "word": "I'll",
+      "start": 210.62,
+      "end": 210.74,
+      "frameStart": 6319,
+      "frameEnd": 6322
+    },
+    {
+      "word": "see",
+      "start": 210.74,
+      "end": 211.02,
+      "frameStart": 6322,
+      "frameEnd": 6331
+    },
+    {
+      "word": "you",
+      "start": 211.02,
+      "end": 211.3,
+      "frameStart": 6331,
+      "frameEnd": 6339
+    },
+    {
+      "word": "in",
+      "start": 211.3,
+      "end": 211.38,
+      "frameStart": 6339,
+      "frameEnd": 6341
+    },
+    {
+      "word": "the",
+      "start": 211.38,
+      "end": 211.48,
+      "frameStart": 6341,
+      "frameEnd": 6344
+    },
+    {
+      "word": "next",
+      "start": 211.48,
+      "end": 211.72,
+      "frameStart": 6344,
+      "frameEnd": 6352
+    },
+    {
+      "word": "deep",
+      "start": 211.72,
+      "end": 211.9,
+      "frameStart": 6352,
+      "frameEnd": 6357
+    },
+    {
+      "word": "dive.",
+      "start": 211.9,
+      "end": 212.18,
+      "frameStart": 6357,
+      "frameEnd": 6365
+    }
+  ]
+}
