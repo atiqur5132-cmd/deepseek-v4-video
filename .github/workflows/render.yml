@@ -1,4 +1,4 @@
-name: Render YouTube Video on GitHub Cloud
+﻿name: Render YouTube Video on GitHub Cloud
 on:
   workflow_dispatch:
     inputs:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   render:
-    name: Cloud Render Video (0 Laptop Load)
+    name: Cloud Render Video (4x Concurrency)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -30,14 +30,14 @@ jobs:
       - name: Ensure Chromium & FFMPEG for Remotion
         run: npx remotion browser ensure
 
-      - name: Render MP4 Video on Cloud
+      - name: Render MP4 Video on Cloud (4x Concurrency)
         run: |
           mkdir -p out
-          npx remotion render ${{ github.event.inputs.compositionId || 'MainVideo' }} out/DeepSeek_V4_vs_US_Models.mp4 --concurrency=2
+          npx remotion render ${{ github.event.inputs.compositionId || 'MainVideo' }} out/DeepSeek_V4_vs_US_Models.mp4 --concurrency=4
 
       - name: Upload MP4 to GitHub Artifacts for Download
         uses: actions/upload-artifact@v4
         with:
-          name: ready-to-upload-youtube-video
+          name: DeepSeek_V4_vs_US_Models
           path: out/DeepSeek_V4_vs_US_Models.mp4
-          retention-days: 7
+          retention-days: 14

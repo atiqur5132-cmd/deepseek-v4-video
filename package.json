@@ -4,7 +4,7 @@
   "description": "High-retention tech commentary video comparing DeepSeek V4 vs US Frontier Models built with Remotion",
   "scripts": {
     "dev": "remotion studio",
-    "build": "remotion render MainVideo out/deepseek_v4_video.mp4",
+    "build": "remotion render MainVideo out/deepseek_v4_video.mp4 --concurrency=4",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {
