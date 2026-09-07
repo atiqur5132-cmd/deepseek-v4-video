@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill } from 'remotion';
 import { AtmosphereLayer } from '../components/AtmosphereLayer';
 import { CameraRig } from '../components/CameraRig';
@@ -70,28 +70,48 @@ export const Scene4Outro: React.FC = () => {
                 fontSize={72}
               />
 
-              {/* Dual Enterprise Deployment Cards */}
+              {/* Dual Enterprise Deployment Cards (ZERO PARAGRAPHS - METRICS ONLY) */}
               <div
                 style={{
                   marginTop: 48,
                   display: 'flex',
                   gap: 32,
-                  width: '85%',
+                  width: '90%',
                   opacity: interpolate(beat1Frame, [40, 70], [0, 1], { extrapolateRight: 'clamp' }),
                 }}
               >
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 20, padding: '24px 32px', textAlign: 'left' }}>
-                  <div style={{ color: '#10b981', fontSize: 22, fontWeight: 800 }}>🔐 100% Data Sovereignty</div>
-                  <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: 18, margin: '8px 0 0 0' }}>
-                    Run frontier-class reasoning inside private clusters without API rate limits or commercial data leaks.
-                  </p>
+                {/* Sovereignty Card */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(16, 185, 129, 0.4)', borderRadius: 22, padding: '32px 36px', textAlign: 'left', boxShadow: '0 20px 50px rgba(0,0,0,0.7)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
+                    <div style={{ background: 'rgba(16, 185, 129, 0.18)', color: '#10b981', padding: '6px 14px', borderRadius: 8, fontSize: 14, fontWeight: 900 }}>
+                      ENTERPRISE SECURITY
+                    </div>
+                    <span style={{ color: '#10b981', fontSize: 24 }}>🔐</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 26, fontWeight: 900 }}>100% Data Sovereignty</div>
+                  <div style={{ color: '#10b981', fontSize: 40, fontWeight: 900, fontFamily: 'monospace', margin: '14px 0 6px 0' }}>
+                    Self-Hosted
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 16, fontWeight: 700 }}>
+                    Zero Commercial API Data Leaks
+                  </div>
                 </div>
 
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 20, padding: '24px 32px', textAlign: 'left' }}>
-                  <div style={{ color: '#38bdf8', fontSize: 22, fontWeight: 800 }}>⚡ Algorithmic Efficiency</div>
-                  <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: 18, margin: '8px 0 0 0' }}>
-                    Proves architectural innovation outcompetes billions in brute-force compute scaling.
-                  </p>
+                {/* Algorithmic Efficiency Card */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(56, 189, 248, 0.4)', borderRadius: 22, padding: '32px 36px', textAlign: 'left', boxShadow: '0 20px 50px rgba(0,0,0,0.7)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
+                    <div style={{ background: 'rgba(56, 189, 248, 0.18)', color: '#38bdf8', padding: '6px 14px', borderRadius: 8, fontSize: 14, fontWeight: 900 }}>
+                      OPEN-WEIGHTS ADVANTAGE
+                    </div>
+                    <span style={{ color: '#38bdf8', fontSize: 24 }}>⚡</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 26, fontWeight: 900 }}>Architectural Innovation</div>
+                  <div style={{ color: '#38bdf8', fontSize: 40, fontWeight: 900, fontFamily: 'monospace', margin: '14px 0 6px 0' }}>
+                    10X Efficiency
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 16, fontWeight: 700 }}>
+                    Commercial MIT License Freedom
+                  </div>
                 </div>
               </div>
             </div>
@@ -108,33 +128,30 @@ export const Scene4Outro: React.FC = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                transform: `scale(${ctaSpring})`,
+                transform: `scale(${ctaSpring.toFixed(4)})`,
                 opacity: ctaSpring,
               }}
             >
               <div style={{ textAlign: 'center', marginBottom: 36 }}>
                 <span style={{ color: '#38bdf8', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
-                  WHAT IS YOUR TAKE?
+                  2026 FRONTIER DISCUSSION
                 </span>
-                <h2 style={{ color: '#ffffff', fontSize: 60, fontWeight: 900, margin: '8px 0 0 0' }}>
+                <h2 style={{ color: '#ffffff', fontSize: 62, fontWeight: 900, margin: '8px 0 0 0' }}>
                   Will You Switch in 2026?
                 </h2>
-                <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 24, marginTop: 12 }}>
-                  Drop your benchmarks and comments down below.
-                </p>
               </div>
 
               {/* Subscribe Box */}
               <div
                 style={{
-                  background: 'linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(16, 185, 129, 0.2))',
-                  border: '1px solid rgba(255,255,255,0.2)',
+                  background: '#111827',
+                  border: '1px solid rgba(56, 189, 248, 0.4)',
                   borderRadius: 24,
                   padding: '36px 64px',
                   display: 'flex',
                   alignItems: 'center',
                   gap: 40,
-                  boxShadow: '0 25px 60px rgba(0,0,0,0.6)',
+                  boxShadow: '0 25px 60px rgba(0,0,0,0.8), 0 0 40px rgba(56, 189, 248, 0.15)',
                 }}
               >
                 <div style={{ color: '#ffffff', fontSize: 28, fontWeight: 800 }}>
@@ -149,7 +166,7 @@ export const Scene4Outro: React.FC = () => {
                     fontSize: 22,
                     fontWeight: 900,
                     boxShadow: '0 0 30px rgba(239, 68, 68, 0.6)',
-                    transform: `scale(${bellPulse})`,
+                    transform: `scale(${bellPulse.toFixed(4)})`,
                   }}
                 >
                   SUBSCRIBE

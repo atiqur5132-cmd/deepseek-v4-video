@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate, Img, staticFile, AbsoluteFill } from 'remotion';
 import { AtmosphereLayer } from '../components/AtmosphereLayer';
 import { CameraRig } from '../components/CameraRig';
@@ -141,35 +141,62 @@ export const Scene1Hook: React.FC = () => {
                 </h2>
               </div>
 
-              <VoxCard startFrame={397} width="84%" height={480} rotateX={7} rotateY={-5} borderColor="rgba(56, 189, 248, 0.4)">
-                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
-                  <Img
-                    src={staticFile('screenshots/s1_tweet.png')}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      objectPosition: 'top center',
-                      transform: `scale(${interpolate(beat2Frame, [0, 378], [1.02, 1.12], { extrapolateRight: 'clamp' })})`,
-                    }}
-                  />
+              <VoxCard startFrame={397} width="84%" height={460} rotateX={6} rotateY={-4} borderColor="rgba(56, 189, 248, 0.4)">
+                <div style={{ padding: '36px 44px', display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between', boxSizing: 'border-box' }}>
+                  {/* Tweet Header */}
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+                      <div style={{ width: 56, height: 56, borderRadius: '50%', backgroundColor: '#0f172a', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '2px solid #4D6BFE' }}>
+                        <DeepSeekOfficialLogo size={36} />
+                      </div>
+                      <div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                          <span style={{ color: '#ffffff', fontSize: 22, fontWeight: 900 }}>DeepSeek AI</span>
+                          <span style={{ color: '#38bdf8', fontSize: 18 }}>☑</span>
+                        </div>
+                        <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: 16 }}>@deepseek_ai • Official Announcement</span>
+                      </div>
+                    </div>
+                    {/* X Brand Vector */}
+                    <svg width={28} height={28} viewBox="0 0 24 24" fill="#ffffff">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                  </div>
 
-                  {/* Animated Neon Cyan Highlighter */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      top: '46%',
-                      left: '8%',
-                      width: `${highlighterWidth * 0.84}%`,
-                      height: 42,
-                      backgroundColor: 'rgba(56, 189, 248, 0.35)',
-                      mixBlendMode: 'screen',
-                      borderRadius: 8,
-                      boxShadow: '0 0 30px rgba(56, 189, 248, 0.8)',
-                      borderBottom: '2px solid #38bdf8',
-                      pointerEvents: 'none',
-                    }}
-                  />
+                  {/* Tweet Content with Neon Highlighter */}
+                  <div style={{ margin: '20px 0', fontSize: 24, lineHeight: 1.5, color: '#f8fafc', fontWeight: 600 }}>
+                    <div>We are officially open-sourcing <span style={{ color: '#38bdf8', fontWeight: 800 }}>DeepSeek-V4</span> under MIT License.</div>
+                    <div style={{ position: 'relative', display: 'inline-block', marginTop: 14 }}>
+                      <span style={{ position: 'relative', zIndex: 2, color: '#ffffff', fontWeight: 900, fontSize: 30 }}>
+                        1.6 Trillion MoE — 49B Active Parameters Per Token.
+                      </span>
+                      {/* Animated Neon Cyan Highlighter Bar */}
+                      <div
+                        style={{
+                          position: 'absolute',
+                          bottom: 2,
+                          left: -6,
+                          width: `${highlighterWidth}%`,
+                          height: 16,
+                          backgroundColor: 'rgba(56, 189, 248, 0.45)',
+                          boxShadow: '0 0 25px #38bdf8',
+                          borderRadius: 4,
+                          zIndex: 1,
+                        }}
+                      />
+                    </div>
+                    <div style={{ marginTop: 14, color: 'rgba(255,255,255,0.7)' }}>
+                      1-Million Context Window via Hybrid Attention & Instant Engram Memory.
+                    </div>
+                  </div>
+
+                  {/* Tweet Metrics Footer */}
+                  <div style={{ display: 'flex', gap: 48, borderTop: '1px solid rgba(255,255,255,0.12)', paddingTop: 18, color: 'rgba(255,255,255,0.6)', fontSize: 17, fontWeight: 700 }}>
+                    <div><span style={{ color: '#ffffff', fontWeight: 900 }}>18.4K</span> Retweets</div>
+                    <div><span style={{ color: '#ffffff', fontWeight: 900 }}>74.2K</span> Likes</div>
+                    <div><span style={{ color: '#ffffff', fontWeight: 900 }}>4.8M</span> Views</div>
+                    <div style={{ color: '#10b981' }}>● Verified Open Weights</div>
+                  </div>
                 </div>
               </VoxCard>
             </div>
@@ -206,14 +233,13 @@ export const Scene1Hook: React.FC = () => {
                       key={i}
                       style={{
                         flex: 1,
-                        background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.75), rgba(15, 23, 42, 0.95))',
+                        background: '#111827',
                         border: `1px solid ${item.color}55`,
                         borderRadius: 24,
                         padding: '40px 32px',
                         textAlign: 'center',
-                        backdropFilter: 'blur(20px)',
-                        boxShadow: `0 20px 50px rgba(0,0,0,0.6), 0 0 35px ${item.color}22`,
-                        transform: `translateY(${(1 - cardSpring) * 60}px) scale(${cardSpring})`,
+                        boxShadow: `0 20px 50px rgba(0,0,0,0.7), 0 0 35px ${item.color}22`,
+                        transform: `translateY(${(1 - cardSpring) * 50}px) scale(${cardSpring})`,
                         opacity: cardSpring,
                       }}
                     >
@@ -230,13 +256,13 @@ export const Scene1Hook: React.FC = () => {
           )}
 
           {/* ========================================================= */}
-          {/* BEAT 4 (39.7 - 49.6s): The Bottleneck Breakdown           */}
+          {/* BEAT 4 (39.7 - 49.6s): Hardware VRAM Bottleneck Solved     */}
           {/* ========================================================= */}
           {isBeat4 && (
             <div
               style={{
                 width: '100%',
-                maxWidth: 1280,
+                maxWidth: 1320,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -253,22 +279,58 @@ export const Scene1Hook: React.FC = () => {
                 </h2>
               </div>
 
-              {/* Dual Bottleneck Solvers Visualizer */}
-              <div style={{ display: 'flex', gap: 40, width: '90%' }}>
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.7)', border: '1px solid rgba(239, 68, 68, 0.4)', borderRadius: 24, padding: 36 }}>
-                  <span style={{ color: '#ef4444', fontSize: 18, fontWeight: 800 }}>BOTTLENECK #1</span>
-                  <h3 style={{ color: '#fff', fontSize: 28, fontWeight: 900, margin: '8px 0' }}>GPU VRAM Memory Wall</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, margin: 0 }}>
-                    1M token context windows normally require massive $100K+ enterprise clusters just to hold KV cache.
-                  </p>
+              {/* Dual Hardware Comparison Architecture (ZERO PARAGRAPHS - VISUAL METRICS ONLY) */}
+              <div style={{ display: 'flex', gap: 36, width: '92%' }}>
+                {/* Card 1: Enterprise Hardware Memory Wall */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(239, 68, 68, 0.5)', borderRadius: 24, padding: '36px 32px', boxShadow: '0 20px 50px rgba(0,0,0,0.7)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
+                    <div style={{ background: 'rgba(239, 68, 68, 0.2)', color: '#ef4444', padding: '6px 16px', borderRadius: 8, fontSize: 15, fontWeight: 900 }}>
+                      STANDARD 1M CONTEXT
+                    </div>
+                    <span style={{ color: '#ef4444', fontSize: 24 }}>⚠️</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 26, fontWeight: 900, marginBottom: 16 }}>
+                    Enterprise GPU VRAM Wall
+                  </div>
+
+                  {/* VRAM Meter Full */}
+                  <div style={{ width: '100%', background: '#1f2937', height: 28, borderRadius: 8, overflow: 'hidden', padding: 3, marginBottom: 12 }}>
+                    <div style={{ width: '98%', height: '100%', background: '#ef4444', borderRadius: 6, boxShadow: '0 0 15px rgba(239, 68, 68, 0.8)' }} />
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', color: '#ef4444', fontSize: 16, fontWeight: 800 }}>
+                    <span>VRAM ALLOCATION: 98%</span>
+                    <span>CRITICAL OVERFLOW</span>
+                  </div>
+
+                  <div style={{ marginTop: 24, padding: '14px 18px', background: 'rgba(239, 68, 68, 0.1)', borderRadius: 12, border: '1px solid rgba(239, 68, 68, 0.3)', color: '#fca5a5', fontSize: 17, fontWeight: 700, textAlign: 'center' }}>
+                    $100,000+ Enterprise Clusters Required
+                  </div>
                 </div>
 
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.7)', border: '1px solid rgba(16, 185, 129, 0.4)', borderRadius: 24, padding: 36 }}>
-                  <span style={{ color: '#10b981', fontSize: 18, fontWeight: 800 }}>DEEPSEEK SOLUTION</span>
-                  <h3 style={{ color: '#fff', fontSize: 28, fontWeight: 900, margin: '8px 0' }}>Hybrid Attention + Engram</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, margin: 0 }}>
-                    Slashes active memory by 85% and retrieves static facts via instant lookups.
-                  </p>
+                {/* Card 2: DeepSeek V4 Hybrid Efficiency */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(16, 185, 129, 0.5)', borderRadius: 24, padding: '36px 32px', boxShadow: '0 20px 50px rgba(0,0,0,0.7), 0 0 35px rgba(16, 185, 129, 0.15)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
+                    <div style={{ background: 'rgba(16, 185, 129, 0.2)', color: '#10b981', padding: '6px 16px', borderRadius: 8, fontSize: 15, fontWeight: 900 }}>
+                      DEEPSEEK V4 ARCHITECTURE
+                    </div>
+                    <span style={{ color: '#10b981', fontSize: 24 }}>⚡</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 26, fontWeight: 900, marginBottom: 16 }}>
+                    Hybrid Attention + Engram
+                  </div>
+
+                  {/* VRAM Meter Slashed */}
+                  <div style={{ width: '100%', background: '#1f2937', height: 28, borderRadius: 8, overflow: 'hidden', padding: 3, marginBottom: 12 }}>
+                    <div style={{ width: '15%', height: '100%', background: '#10b981', borderRadius: 6, boxShadow: '0 0 15px rgba(16, 185, 129, 0.8)' }} />
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', color: '#10b981', fontSize: 16, fontWeight: 800 }}>
+                    <span>VRAM ALLOCATION: 15%</span>
+                    <span>-85% MEMORY SAVED</span>
+                  </div>
+
+                  <div style={{ marginTop: 24, padding: '14px 18px', background: 'rgba(16, 185, 129, 0.1)', borderRadius: 12, border: '1px solid rgba(16, 185, 129, 0.3)', color: '#6ee7b7', fontSize: 17, fontWeight: 700, textAlign: 'center' }}>
+                    Single Consumer Node Feasible
+                  </div>
                 </div>
               </div>
             </div>

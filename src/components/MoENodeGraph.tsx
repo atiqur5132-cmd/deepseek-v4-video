@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate } from 'remotion';
 
 interface MoENodeGraphProps {
@@ -18,8 +18,8 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
     config: { damping: 14, stiffness: 100 },
   });
 
-  // Animated pulse along paths
-  const dashOffset = (relFrame * 4) % 100;
+  // Continuous smooth dash offset without modulus snap
+  const dashOffset = relFrame * 2.5;
 
   // Active compute counter
   const activeParams = Math.round(interpolate(relFrame, [20, 65], [0, 49], { extrapolateRight: 'clamp' }));
@@ -30,15 +30,14 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
         width: '100%',
         maxWidth: 1540,
         height: 620,
-        backgroundColor: 'rgba(15, 23, 42, 0.85)',
+        backgroundColor: '#0f172a',
         border: '1px solid rgba(56, 189, 248, 0.35)',
         borderRadius: 28,
-        backdropFilter: 'blur(24px)',
         padding: '36px 48px',
         display: 'flex',
         flexDirection: 'column',
-        boxShadow: '0 30px 80px rgba(0,0,0,0.7), inset 0 0 40px rgba(56, 189, 248, 0.08)',
-        transform: `scale(${entrance})`,
+        boxShadow: '0 30px 80px rgba(0,0,0,0.8), inset 0 0 40px rgba(56, 189, 248, 0.08)',
+        transform: `scale(${entrance.toFixed(4)})`,
         opacity: entrance,
       }}
     >
@@ -54,7 +53,7 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
         </div>
 
         <div style={{ display: 'flex', gap: 24 }}>
-          <div style={{ background: 'rgba(30, 41, 59, 0.85)', padding: '12px 28px', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)' }}>
+          <div style={{ background: '#1e293b', padding: '12px 28px', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)' }}>
             <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: 15 }}>Total MoE Weights</span>
             <div style={{ color: '#38bdf8', fontSize: 28, fontWeight: 900, fontFamily: 'monospace' }}>1.6 TRILLION</div>
           </div>
@@ -80,7 +79,7 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
 
           {/* Router Node (Center Left) */}
           <g transform="translate(360, 210)">
-            <circle r="52" fill="#0f172a" stroke="#38bdf8" strokeWidth="3.5" />
+            <circle r="52" fill="#0b1120" stroke="#38bdf8" strokeWidth="3.5" />
             <circle
               r="62"
               fill="none"
@@ -88,7 +87,11 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
               strokeWidth="2"
               opacity="0.45"
               strokeDasharray="8 6"
-              transform={`rotate(${relFrame * 1.5})`}
+              style={{
+                transformOrigin: 'center',
+                transformBox: 'fill-box',
+                transform: `rotate(${relFrame * 1.2}deg)`,
+              }}
             />
             <text fill="#ffffff" fontSize="16" fontWeight="800" textAnchor="middle" dy="-5">TOKEN</text>
             <text fill="#38bdf8" fontSize="14" fontWeight="700" textAnchor="middle" dy="16">ROUTER</text>
@@ -106,11 +109,11 @@ export const MoENodeGraph: React.FC<MoENodeGraphProps> = ({ startFrame = 0 }) =>
               <g key={i}>
                 <path
                   d={pathD}
-                  stroke={node.active ? '#10b981' : 'rgba(100, 116, 139, 0.3)'}
+                  stroke={node.active ? '#10b981' : 'rgba(100, 116, 139, 0.25)'}
                   strokeWidth={node.active ? '4' : '1.8'}
                   fill="none"
-                  strokeDasharray={node.active ? '14 10' : 'none'}
-                  strokeDashoffset={node.active ? -dashOffset * 1.5 : 0}
+                  strokeDasharray={node.active ? '12 8' : 'none'}
+                  strokeDashoffset={node.active ? -dashOffset * 1.4 : 0}
                 />
               </g>
             );

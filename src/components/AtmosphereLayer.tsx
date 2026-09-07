@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, interpolate, random, AbsoluteFill } from 'remotion';
 
 interface AtmosphereProps {
@@ -14,25 +14,21 @@ export const AtmosphereLayer: React.FC<AtmosphereProps> = ({
 }) => {
   const frame = useCurrentFrame();
 
-  // Subtle breathing pulsation
-  const pulse1 = Math.sin(frame / 45) * 0.05 + 1;
-  const pulse2 = Math.cos(frame / 60) * 0.05 + 1;
-
-  // Floating particles (35 deterministic particles)
+  // Floating ambient particles with fixed anchors and gentle floating oscillation (zero teleporting/flicker)
   const particles = React.useMemo(() => {
-    return Array.from({ length: 35 }).map((_, i) => ({
+    return Array.from({ length: 28 }).map((_, i) => ({
       x: random(`p-x-${i}`) * 1920,
-      baseY: random(`p-y-${i}`) * 1080,
+      y: random(`p-y-${i}`) * 1080,
       size: random(`p-s-${i}`) * 3 + 1.5,
-      speed: random(`p-sp-${i}`) * 0.6 + 0.3,
-      opacity: random(`p-op-${i}`) * 0.4 + 0.2,
-      driftX: (random(`p-dx-${i}`) - 0.5) * 40,
+      opacity: random(`p-op-${i}`) * 0.35 + 0.15,
+      floatSpeed: random(`p-sp-${i}`) * 0.5 + 0.5,
+      driftRadius: random(`p-dr-${i}`) * 15 + 8,
     }));
   }, []);
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#07090e', overflow: 'hidden', pointerEvents: 'none' }}>
-      {/* Primary Radial Glow 1 (Top Left / Center) */}
+      {/* Primary Radial Glow 1 (Top Left / Center) - Static, smooth ambient light */}
       <div
         style={{
           position: 'absolute',
@@ -42,13 +38,11 @@ export const AtmosphereLayer: React.FC<AtmosphereProps> = ({
           height: '75vw',
           borderRadius: '50%',
           background: `radial-gradient(circle, ${glowColor1} 0%, transparent 65%)`,
-          transform: `scale(${pulse1})`,
-          filter: 'blur(70px)',
-          opacity: 0.8,
+          opacity: 0.85,
         }}
       />
 
-      {/* Secondary Radial Glow 2 (Bottom Right) */}
+      {/* Secondary Radial Glow 2 (Bottom Right) - Static, smooth ambient light */}
       <div
         style={{
           position: 'absolute',
@@ -58,9 +52,7 @@ export const AtmosphereLayer: React.FC<AtmosphereProps> = ({
           height: '65vw',
           borderRadius: '50%',
           background: `radial-gradient(circle, ${glowColor2} 0%, transparent 65%)`,
-          transform: `scale(${pulse2})`,
-          filter: 'blur(80px)',
-          opacity: 0.7,
+          opacity: 0.75,
         }}
       />
 
@@ -77,25 +69,23 @@ export const AtmosphereLayer: React.FC<AtmosphereProps> = ({
         }}
       />
 
-      {/* Floating Ambient Particles */}
+      {/* Smooth Ambient Floating Micro-Particles (No Teleporting) */}
       {particles.map((p, i) => {
-        const yOffset = (frame * p.speed * 1.2) % 1150;
-        const currentY = (p.baseY - yOffset + 1150) % 1150;
-        const xOffset = Math.sin((frame + i * 10) / 40) * p.driftX;
+        const floatX = Math.sin((frame * p.floatSpeed + i * 20) / 45) * p.driftRadius;
+        const floatY = Math.cos((frame * p.floatSpeed + i * 30) / 55) * p.driftRadius;
 
         return (
           <div
             key={i}
             style={{
               position: 'absolute',
-              left: p.x + xOffset,
-              top: currentY,
+              left: p.x + floatX,
+              top: p.y + floatY,
               width: p.size,
               height: p.size,
               borderRadius: '50%',
               backgroundColor: i % 2 === 0 ? '#38bdf8' : '#10b981',
-              opacity: p.opacity * interpolate(frame, [0, 20], [0, 1], { extrapolateRight: 'clamp' }),
-              filter: 'blur(0.5px)',
+              opacity: p.opacity,
               boxShadow: `0 0 8px ${i % 2 === 0 ? '#38bdf8' : '#10b981'}`,
             }}
           />

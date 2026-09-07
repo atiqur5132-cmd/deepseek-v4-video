@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, interpolate, AbsoluteFill } from 'remotion';
 
 interface CameraRigProps {
@@ -27,16 +27,17 @@ export const CameraRig: React.FC<CameraRigProps> = ({
     extrapolateRight: 'clamp',
   });
 
-  // Organic handheld breathing drift
-  const driftX = Math.sin(frame / 35) * swayIntensity + panX;
-  const driftY = Math.cos(frame / 42) * (swayIntensity * 0.75) + panY;
+  // Very gentle cinematic breathing drift (smoothed to avoid subpixel jitter)
+  const driftX = Math.round(Math.sin(frame / 60) * (swayIntensity * 0.5) + panX);
+  const driftY = Math.round(Math.cos(frame / 75) * (swayIntensity * 0.3) + panY);
 
   return (
     <AbsoluteFill
       style={{
-        transform: `scale(${currentScale}) translate3d(${driftX}px, ${driftY}px, 0px)`,
+        transform: `scale(${currentScale.toFixed(4)}) translate3d(${driftX}px, ${driftY}px, 0px)`,
         transformOrigin: 'center center',
-        willChange: 'transform',
+        backfaceVisibility: 'hidden',
+        WebkitFontSmoothing: 'antialiased',
       }}
     >
       {children}

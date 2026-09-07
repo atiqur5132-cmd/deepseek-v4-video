@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate } from 'remotion';
 
 interface KineticTextProps {
@@ -50,9 +50,8 @@ export const KineticText: React.FC<KineticTextProps> = ({
           config: { damping: 14, stiffness: 130, mass: 0.7 },
         });
 
-        const translateY = interpolate(progress, [0, 1], [45, 0]);
+        const translateY = Math.round(interpolate(progress, [0, 1], [36, 0]));
         const opacity = interpolate(progress, [0, 1], [0, 1]);
-        const blur = interpolate(progress, [0, 1], [8, 0]);
 
         // Clean punctuation for highlight matching
         const cleanWord = word.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
@@ -68,15 +67,15 @@ export const KineticText: React.FC<KineticTextProps> = ({
               fontSize,
               fontWeight,
               fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              letterSpacing: '-0.01em',
+              letterSpacing: '-0.02em',
               marginRight: '0.34em',
               marginBottom: '0.15em',
               color: isHighlight ? highlightColor : '#ffffff',
-              textShadow: isHighlight ? `0 0 35px ${highlightColor}88` : 'none',
+              textShadow: isHighlight ? `0 0 30px ${highlightColor}77` : 'none',
               transform: `translateY(${translateY}px)`,
               opacity,
-              filter: `blur(${blur}px)`,
-              willChange: 'transform, opacity, filter',
+              textRendering: 'geometricPrecision',
+              WebkitFontSmoothing: 'antialiased',
             }}
           >
             {word}

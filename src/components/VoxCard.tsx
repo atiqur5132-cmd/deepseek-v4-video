@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate } from 'remotion';
 
 interface VoxCardProps {
@@ -32,14 +32,9 @@ export const VoxCard: React.FC<VoxCardProps> = ({
     config: { damping: 14, stiffness: 100, mass: 0.9 },
   });
 
-  const translateY = interpolate(entrance, [0, 1], [80, 0]);
-  const scale = interpolate(entrance, [0, 1], [0.92, 1]);
+  const translateY = Math.round(interpolate(entrance, [0, 1], [60, 0]));
+  const scale = interpolate(entrance, [0, 1], [0.94, 1]);
   const opacity = interpolate(entrance, [0, 1], [0, 1]);
-
-  // Subtle floating oscillation
-  const floatZ = Math.sin((frame - startFrame) / 30) * 8;
-  const dynamicRotateX = rotateX + Math.sin((frame - startFrame) / 40) * 1.5;
-  const dynamicRotateY = rotateY + Math.cos((frame - startFrame) / 45) * 1.5;
 
   return (
     <div
@@ -49,22 +44,21 @@ export const VoxCard: React.FC<VoxCardProps> = ({
         display: 'flex',
         justifyContent: 'center',
         opacity,
-        transform: `translateY(${translateY}px) scale(${scale})`,
-        willChange: 'transform, opacity',
+        transform: `translateY(${translateY}px) scale(${scale.toFixed(4)})`,
+        backfaceVisibility: 'hidden',
+        WebkitFontSmoothing: 'antialiased',
       }}
     >
       <div
         style={{
           width,
           height,
-          transform: `rotateX(${dynamicRotateX}deg) rotateY(${dynamicRotateY}deg) translateZ(${floatZ}px)`,
+          transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
           transformStyle: 'preserve-3d',
-          background: 'linear-gradient(145deg, rgba(22, 27, 38, 0.85), rgba(11, 14, 20, 0.95))',
-          backdropFilter: 'blur(20px)',
-          WebkitBackdropFilter: 'blur(20px)',
+          background: 'linear-gradient(145deg, #161b26, #0b0e14)',
           borderRadius: 24,
           border: `1px solid ${borderColor}`,
-          boxShadow: `0 30px 80px rgba(0, 0, 0, 0.7), 0 0 50px ${glowColor}`,
+          boxShadow: `0 30px 80px rgba(0, 0, 0, 0.8), 0 0 45px ${glowColor}`,
           overflow: 'hidden',
           position: 'relative',
         }}

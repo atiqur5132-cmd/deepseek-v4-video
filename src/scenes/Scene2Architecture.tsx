@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill } from 'remotion';
 import { AtmosphereLayer } from '../components/AtmosphereLayer';
 import { CameraRig } from '../components/CameraRig';
@@ -68,13 +68,12 @@ export const Scene2Architecture: React.FC = () => {
               <div
                 style={{
                   width: '90%',
-                  background: 'rgba(15, 23, 42, 0.85)',
+                  background: '#111827',
                   border: '1px solid rgba(16, 185, 129, 0.35)',
                   borderRadius: 24,
-                  padding: 40,
-                  backdropFilter: 'blur(20px)',
-                  boxShadow: '0 20px 50px rgba(0,0,0,0.6)',
-                  marginBottom: 32,
+                  padding: 36,
+                  boxShadow: '0 20px 50px rgba(0,0,0,0.7)',
+                  marginBottom: 28,
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 16 }}>
@@ -99,96 +98,124 @@ export const Scene2Architecture: React.FC = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 12, color: 'rgba(255,255,255,0.45)', fontSize: 16, fontWeight: 600 }}>
                   <span>128K Standard</span>
                   <span>512K Extended</span>
-                  <span style={{ color: '#10b981' }}>1,000,000 (1M) Massive Horizon</span>
+                  <span style={{ color: '#10b981', fontWeight: 800 }}>1,000,000 (1M) Horizon</span>
                 </div>
               </div>
 
-              {/* Dual Tech Cards: CSA vs HCA */}
+              {/* Dual Visual Hardware Chips (NO PARAGRAPHS - METRICS ONLY) */}
               <div style={{ display: 'flex', gap: 32, width: '90%' }}>
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.55)', border: '1px solid rgba(56, 189, 248, 0.3)', borderRadius: 20, padding: '24px 32px' }}>
-                  <span style={{ color: '#38bdf8', fontSize: 18, fontWeight: 800 }}>CSA (Compressed Sparse Attention)</span>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, margin: '8px 0 0 0' }}>
-                    Compresses redundant token sequences, preserving vital needle-in-haystack context without memory explosion.
-                  </p>
+                {/* CSA Chip */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(56, 189, 248, 0.35)', borderRadius: 22, padding: '28px 32px', boxShadow: '0 15px 40px rgba(0,0,0,0.6)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+                    <div style={{ background: 'rgba(56, 189, 248, 0.18)', color: '#38bdf8', padding: '6px 14px', borderRadius: 8, fontSize: 14, fontWeight: 900 }}>
+                      ATTENTION PRUNING
+                    </div>
+                    <span style={{ color: '#38bdf8', fontSize: 22 }}>⚡</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 24, fontWeight: 900 }}>Compressed Sparse (CSA)</div>
+                  <div style={{ color: '#38bdf8', fontSize: 44, fontWeight: 900, fontFamily: 'monospace', margin: '12px 0 6px 0' }}>
+                    -60%
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 16, fontWeight: 700 }}>
+                    Redundant Token Elimination
+                  </div>
                 </div>
 
-                <div style={{ flex: 1, background: 'rgba(30, 41, 59, 0.55)', border: '1px solid rgba(16, 185, 129, 0.4)', borderRadius: 20, padding: '24px 32px' }}>
-                  <span style={{ color: '#10b981', fontSize: 18, fontWeight: 800 }}>HCA (Heavily Compressed Attention)</span>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, margin: '8px 0 0 0' }}>
-                    Slashes KV-cache footprint by up to 85%, making multi-million token inference commercially viable on consumer clusters.
-                  </p>
+                {/* HCA Chip */}
+                <div style={{ flex: 1, background: '#111827', border: '1px solid rgba(16, 185, 129, 0.35)', borderRadius: 22, padding: '28px 32px', boxShadow: '0 15px 40px rgba(0,0,0,0.6)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+                    <div style={{ background: 'rgba(16, 185, 129, 0.18)', color: '#10b981', padding: '6px 14px', borderRadius: 8, fontSize: 14, fontWeight: 900 }}>
+                      KV-CACHE MATRIX
+                    </div>
+                    <span style={{ color: '#10b981', fontSize: 22 }}>📉</span>
+                  </div>
+                  <div style={{ color: '#ffffff', fontSize: 24, fontWeight: 900 }}>Heavily Compressed (HCA)</div>
+                  <div style={{ color: '#10b981', fontSize: 44, fontWeight: 900, fontFamily: 'monospace', margin: '12px 0 6px 0' }}>
+                    -85%
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 16, fontWeight: 700 }}>
+                    VRAM Footprint Slashed
+                  </div>
                 </div>
               </div>
             </div>
           )}
 
           {/* ========================================================= */}
-          {/* BEAT 3: Engram Memory Architecture                        */}
+          {/* BEAT 3: Engram Memory Architecture (ZERO PARAGRAPHS)      */}
           {/* ========================================================= */}
           {isBeat3 && (
             <div
               style={{
                 width: '100%',
-                maxWidth: 1280,
+                maxWidth: 1320,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                transform: `scale(${engramEntrance})`,
+                transform: `scale(${engramEntrance.toFixed(4)})`,
                 opacity: engramEntrance,
               }}
             >
               <div style={{ textAlign: 'center', marginBottom: 36 }}>
                 <span style={{ color: '#a855f7', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
-                  BREAKTHROUGH #3: ZERO-HALLUCINATION MEMORY
+                  BREAKTHROUGH #3: ZERO-OVERHEAD MEMORY
                 </span>
                 <h2 style={{ color: '#ffffff', fontSize: 56, fontWeight: 900, margin: '8px 0 0 0' }}>
                   Engram Memory Architecture
                 </h2>
               </div>
 
-              {/* Dual Core Split */}
-              <div style={{ display: 'flex', gap: 40, width: '92%', justifyContent: 'center' }}>
+              {/* Dual Core Visual Architecture */}
+              <div style={{ display: 'flex', gap: 36, width: '92%', justifyContent: 'center' }}>
+                {/* Engram Table Engine */}
                 <div
                   style={{
                     flex: 1,
-                    background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95))',
-                    border: '1px solid rgba(168, 85, 247, 0.4)',
+                    background: '#111827',
+                    border: '1px solid rgba(168, 85, 247, 0.45)',
                     borderRadius: 24,
-                    padding: 40,
-                    boxShadow: '0 20px 50px rgba(0,0,0,0.6), 0 0 35px rgba(168, 85, 247, 0.15)',
+                    padding: '36px 32px',
+                    boxShadow: '0 20px 50px rgba(0,0,0,0.7), 0 0 35px rgba(168, 85, 247, 0.15)',
                   }}
                 >
                   <div style={{ display: 'inline-block', background: 'rgba(168, 85, 247, 0.2)', color: '#c084fc', padding: '6px 16px', borderRadius: 8, fontSize: 14, fontWeight: 800, marginBottom: 16 }}>
-                    STATIC KNOWLEDGE
+                    STATIC KNOWLEDGE ENGINE
                   </div>
-                  <h3 style={{ color: '#ffffff', fontSize: 28, fontWeight: 800, margin: 0 }}>Engram Fast-Lookup Table</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, lineHeight: 1.5, marginTop: 14 }}>
-                    Factual data is retrieved instantaneously via hash-indexed lookups without wasting compute cycles inside deep attention layers.
-                  </p>
-                  <div style={{ marginTop: 24, color: '#c084fc', fontSize: 22, fontWeight: 800 }}>
-                    ⚡ Instantaneous O(1) Recall
+                  <h3 style={{ color: '#ffffff', fontSize: 28, fontWeight: 900, margin: 0 }}>Engram Hash Table</h3>
+                  <div style={{ color: '#c084fc', fontSize: 44, fontWeight: 900, fontFamily: 'monospace', margin: '16px 0 8px 0' }}>
+                    O(1) Recall
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.75)', fontSize: 18, fontWeight: 700 }}>
+                    Instant Lookups Without Attention Compute
+                  </div>
+                  <div style={{ marginTop: 24, padding: '10px 16px', background: 'rgba(168, 85, 247, 0.12)', borderRadius: 10, border: '1px solid rgba(168, 85, 247, 0.3)', color: '#d8b4fe', fontSize: 15, fontWeight: 800, textAlign: 'center' }}>
+                    ⚡ Slashing Latency & Hallucinations
                   </div>
                 </div>
 
+                {/* Dynamic Logic Core */}
                 <div
                   style={{
                     flex: 1,
-                    background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95))',
-                    border: '1px solid rgba(56, 189, 248, 0.4)',
+                    background: '#111827',
+                    border: '1px solid rgba(56, 189, 248, 0.45)',
                     borderRadius: 24,
-                    padding: 40,
-                    boxShadow: '0 20px 50px rgba(0,0,0,0.6), 0 0 35px rgba(56, 189, 248, 0.15)',
+                    padding: '36px 32px',
+                    boxShadow: '0 20px 50px rgba(0,0,0,0.7), 0 0 35px rgba(56, 189, 248, 0.15)',
                   }}
                 >
                   <div style={{ display: 'inline-block', background: 'rgba(56, 189, 248, 0.2)', color: '#38bdf8', padding: '6px 16px', borderRadius: 8, fontSize: 14, fontWeight: 800, marginBottom: 16 }}>
-                    DYNAMIC REASONING
+                    DYNAMIC REASONING ENGINE
                   </div>
-                  <h3 style={{ color: '#ffffff', fontSize: 28, fontWeight: 800, margin: 0 }}>Pure Logic & Synthesis</h3>
-                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, lineHeight: 1.5, marginTop: 14 }}>
-                    Transformer attention heads are freed from memorization, focusing 100% of GPU compute on multi-step reasoning and algorithmic problem solving.
-                  </p>
-                  <div style={{ marginTop: 24, color: '#38bdf8', fontSize: 22, fontWeight: 800 }}>
-                    🧠 Dedicated Compute Allocation
+                  <h3 style={{ color: '#ffffff', fontSize: 28, fontWeight: 900, margin: 0 }}>Neural Attention Core</h3>
+                  <div style={{ color: '#38bdf8', fontSize: 44, fontWeight: 900, fontFamily: 'monospace', margin: '16px 0 8px 0' }}>
+                    100% Active
+                  </div>
+                  <div style={{ color: 'rgba(255,255,255,0.75)', fontSize: 18, fontWeight: 700 }}>
+                    Dedicated Multi-Step Logic & Math
+                  </div>
+                  <div style={{ marginTop: 24, padding: '10px 16px', background: 'rgba(56, 189, 248, 0.12)', borderRadius: 10, border: '1px solid rgba(56, 189, 248, 0.3)', color: '#7dd3fc', fontSize: 15, fontWeight: 800, textAlign: 'center' }}>
+                    🧠 Pure Algorithmic Compute Allocation
                   </div>
                 </div>
               </div>

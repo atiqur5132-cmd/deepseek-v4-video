@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useCurrentFrame, useVideoConfig, spring, interpolate, Img, staticFile, AbsoluteFill } from 'remotion';
 import { AtmosphereLayer } from '../components/AtmosphereLayer';
 import { CameraRig } from '../components/CameraRig';
@@ -131,35 +131,76 @@ export const Scene3Benchmarks: React.FC = () => {
                 </h2>
               </div>
 
-              <VoxCard startFrame={660} width="88%" height={480} rotateX={6} rotateY={-4} borderColor="rgba(245, 158, 11, 0.4)">
-                <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
-                  <Img
-                    src={staticFile('screenshots/s2_benchmark.png')}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      objectPosition: 'top center',
-                      transform: `scale(${interpolate(beat2Frame, [0, 742], [1.02, 1.14], { extrapolateRight: 'clamp' })})`,
-                    }}
-                  />
+              <VoxCard startFrame={660} width="88%" height={470} rotateX={6} rotateY={-4} borderColor="rgba(245, 158, 11, 0.4)">
+                <div style={{ padding: '32px 40px', display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between', boxSizing: 'border-box' }}>
+                  {/* Table Header */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.12)', paddingBottom: 16 }}>
+                    <div>
+                      <span style={{ color: '#f59e0b', fontSize: 14, fontWeight: 900, letterSpacing: '0.15em' }}>
+                        2026 FRONTIER LEADERBOARD
+                      </span>
+                      <div style={{ color: '#ffffff', fontSize: 24, fontWeight: 900 }}>
+                        Independent AI Benchmark Audit
+                      </div>
+                    </div>
+                    <div style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b', padding: '6px 16px', borderRadius: 8, fontSize: 14, fontWeight: 800 }}>
+                      VERIFIED AUDIT
+                    </div>
+                  </div>
 
-                  {/* Animated Neon Amber Highlighter Strip */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      top: '52%',
-                      left: '10%',
-                      width: `${highlighterWidth * 0.8}%`,
-                      height: 42,
-                      backgroundColor: 'rgba(245, 158, 11, 0.35)',
-                      mixBlendMode: 'screen',
-                      borderRadius: 6,
-                      boxShadow: '0 0 30px rgba(245, 158, 11, 0.8)',
-                      borderBottom: '2px solid #f59e0b',
-                      pointerEvents: 'none',
-                    }}
-                  />
+                  {/* Benchmark Comparison Rows */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 14, margin: '14px 0' }}>
+                    {/* Header Row */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1.2fr', color: 'rgba(255,255,255,0.5)', fontSize: 15, fontWeight: 800, textTransform: 'uppercase' }}>
+                      <span>Benchmark</span>
+                      <span>Claude Fable 5.1</span>
+                      <span>GPT-5.6</span>
+                      <span style={{ color: '#38bdf8' }}>DeepSeek V4 Pro</span>
+                    </div>
+
+                    {/* Row 1 */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1.2fr', alignItems: 'center', background: 'rgba(255,255,255,0.03)', padding: '12px 16px', borderRadius: 12 }}>
+                      <span style={{ color: '#ffffff', fontWeight: 800, fontSize: 18 }}>LiveCodeBench (Coding)</span>
+                      <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, fontFamily: 'monospace' }}>74.8%</span>
+                      <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, fontFamily: 'monospace' }}>75.1%</span>
+                      <span style={{ color: '#10b981', fontWeight: 900, fontSize: 20, fontFamily: 'monospace' }}>75.4% (WIN)</span>
+                    </div>
+
+                    {/* Row 2: Swept by Neon Highlighter */}
+                    <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1.2fr', alignItems: 'center', background: 'rgba(56, 189, 248, 0.08)', padding: '12px 16px', borderRadius: 12, border: '1px solid rgba(56, 189, 248, 0.3)' }}>
+                      <span style={{ color: '#ffffff', fontWeight: 800, fontSize: 18 }}>MATH-500 (PhD Olympiad)</span>
+                      <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, fontFamily: 'monospace' }}>93.1%</span>
+                      <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, fontFamily: 'monospace' }}>93.8%</span>
+                      <span style={{ color: '#38bdf8', fontWeight: 900, fontSize: 20, fontFamily: 'monospace' }}>94.2% (WIN)</span>
+                      
+                      {/* Animated Neon Amber Highlighter */}
+                      <div
+                        style={{
+                          position: 'absolute',
+                          bottom: 0,
+                          left: 0,
+                          width: `${highlighterWidth}%`,
+                          height: 3,
+                          backgroundColor: '#f59e0b',
+                          boxShadow: '0 0 20px #f59e0b',
+                        }}
+                      />
+                    </div>
+
+                    {/* Row 3 */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1.2fr', alignItems: 'center', background: 'rgba(255,255,255,0.03)', padding: '12px 16px', borderRadius: 12 }}>
+                      <span style={{ color: '#ffffff', fontWeight: 800, fontSize: 18 }}>SWE-bench Verified</span>
+                      <span style={{ color: '#f59e0b', fontSize: 18, fontFamily: 'monospace' }}>68.4% (Lead)</span>
+                      <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: 18, fontFamily: 'monospace' }}>67.9%</span>
+                      <span style={{ color: 'rgba(255,255,255,0.8)', fontSize: 18, fontFamily: 'monospace' }}>66.2% (-3 wks)</span>
+                    </div>
+                  </div>
+
+                  {/* Footer Conclusion */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 14 }}>
+                    <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: 16 }}>Autonomous Reasoning Margin:</span>
+                    <span style={{ color: '#10b981', fontWeight: 900, fontSize: 18 }}>GAP REDUCED FROM YEARS TO WEEKS</span>
+                  </div>
                 </div>
               </VoxCard>
             </div>
@@ -169,7 +210,7 @@ export const Scene3Benchmarks: React.FC = () => {
           {/* BEAT 3: 10x - 18x API Pricing Comparison                   */}
           {/* ========================================================= */}
           {isBeat3 && (
-            <div style={{ width: '100%', maxWidth: 1200, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ width: '100%', maxWidth: 1240, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <div style={{ textAlign: 'center', marginBottom: 36 }}>
                 <span style={{ color: '#ef4444', fontSize: 18, fontWeight: 800, letterSpacing: '0.15em' }}>
                   UNIT ECONOMICS DISRUPTION
@@ -182,12 +223,11 @@ export const Scene3Benchmarks: React.FC = () => {
               <div
                 style={{
                   width: '92%',
-                  background: 'rgba(15, 23, 42, 0.85)',
+                  background: '#111827',
                   border: '1px solid rgba(255,255,255,0.12)',
                   borderRadius: 24,
-                  padding: 40,
-                  backdropFilter: 'blur(20px)',
-                  boxShadow: '0 25px 60px rgba(0,0,0,0.6)',
+                  padding: 38,
+                  boxShadow: '0 25px 60px rgba(0,0,0,0.7)',
                 }}
               >
                 {/* DeepSeek Bar */}
@@ -224,7 +264,7 @@ export const Scene3Benchmarks: React.FC = () => {
                     marginTop: 36,
                     display: 'flex',
                     justifyContent: 'center',
-                    transform: `scale(${badgeSpring})`,
+                    transform: `scale(${badgeSpring.toFixed(4)})`,
                     opacity: badgeSpring,
                   }}
                 >
