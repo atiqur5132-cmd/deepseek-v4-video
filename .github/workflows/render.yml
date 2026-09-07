@@ -1,0 +1,43 @@
+name: Render YouTube Video on GitHub Cloud
+on:
+  workflow_dispatch:
+    inputs:
+      compositionId:
+        description: 'ID of the Remotion composition to render'
+        required: true
+        default: 'MainVideo'
+  push:
+    branches:
+      - main
+
+jobs:
+  render:
+    name: Cloud Render Video (0 Laptop Load)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js v20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Project Dependencies
+        run: npm ci || npm install
+
+      - name: Ensure Chromium & FFMPEG for Remotion
+        run: npx remotion browser ensure
+
+      - name: Render MP4 Video on Cloud
+        run: |
+          mkdir -p out
+          npx remotion render ${{ github.event.inputs.compositionId || 'MainVideo' }} out/DeepSeek_V4_vs_US_Models.mp4 --concurrency=2
+
+      - name: Upload MP4 to GitHub Artifacts for Download
+        uses: actions/upload-artifact@v4
+        with:
+          name: ready-to-upload-youtube-video
+          path: out/DeepSeek_V4_vs_US_Models.mp4
+          retention-days: 7

@@ -1,0 +1,43 @@
+name: Cloud Render Remotion Video
+on:
+  workflow_dispatch:
+    inputs:
+      compositionId:
+        description: 'ID of the Remotion composition to render'
+        required: true
+        default: 'MainVideo'
+  push:
+    branches:
+      - main
+
+jobs:
+  render:
+    name: Render Video on Cloud
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Install Chromium & FFMPEG Dependencies
+        run: npx remotion browser ensure
+
+      - name: Render Video to MP4
+        run: |
+          mkdir -p out
+          npx remotion render ${{ github.event.inputs.compositionId || 'MainVideo' }} out/final_video.mp4 --concurrency=2
+
+      - name: Upload Video Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-youtube-video
+          path: out/final_video.mp4
+          retention-days: 7
